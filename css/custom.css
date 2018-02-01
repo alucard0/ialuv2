@@ -1,0 +1,420 @@
+/*General*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #fdcc52;
+}
+a:hover,
+a:focus {
+  color: #fcbd20;
+}
+/*Botones*/
+.botonTransparente
+{
+  background: transparent;
+  border: solid #000057 1px;
+  padding: 10px 30px;
+  color: #000057;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+
+  text-align: center;
+  cursor: pointer;
+}
+.botonTransparente:hover,.botonTransparente:focus,.botonTransparenteGaleria:hover,.botonTransparenteGaleria:focus
+{
+  color: #fff;
+  border-color:#101d61;
+  background: #101d61;
+  text-decoration: none;
+}
+#todo_galeria{
+  margin-top:50px;
+}
+.botonTransparenteGaleria {
+
+    background: transparent;
+    border: solid #ffffff 1px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botonAzul{
+  padding: 15px 30px;
+  text-align: left;
+  background: rgba(16, 29, 97, 0.8);
+  color: #e6e6e6;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+.botonAzul span.anio{
+  font-size: 12px;
+  font-weight: 300;
+}
+.botonAzul span.glyphicon{
+  float: right;
+}
+
+.botonAzul:hover,.botonAzul:focus{
+    background: rgba(195, 8, 36, 0.8);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.chevron {
+    margin-right: 15px;
+    background: url(../images/chevron_rojo.png) no-repeat top left;
+    display: inline-block;
+    height: 15px;
+    width: 26px;
+}
+
+.scrollEstilo a.scroll {
+  position: absolute;
+  bottom: 5px;
+  left: 48%;
+  /*right: 2%;*/
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+ 
+}
+.scrollEstilo a.scroll:hover {
+  opacity: .5;
+}
+
+section a.scroll, header a.scroll {
+  padding-top: 70px;
+}
+section a.scroll span, header a.scroll span{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+ 
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+
+/*Fin General*/
+/*Menu*/
+
+
+
+
+/*Fin Menu*/
+/*Header*/
+
+
+/*Fin Header*/
+
+/*Contenido*/
+
+
+/*Fin Contenido*/
+
+/*Footer*/
+
+footer {
+  text-align: center;
+}
+footer a{
+  color: #101d61;
+  font-weight: bold;
+}
+footer a:hover{
+  text-decoration: none;
+  color: #c30824;
+
+}
+footer div ul {
+    list-style-image: url('../images/footer/icon_redArrow.png');
+}
+footer div ul li {
+    float: right;
+    margin-left: 50px
+}
+
+footer div ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px 0px;
+    text-decoration: none;
+}
+
+p.aviso, p.terminos{
+  cursor: pointer;
+  padding: 1% 0;
+}
+p.aviso:hover, p.terminos:hover{
+  color: #c30824;
+}
+p.aviso.active,p.terminos.active{
+  border-bottom: #c30824 solid 2px;
+}
+div.resumenAviso p, div.resumenTerminos p{
+  text-align: left;
+}
+
+.bgGray{
+  background: gray;
+  padding-top: 1%;
+}
+div.redesSociales figure
+{
+  display: inline-block;
+  padding: 2.2%;
+}
+div.redesSociales p
+{
+  color: #fff;
+  text-align: left;
+}
+span.textoValor{
+  font-size: 1.5em;
+  color: gray;
+  font-weight: 800;
+}
+
+ul.listaEscuelas a
+{
+  color:#fff;
+  font-size: 0.8em;
+}
+footer div ul.listaEscuelas {
+    list-style-image: url('../images/footer/icon_whiteArrow.png');
+}
+footer div ul.listaEscuelas li {
+    margin-left: 25px
+}
+
+/*Fin Footer*/
+/*Media Queries*/
+
+@media (min-width: 250px) {
+
+}
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 992px) {
+  
+}
+
+.bg-primary {
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+.text-primary {
+  color: #fdcc52;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-outline {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
+}
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+}
+.btn-xl {
+  padding: 15px 45px;
+  font-size: 11px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
+
+/*Animations*/
+
+.fromTopIn
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(0,0);
+  opacity: 1.0;
+}
+
+.fromTopOut
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(0,-10px);
+  opacity: 0.0;
+}
+
+.fromBottomIn
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(0,0);
+  opacity: 1.0;
+}
+
+.fromBottomOut
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(0,10px);
+  opacity: 0.0;
+}
+
+.fromLeftIn
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(0,0);
+  opacity: 1.0;
+}
+
+.fromLeftOut
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(-10px,0);
+  opacity: 0.0;
+}
+
+.fromRightIn
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(0,0);
+  opacity: 1.0;
+}
+
+.fromRightOut
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: translate(10px, 0);
+  opacity: 0.0;
+}
+
+.scaleUpIn
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: scale(1.0,1.0);
+  opacity: 1.0;
+}
+
+.scaleUpOut
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: scale(1.3,1.3);
+  opacity: 0.0;
+}
+
+.scaleDownIn
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: scale(1.0,1.0);
+  opacity: 1.0;
+}
+
+.scaleDownOut
+{
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  
+  transform: scale(0.7,0.7);
+  opacity: 0.0;
+}
