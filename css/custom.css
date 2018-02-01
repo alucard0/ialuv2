@@ -328,6 +328,14 @@ section#registrationForm p.instructions{
   font-size: 25px;
   font-weight: 300;
 }
+button.btn{
+  border-radius: 0;
+  padding: 10px 80px;
+}
+.btn-primary{
+  background-color: var(--azulagua);
+  border-color: var(--azulagua);
+}
 /*Fin Contenido*/
 
 /*Footer*/
