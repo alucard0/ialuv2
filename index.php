@@ -199,7 +199,7 @@
 
 <section id="program" class="container-fluid">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 boxMonday">
         <p class="orangeBG col-sm-3">Monday, June 18</p>
           <div class="row content">
             <div class="col-sm-3">09:00 12:00</div>
@@ -414,7 +414,7 @@
           <div class="form-group col-md-5">
             <input type="text" class="form-control" id="inputAddress" placeholder="Name">
           </div>
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-3">
             <input type="text" class="form-control" id="inputAddress" placeholder="Last Names">
           </div>
         </div>
@@ -422,7 +422,7 @@
           <div class="form-group col-md-8">
             <input type="text" class="form-control" id="inputAddress" placeholder="Institution/Organization">
           </div>
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-3">
             <input type="text" class="form-control" id="inputAddress" placeholder="Position">
           </div>
         </div>
@@ -431,11 +431,13 @@
              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
            </div>
         </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
-        </div>
-        <div class="form-group">
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+        <div class="form-row">
+          <div class="form-group col-md-11">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+          </div>
+          <div class="form-group col-md-11">
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+          </div>
         </div>
         <div class="form-row">
           <div class="form-group col-sm-3">
@@ -444,12 +446,14 @@
           <div class="form-group col-sm-5">
             <input type="text" class="form-control" id="inputAddress2" placeholder="State/Province">
           </div>
-          <div class="form-group col-sm-4">
+          <div class="form-group col-sm-3">
             <input type="text" class="form-control" id="inputAddress2" placeholder="Postal Code">
           </div>
         </div>
-        <div class="form-goup">
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">
+        <div class="form-row">
+          <div class="form-goup col-md-11">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">
+          </div>
         </div>
       </div>
 

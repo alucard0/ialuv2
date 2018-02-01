@@ -218,6 +218,12 @@ section#program p.subtitle{
   margin-top: -60px;
 }
 
+section#program div.boxMonday{
+  margin-top: 160px;
+}   
+
+
+
 p.orangeBG{
   background: var(--naranja);
   color: #fff;
