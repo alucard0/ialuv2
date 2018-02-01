@@ -40,12 +40,12 @@
 				<p>Benjamín Franklin 45 Col. Condesa. Del. Cuauhtémoc Ciudad de México, 06140. <span>(+52) 5278-9500</span></p>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row bgLigthGray justify-content-center">
 				<p>Profesionales con <span class="textoValor">Valor</span></p>
 			</div>
 		</div>
-		<div class="container bgWhite">
+		<div class="container-fluid bgWhite">
 			<div class="row">
 				<div class="col col-sm-6 col-xs-6">
 					<p class="aviso">Aviso de privacidad</p>

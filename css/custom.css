@@ -14,6 +14,7 @@ body {
     --verdegradiente: #D7F63F;
     --azulagua:#009696;
     --naranja:#F89527;
+    --azulLasalle:#01215e;
 }
 
 a {
@@ -106,8 +107,8 @@ nav.navbar.navbar-light{
   text-transform: uppercase;
   font-weight: 700;
 }
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link{
-  color: #01215e;
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link,section#registrationForm .form-control{
+  color: var(--azulLasalle);
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
   text-decoration: underline;
