@@ -86,8 +86,8 @@
 
 
     <!-- jQuery -->
-    <!--<script src="lib/jquery/jquery-3.2.1.min.js"></script>-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -102,49 +102,7 @@
 
     <script src="js/home.min.js"></script>
 
-    <script src="controlador/descargable.min.js"></script>
-    <script>
-		$(document).ready(function()
-		{
-		    //Resetea el video al cerrar el Modal
-		    $("button.close").click(function()
-		    {
-		        //Obtiene la URL del video
-		        var url = $('.videos').attr('src');
-		        //Asigna vacio a la URL para pausar
-		        $('.videos').attr('src', '');
-		        // Regresa la URL del video
-				$('.videos').attr('src', url);
-		    });
-		    //LazyLoad video youtube
-		    ( function() {
-				var youtube = document.querySelectorAll( ".youtube" );
-				for (var i = 0; i < youtube.length; i++) 
-				{
-					var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
-					var image = new Image();
-							image.src = source;
-							image.addEventListener( "load", function() {
-								youtube[ i ].appendChild( image );
-							}( i ) );
-						
-							youtube[i].addEventListener( "click", function() {
 
-								var iframe = document.createElement( "iframe" );
-
-									iframe.setAttribute( "frameborder", "0" );
-									iframe.setAttribute( "class", "videos" );
-									iframe.setAttribute( "allowfullscreen", "" );
-									iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=0start=0" );
-
-										this.innerHTML = "";
-										this.appendChild( iframe );
-							} );	
-				};
-			})();
-		});
-
-	</script>
  <script src="js/ScrollTrigger.min.js"></script>
  <script>
  	if( $(this).width() > 750)

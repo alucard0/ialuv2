@@ -10,18 +10,22 @@
     <meta name="description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
     <meta name="author" content="La Salle México">
     <!--Facebook -->
+    <!--
     <meta property="og:url" content="http://informerector.lasalle.mx"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://informerector.lasalle.mx/images/FACEBOOK_PREVIEW.png" />
     <meta property="og:title" content="Comunicado de Gestión 2014-2017" />
     <meta property="og:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
+    -->
     <!-- Twitter-->
+    <!--
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@RectorLaSalle">
     <meta name="twitter:creator" content="@LaSalle_MX">
     <meta name="twitter:title" content="Comunicado de Gestión 2014-2017">
     <meta name="twitter:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
     <meta name="twitter:image" content="http://informerector.lasalle.mx/images/TWITTER_CARD.png">
+     -->
 
     <title>Encuetro IALU 2018 | La Salle</title>
 
@@ -29,8 +33,21 @@
     <!--<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Web Fonts -->
+    <script>
+      WebFontConfig = {
+        google: { families: [ 'Roboto:100,300,400,500,700,900'] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })(); 
+    </script>
 
     <!-- Plugin CSS -->
 
@@ -78,56 +95,26 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Conferencias</a>
-        <a class="nav-item nav-link" href="#">Mesas de reflexión</a>
-        <a class="nav-item nav-link" href="#">Talleres</a>
-        <a class="nav-item nav-link" href="#">Ensayo integrador</a>
-        <a class="nav-item nav-link" href="#">Feria Cultural</a>
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Program</a>
+        <a class="nav-item nav-link" href="#">Registration</a>
+        <a class="nav-item nav-link" href="#">Accommodation</a>
+        <a class="nav-item nav-link" href="#">Application</a>
+        <a class="nav-item nav-link" href="#">Alternating Program</a>
+        <a class="nav-item nav-link" href="#">Registration Form</a>
       </div>
     </div>
   </nav>
 </header>
 
 <!-- Slider -->
-<div class="container-fluid">
-  <div class="row justify-content-center" >
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-
-            <img class="d-block" src="http://4.bp.blogspot.com/-ay6bnwkAcc4/ULoQkXsUSdI/AAAAAAAAEkY/0mPmofhgQxo/s1600/paisaje-banner.jpg" alt="First slide">
-
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Título</h5>
-            <p>Contenido</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-
-            <img class="d-block w-100" src="https://i.pinimg.com/originals/59/ce/e3/59cee34e298f66560837e0b29a7e2f2c.jpg" alt="Second slide">
-
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Título</h5>
-            <p>Contenido</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-
-            <img class="d-block w-100" src="https://www.galeonplaya.com/sites/default/files/styles/slides/public/paisaje_2.jpg?itok=W1dGtSt0" alt="Third slide">
-
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
-    </div>
+<section id="home" class="container-fluid">
+  <div class="row justify-content-center">
+    <figure><img src="images/home/IALULanding_Strength.png" alt="Strength Diversity" class="img-fluid"></figure>
   </div>
+</section>
+<div >
+    
 </div>
 <!-- Fin Slider -->
 <div class="container">
