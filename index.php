@@ -371,8 +371,8 @@
 </section>
 
 <section id="alternatingProgram" class="container-fluid">
-  <p class="text-right">Alternating<br><span>>></span> Program</p>
-  <div class="row">
+  <p class="text-right title">Alternating<br><span class="mayores">>></span> Program</p>
+  <div class="row duringBox">
     <div class="col-sm-3">
       <p class="subtitle">During<br>the Encuentro</p>
     </div>
@@ -381,14 +381,14 @@
       <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row visitUniBox">
     <div class="col-sm-3">
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
     <div class="col -sm-9">
       <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to see the main tourist attractions of the state.</p>
       <p>More information will be available soon.</p>
-      <p>•  Those activities have an additional charge for transportation and accommodation.</p>
+      <p>Those activities have an additional charge for transportation and accommodation.</p>
     </div>
   </div>
 </section>

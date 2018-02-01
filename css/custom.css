@@ -120,7 +120,8 @@ section#welcome{
   background-attachment: fixed;
 }
 section#welcome p.dear,section#program span.mayores,
-section#program p.day{
+section#program p.day,section#alternatingProgram p.subtitle,
+section#alternatingProgram p.title span.mayores{
   color: var(--verdegradiente);
 }
 section#welcome p.dear{
@@ -164,7 +165,7 @@ section#globalChallenges h1.globalTitle{
   
 }
 section#globalChallenges p.globalSubtitle,section#program p.title,
-p.orangeText{
+p.orangeText,section#alternatingProgram p.title{
   color: var(--naranja);
 }
 section#globalChallenges p.globalSubtitle{
@@ -263,6 +264,29 @@ section#alternatingProgram{
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
+}
+section#alternatingProgram{
+  padding: 100px;
+}
+section#alternatingProgram p.title{
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 80px;
+}
+section#alternatingProgram p.subtitle{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+section#alternatingProgram div.duringBox{
+    padding-right: 19%;
+    padding-left: 2%;
+}
+section#alternatingProgram div.visitUniBox{
+  margin-top: 50px;
+  padding-left: 18%;
+  padding-right: 12%;
+  margin-left: 5%;
 }
 
 
