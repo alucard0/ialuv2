@@ -313,17 +313,19 @@
         <p class="title">Registration fee information:</p>
         <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
       </div>
-      <p class="orangeText text-right">Bank fees must be considered for international transfers.</p>
-      <p class="orangeText text-right">For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+      <div class="moreInfo">
+        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+        
+      </div>
     </div>
     <div class="col-sm-6">
       <div class="row">
         <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75"></figure>
+          <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
           <p class="orangeBG col-sm-5 currency">MEXICAN PESOS</p>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled infoPay">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
             <li>Account 18 digits: 002180650383152558</li>
@@ -331,13 +333,13 @@
           </ul>
         </div>
       </div>
-      <div class="row">
+      <div class="row boxCurrency">
         <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75"></figure>
+          <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
           <p class="orangeBG col-sm-3 currency">USD</p>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled infoPay">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
             <li>Account 18 digits: 002 180 0141 9085 533 8</li>
@@ -345,13 +347,13 @@
           </ul>
         </div>
       </div>
-      <div class="row">
+      <div class="row boxCurrency">
         <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75"></figure>
+          <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
           <p class="orangeBG col-sm-3 currency">EUROS</p>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled infoPay">
             <li>Beneficiary Bank: Bank Santander México S.A.</li>
             <li>SWIFT code: BMSXMXMM</li>
             <li>Final Beneficiary: Universidad La Salle A.C.</li>

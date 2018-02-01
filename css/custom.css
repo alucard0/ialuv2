@@ -217,6 +217,42 @@ section#program div.content{
 section#program div.endContent{
   margin-top: 30px;
 }
+
+
+section#registration{
+  padding: 100px;
+}
+section#registration p.title{
+  font-size: 90px;
+  color: #bfeb50;
+  font-weight: 700;
+}
+section#registration div.bgAzul{
+  background: var(--azulagua);
+}
+section#registration div.feeInfo p.title{
+  font-size: 20px;
+
+}
+section#registration div.feeInfo{
+  color: #fff;
+  padding: 30px;
+}
+section#registration div.feeInfo p.content{
+  font-weight: 100;
+}
+section#registration div.moreInfo{
+  margin-top: 40px;
+}
+section#registration div.moreInfo p.orangeText{
+  font-weight:700;
+}
+section#registration div.boxCurrency{
+  margin-top: 30px;
+}
+section#registration ul.infoPay{
+  margin-left: 20px;
+}
 section#alternatingProgram{
   background-image: url('../images/home/IALULanding_Back04.png');
   -webkit-background-size: cover;
