@@ -121,7 +121,7 @@ section#welcome{
 }
 section#welcome p.dear,section#program span.mayores,
 section#program p.day,section#alternatingProgram p.subtitle,
-section#alternatingProgram p.title span.mayores{
+section#alternatingProgram p.title span.mayores, section#registrationForm p.title span.mayores{
   color: var(--verdegradiente);
 }
 section#welcome p.dear{
@@ -150,9 +150,12 @@ section#welcome p.namePerson span.position{
 section#globalChallenges{
   padding: 100px;
 }
-section#globalChallenges figure figcaption,section#globalChallenges h1.globalTitle{
+section#globalChallenges figure figcaption,section#globalChallenges h1.globalTitle,
+section#registrationForm p.title, section#registrationForm p.subtitle,section#registrationForm p.instructions{
   color: var(--azulagua);
 }
+
+
 section#globalChallenges figure figcaption{
   text-transform: uppercase;
   font-weight: bold;
@@ -165,7 +168,7 @@ section#globalChallenges h1.globalTitle{
   
 }
 section#globalChallenges p.globalSubtitle,section#program p.title,
-p.orangeText,section#alternatingProgram p.title{
+p.orangeText,section#alternatingProgram p.title,section#registrationForm p.title span.guion{
   color: var(--naranja);
 }
 section#globalChallenges p.globalSubtitle{
@@ -284,12 +287,30 @@ section#alternatingProgram div.duringBox{
 }
 section#alternatingProgram div.visitUniBox{
   margin-top: 50px;
-  padding-left: 18%;
-  padding-right: 12%;
-  margin-left: 5%;
+    padding-left: 9%;
+    margin-left: 27%;
+}
+section#registrationForm{
+  padding: 100px;
 }
 
+section#registrationForm p.title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  font-style: italic;
+}
 
+section#registrationForm p.subtitle{
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+
+}
+section#registrationForm p.instructions{
+  font-size: 25px;
+  font-weight: 300;
+}
 /*Fin Contenido*/
 
 /*Footer*/

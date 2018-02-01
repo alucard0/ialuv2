@@ -394,12 +394,12 @@
 </section>
 
 <section id="registrationForm" class="container-fluid">
-  <p class="text-left">Registration<br><span>-</span> Form <span>>>>></span></p>
-  <p class="text-right">To complete your registration to XII Encuentro IALU,<br>please fill in the following form. 
+  <p class="text-left title">Registration<br><span class="guion">-</span> Form <span class="mayores">>>>></span></p>
+  <p class="text-right subtitle">To complete your registration to XII Encuentro IALU,<br>please fill in the following form. 
   </p>
-  <p class="text-right">You should write using lowercase and capital letters.</p>
-  <p class="text-right">Your name and institution will appear in your badge as they are written in the registration.</p>
-  <p class="textletf">*Mandatory fields to fill in</p>
+  <p class="text-right instructions">You should write using lowercase and capital letters.</p>
+  <p class="text-right instructions">Your name and institution will appear in your badge <br>as they are written in the registration.</p>
+  <p class="textletf instructions">*Mandatory fields to fill in</p>
 
   <form>
     <div class="form-row">
@@ -510,6 +510,12 @@
         </div>
       </div>
 
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,
+vegetariano diet, vegan diet, etc.; or if you need access assistance please write it down.</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        
     </div>
 
     <button type="button" class="btn btn-primary btn-lg">Submit</button>
