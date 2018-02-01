@@ -97,7 +97,24 @@ section a.scroll span, header a.scroll span{
 
 /*Fin General*/
 /*Menu*/
-
+nav.navbar.navbar-light{
+  background: #2bc4ed;
+  background: -moz-linear-gradient(left, #2bc4ed 50%, #d7f63f 100%);
+  background: -webkit-linear-gradient(left, #2bc4ed 50%,#d7f63f 100%);
+  background: linear-gradient(to right, #2bc4ed 50%,#d7f63f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ed', endColorstr='#d7f63f',GradientType=1 );
+  text-transform: uppercase;
+  font-weight: 700;
+}
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link{
+  color: #01215e;
+}
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
+  text-decoration: underline;
+}
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link:hover{
+  text-decoration: underline;
+}
 
 /*Fin Menu*/
 /*Header*/
