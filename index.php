@@ -112,54 +112,403 @@
   <div class="row justify-content-center">
     <figure><img src="images/home/IALULanding_Strength.png" alt="Strength Diversity" class="img-fluid"></figure>
   </div>
-</section>
-<div >
+  <div class="row justify-content-end">
+    <div class="col-sm-4"><figure><img src="images/home/IALULanding_EncuentroIALU.png" alt="Encuentro IALU XII" class="img-fluid"></figure></div>
     
-</div>
-<!-- Fin Slider -->
-<div class="container">
-  <h2>No olvides que...</h2>
-  <p>Recepción de experiencias 1 marzo 2018 al 30 mayo 2018</p>
-  <p>Inscripciones: 1 de septiembre de 2018</p>
-  <p>Cierre de Inscripciones: 15 de febrero de 2019</p>
-</div>
-<section class="container">
-    <h2>Programa</h2>
+  </div>
+</section>
+<section id="welcome" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <p class="text-right dear">Dear<br>Lasallians</p>
+      <div class="row text-right">
+        <div class="col">
+          <p class="namePerson">Mtro. Andrés Govela Gutierrez, fsc <br><span class="position">President, La Salle Mexico Universities Network</span></p>
+          <p class="namePerson">Dr. Enrique A. González, Álvarez, fsc <br><span class="position">Rector, La Salle Mexico City, Mexico</span> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="welcomeText">
+        <p>In 2018, our International Association of Lasallian Universities celebrates 20 years of joint work and efforts to enhance the Lasallian educational project throughout the world.</p>
+        <p>We are pleased to invite the University Rectors, and the Internationalization and Postgraduate Directors to the XII Encuentro IALU and the General Assembly - Strength in Diversity: confronting global challenges through higher education.</p>
+        <p>The Encuentro will be held at Universidad La Salle, Mexico City, Mexico on June 19-21, 2018. It will be hosted by the La Salle Mexico network of universities constituted by fifteen campuses around the country. This will be an opportunity for us to reflect about the role that universities play focusing on Lasallian institutions in order to reach the Millennium Goals and be aware of the actions undertaken to reach borders and to reinforce our association.</p>
+        <p>Br. Robert Schieler, Superior General of the Brothers of the Christian Schools will be participating on the event, as well as keynote speakers talking about the global agenda and education.</p>
+        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on www.ialu.org/XII not later than May 30, 2018.</p>
+        <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, the successful cases exposition, and the photo exhibition. Please visit www.ialu.org/XII to learn more about the full program and the Encuentro.</p>
+        <p>As Lasallian universities we are convinced that the only way to face the global challenges is through education, research and innovation; people are the key to do so and it is within them that we shall find the strength to keep transforming our world: diversity.</p>
+        <p>We look forward to seeing you at the XII Encuentro IALU.</p>
+        <p>Indivisa Manent</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<section id="globalChallenges" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col">
+          <figure>
+            <img src="images/home/IALULanding_Conferences.png" alt="Conferences" class="img-fluid">
+            <figcaption>Conferences</figcaption>
+          </figure>
+          <p class="description">Distinguished speakers to: inspire, contextualize, pose challenges, forward looking vision.</p>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="images/home/IALULanding_Cocreate.png" alt="Co-Create" class="img-fluid">
+            <figcaption>Co-Create</figcaption>
+          </figure>
+          <p class="description">Solutions and contribution from a Lasallian perspective.</p>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="images/home/IALULanding_Sharing.png" alt="Experiences" class="img-fluid">
+            <figcaption>Experiences</figcaption>
+          </figure>
+          <p class="description">Borderline experiences of Lasallian institutions.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <figure>
+            <img src="images/home/IALULanding_SuscessStories.png" alt="Success stories" class="img-fluid">
+            <figcaption>Success stories</figcaption>
+          </figure>
+          <p class="description">Find out about borderline cases implemented in the world.</p>
+        </div>
+        <div class="col-sm-3">
+          <figure>
+            <img src="images/home/IALULanding_cultural.png" alt="Cultural activities" class="img-fluid">
+            <figcaption>Cultural activities</figcaption>
+          </figure>
+          <p class="topic">Integration activities and intercultural dialogue.</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-sm-6">
+      <h1 class="text-right globalTitle">Confronting<br>global challenges</h1>
+      <p class="text-right globalSubtitle">through education</p>
+      <figure><img src="images/home/IALULanding_grass.png" alt="Chicos recostados en el cesped" class="img-fluid mx-auto d-block"></figure>
+    </div>
+  </div>
+</section>
+
+<section id="program" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="orangeBG">Monday, June 18</p>
+          <div class="row">
+            <div class="col-sm-3">09:00 12:00</div>
+            <div class="col-sm-9">Meetings by region</div>
+            <div class="col-sm-3">16:00 18:00</div>
+            <div class="col-sm-9">Registration for participants</div>
+            <div class="col-sm-3">19:00</div>
+            <div class="col-sm-9">Welcome Cocktail - Camino Real Hotel</div>
+          </div>
+      </div>
+      <div class="col-sm-6">
+        <p class="text-right title">Program</p>
+        <p class="text-right subtitle">>><span class="date">18-22</span></p>
+      </div>
+      
+    </div>
     <div class="row">
       <div class="col-sm-4">
-        <p>Día 1</p>
+        <p class="day">Day 1</p>
+        <p class="date">Tuesday, June 19</p>
         <div class="row">
-          <div class="col-sm-6">08:00 – 09:00</div>
-          <div class="col-sm-6">Recepción</div>
-          <div class="col-sm-6">09:00 – 09:30</div>
-          <div class="col-sm-6">Acto Inaugural</div>
-          <div class="col-sm-6">09:30 – 10:30</div>
-          <div class="col-sm-6">Conferencia Magistral: Llamadas y respuestas educativas</div>
-          <div class="col-sm-6">10:30 – 11:00</div>
-          <div class="col-sm-6">Descanso</div>
-          <div class="col-sm-6">11:00 – 12:00</div>
-          <div class="col-sm-6">Mesa de diálogo con expertos</div>
-          <div class="col-sm-6">12:00 – 13:15</div>
-          <div class="col-sm-6">Mesas de Reflexión</div>
-          <div class="col-sm-6">13:15 – 14:30</div>
-          <div class="col-sm-6">Comida</div>
-          <div class="col-sm-6">14:30 – 15:30</div>
-          <div class="col-sm-6">Talleres Simultáneos 1 / Presentaciones 1</div>
-          <div class="col-sm-6">15:30 – 15:45</div>
-          <div class="col-sm-6">Descanso</div>
-          <div class="col-sm-6">15:45 – 16:45</div>
-          <div class="col-sm-6">Talleres Simultáneos 2 / Presentaciones 2</div>
-          <div class="col-sm-6">16:45 – 17:30</div>
-          <div class="col-sm-6">Mesa Magistral de Reflexión. Sesión de Preguntas</div>
+          <div class="col-sm-3">09:00 10:00</div>
+          <div class="col-sm-9">Opening ceremony</div>
+          <div class="col-sm-3">10:00 11:00</div>
+          <div class="col-sm-9">Keynote speech</div>
+          <div class="col-sm-3">11:00 12:00</div>
+          <div class="col-sm-9">IALU: Celebrating 20 years</div>
+          <div class="col-sm-3">12:00 13:00</div>
+          <div class="col-sm-9">Free time</div>
+          <div class="col-sm-3">13:00 14:30</div>
+          <div class="col-sm-9">Lunch</div>
+          <div class="col-sm-3">14:30 15:00</div>
+          <div class="col-sm-9">Official photo</div>
+          <div class="col-sm-3">15:00 16:30</div>
+          <div class="col-sm-9">UN Confernence</div>
+          <div class="col-sm-3">16:30 18:30</div>
+          <div class="col-sm-9">Coffee between experts</div>
+          <div class="col-sm-3">18:30 20:00</div>
+          <div class="col-sm-9">Wellness Center Opneing</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <p>Día 2</p>
+        <p class="day">Day 2</p>
+        <p class="date">Wednesday, June 20</p>
+        <div class="row">
+          <div class="col-sm-3">09:00 10:30</div>
+          <div class="col-sm-9">Case: La Salle Nezahualcóyotl</div>
+          <div class="col-sm-3">10:30 11:30</div>
+          <div class="col-sm-9">Brother Superior's presentation</div>
+          <div class="col-sm-3">11:30 13:00</div>
+          <div class="col-sm-9">The border: successful cases</div>
+          <div class="col-sm-3">13:00 14:30</div>
+          <div class="col-sm-9">Lunch</div>
+          <div class="col-sm-3">15:00 16:30</div>
+          <div class="col-sm-9">Presentation</div>
+          <div class="col-sm-3">17:00 18:00</div>
+          <div class="col-sm-9">Mass held in the Basílica of Guadalupe</div>
+          <div class="col-sm-3">19:00 </div>
+          <div class="col-sm-9">Dinner at the National Museum of Anthropology</div>
+        </div>
       </div>
       <div class="col-sm-4">
-        <p>Día 3</p>
+        <p class="day">Day 3</p>
+        <p class="date">Thursday, June 21</p>
+        <div class="row">
+          <div class="col-sm-3">09:00 10:00</div>
+          <div class="col-sm-9">Presentation</div>
+          <div class="col-sm-3">10:00 11:30</div>
+          <div class="col-sm-9">Work by commission</div>
+          <div class="col-sm-3">11:30 12:00</div>
+          <div class="col-sm-9">Free time</div>
+          <div class="col-sm-3">12:00 13:00</div>
+          <div class="col-sm-9">Summary</div>
+          <div class="col-sm-3">14:00 15:30</div>
+          <div class="col-sm-9">Lunch</div>
+          <div class="col-sm-3">15:30 16:30</div>
+          <div class="col-sm-9">Assembly</div>
+          <div class="col-sm-3">16:30 17:00</div>
+          <div class="col-sm-9">Closing ceremony</div>
+        </div>
       </div>
     </div>
+    <div class="row">
+        <div class="col-sm-6">
+          <p class="orangeBG">Friday, June 22</p>
+          <div class="col-sm-3">09:00 12:00</div>
+          <div class="col-sm-9">IALU Board</div>
+          <div class="col-sm-3">12:00</div>
+          <div class="col-sm-9">Visit to universities</div>
+        </div>
+        <div class="col-sm-6">
+          <p class="text-right orangeText">We highly recommend participants to <span class="font-italic"><strong>arrive to Mexico City on June18.</strong></span></p>
+          <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the hotel.</p>
+          <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
+        </div>
+    </div>
+</section>
+<section id="registration" class="container-fluid">
+  <p class="text-left title"> Registration</p>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
+      <ol>
+        <li>Fill in the registration form here</li>
+        <li>Registration fee</li>
+        <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
+      </ol>
+      <div class="bgAzul feeInfo">
+        <p class="title">Registration fee information:</p>
+        <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
+      </div>
+      <p class="orangeText text-right">Bank fees must be considered for international transfers.</p>
+      <p class="orangeText text-right">For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+    </div>
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="orangeText currency">MEXICAN PESOS</p>
+          <ul class="list-unstyled">
+            <li>Bank: Banamex</li>
+            <li>Account 11 digits: 0141 9085 533</li>
+            <li>Account 18 digits: 002180650383152558</li>
+            <li>Account name: SEDES</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75"></figure>
+        </div>
+        <div class="col-sm-8">
+          <ul class="list-unstyled">
+            <li>Bank: Banamex</li>
+            <li>Account 11 digits: 0141 9085 533</li>
+            <li>Account 18 digits: 002 180 0141 9085 533 8</li>
+            <li>SWIFT code: BNMXMXMM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75"></figure>
+        </div>
+        <div class="col-sm-8">
+          <ul class="list-unstyled">
+            <li>Beneficiary Bank: Bank Santander México S.A.</li>
+            <li>SWIFT code: BMSXMXMM</li>
+            <li>Final Beneficiary: Universidad La Salle A.C.</li>
+            <li>Account 11 digits: 519-081-20039</li>
+            <li>Account 18 digits: 014180519081200394</li>
+            <li>Correspondent Bank: Banco Santander</li>
+            <li>City: Madrid España</li>
+            <li>SWIFT code: BSCHESMM</li>
+            <li>Account: BMSXMXMM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="alternatingProgram" class="container-fluid">
+  <p class="text-right">Alternating<br><span>>></span> Program</p>
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="subtitle">During<br>the Encuentro</p>
+    </div>
+    <div class="col -sm-9">
+      <p>On Thursday, June 21, during the Rectors’ Assembly, simultaneous meetings between the internationalization and research directors will take place.</p>
+      <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="subtitle">Visits to<br>Universities</p>
+    </div>
+    <div class="col -sm-9">
+      <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to see the main tourist attractions of the state.</p>
+      <p>More information will be available soon.</p>
+      <p>•  Those activities have an additional charge for transportation and accommodation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="registrationForm" class="container-fluid">
+  <p class="text-left">Registration<br><span>-</span> Form <span>>>>></span></p>
+  <p class="text-right">To complete your registration to XII Encuentro IALU,<br>please fill in the following form. 
+  </p>
+  <p class="text-right">You should write using lowercase and capital letters.</p>
+  <p class="text-right">Your name and institution will appear in your badge as they are written in the registration.</p>
+  <p class="textletf">*Mandatory fields to fill in</p>
+
+  <form>
+    <div class="form-row">
+      <div class="col-md-6">
+        <div class="form-row">
+           <div class="form-group col-md-3">
+            <select id="inputState" class="form-control">
+              <option selected>Prefix</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-5">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+          </div>
+          <div class="form-group col-md-4">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Last Names">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-8">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Institution/Organization">
+          </div>
+          <div class="form-group col-md-4">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Position">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-8">
+             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+           </div>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+        </div>
+        <div class="form-group">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-3">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="City">
+          </div>
+          <div class="form-group col-sm-5">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="State/Province">
+          </div>
+          <div class="form-group col-sm-4">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Postal Code">
+          </div>
+        </div>
+        <div class="form-goup">
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="form-row d-flex justify-content-end">
+          <div class="form-group col-sm-3">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+          </div>
+          <div class="form-group col-sm-9">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone">
+          </div>
+        </div>
+        <div class="form-row d-flex justify-content-end">
+          <div class="form-group col-sm-3">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+          </div>
+          <div class="form-group col-sm-9">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Telephone">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Twitter">
+          </div>
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="LinkedIn">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-sm-6">
+            <select id="inputState" class="form-control">
+              <option selected>Gender</option>
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </div>
+          <div class="form-group col-sm-6">
+            <select id="inputState" class="form-control">
+              <option selected>Jacket size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+           <input type="text" class="form-control" id="inputAddress2" placeholder="Contact in case of emergency">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-sm-3">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+          </div>
+          <div class="form-group col-sm-9">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone in case of emergency">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
+
 </section>
 
 <?php include 'footer.php';?>
