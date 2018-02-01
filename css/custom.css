@@ -119,9 +119,11 @@ section#welcome{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-section#welcome p.dear{
+section#welcome p.dear,section#program span.mayores,
+section#program p.day{
   color: var(--verdegradiente);
+}
+section#welcome p.dear{
   font-size: 5em;
   line-height: 1em;
   letter-spacing: -4px;
@@ -143,7 +145,32 @@ section#welcome p.namePerson span.position{
   font-size: 20px;
 }
 
-
+/*Confronting challenges*/
+section#globalChallenges{
+  padding: 100px;
+}
+section#globalChallenges figure figcaption,section#globalChallenges h1.globalTitle{
+  color: var(--azulagua);
+}
+section#globalChallenges figure figcaption{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+section#globalChallenges h1.globalTitle{
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 70px;
+  margin-bottom: 0;
+  
+}
+section#globalChallenges p.globalSubtitle,section#program p.title,
+p.orangeText{
+  color: var(--naranja);
+}
+section#globalChallenges p.globalSubtitle{
+  font-weight: bold;
+  font-size: 50px;
+}
 section#program{
   background-image: url('../images/home/IALULanding_Back02.png');
   -webkit-background-size: cover;
@@ -155,7 +182,41 @@ section#program{
   background-attachment: fixed;
   color: #fff;
 }
+section#program{
+  padding: 100px;
+}
+section#program p.title,section#program span.mayores{
+  font-size: 90px;
+  font-weight: 900;
+  margin:0;
+}
+section#program p.subtitle{
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: -60px;
+}
 
+p.orangeBG{
+  background: var(--naranja);
+  color: #fff;
+  padding: 5px 10px;
+}
+section#program p.day{
+  font-size: 70px;
+  font-style: italic;  
+}
+
+section#program p.date{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+section#program div.content{
+    font-size: 18px;
+    font-weight
+}
+section#program div.endContent{
+  margin-top: 30px;
+}
 section#alternatingProgram{
   background-image: url('../images/home/IALULanding_Back04.png');
   -webkit-background-size: cover;
@@ -167,6 +228,8 @@ section#alternatingProgram{
   background-attachment: fixed;
   color: #fff;
 }
+
+
 /*Fin Contenido*/
 
 /*Footer*/

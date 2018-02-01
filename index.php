@@ -200,8 +200,8 @@
 <section id="program" class="container-fluid">
     <div class="row">
       <div class="col-sm-6">
-        <p class="orangeBG">Monday, June 18</p>
-          <div class="row">
+        <p class="orangeBG col-sm-3">Monday, June 18</p>
+          <div class="row content">
             <div class="col-sm-3">09:00 12:00</div>
             <div class="col-sm-9">Meetings by region</div>
             <div class="col-sm-3">16:00 18:00</div>
@@ -212,7 +212,7 @@
       </div>
       <div class="col-sm-6">
         <p class="text-right title">Program</p>
-        <p class="text-right subtitle">>><span class="date">18-22</span></p>
+        <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
       </div>
       
     </div>
@@ -220,7 +220,7 @@
       <div class="col-sm-4">
         <p class="day">Day 1</p>
         <p class="date">Tuesday, June 19</p>
-        <div class="row">
+        <div class="row content">
           <div class="col-sm-3">09:00 10:00</div>
           <div class="col-sm-9">Opening ceremony</div>
           <div class="col-sm-3">10:00 11:00</div>
@@ -244,7 +244,7 @@
       <div class="col-sm-4">
         <p class="day">Day 2</p>
         <p class="date">Wednesday, June 20</p>
-        <div class="row">
+        <div class="row content">
           <div class="col-sm-3">09:00 10:30</div>
           <div class="col-sm-9">Case: La Salle Nezahualcóyotl</div>
           <div class="col-sm-3">10:30 11:30</div>
@@ -264,7 +264,7 @@
       <div class="col-sm-4">
         <p class="day">Day 3</p>
         <p class="date">Thursday, June 21</p>
-        <div class="row">
+        <div class="row content">
           <div class="col-sm-3">09:00 10:00</div>
           <div class="col-sm-9">Presentation</div>
           <div class="col-sm-3">10:00 11:30</div>
@@ -282,13 +282,15 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row endContent">
         <div class="col-sm-6">
-          <p class="orangeBG">Friday, June 22</p>
-          <div class="col-sm-3">09:00 12:00</div>
-          <div class="col-sm-9">IALU Board</div>
-          <div class="col-sm-3">12:00</div>
-          <div class="col-sm-9">Visit to universities</div>
+          <p class="orangeBG col-sm-3">Friday, June 22</p>
+          <div class="row content">
+            <div class="col-sm-3">09:00 12:00</div>
+            <div class="col-sm-9">IALU Board</div>
+            <div class="col-sm-3">12:00</div>
+            <div class="col-sm-9">Visit to universities</div>
+          </div>
         </div>
         <div class="col-sm-6">
           <p class="text-right orangeText">We highly recommend participants to <span class="font-italic"><strong>arrive to Mexico City on June18.</strong></span></p>
@@ -320,7 +322,7 @@
           <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75"></figure>
         </div>
         <div class="col-sm-8">
-          <p class="orangeText currency">MEXICAN PESOS</p>
+          <p class="orangeBG col-sm-5 currency">MEXICAN PESOS</p>
           <ul class="list-unstyled">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
@@ -334,6 +336,7 @@
           <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75"></figure>
         </div>
         <div class="col-sm-8">
+          <p class="orangeBG col-sm-3 currency">USD</p>
           <ul class="list-unstyled">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
@@ -347,6 +350,7 @@
           <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75"></figure>
         </div>
         <div class="col-sm-8">
+          <p class="orangeBG col-sm-3 currency">EUROS</p>
           <ul class="list-unstyled">
             <li>Beneficiary Bank: Bank Santander México S.A.</li>
             <li>SWIFT code: BMSXMXMM</li>
@@ -506,7 +510,7 @@
 
     </div>
 
-    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="button" class="btn btn-primary btn-lg">Submit</button>
   </form>
 
 </section>
