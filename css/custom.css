@@ -100,15 +100,15 @@ section a.scroll span, header a.scroll span{
 /*Menu*/
 nav.navbar.navbar-light{
   background: #2bc4ed;
-  background: -moz-linear-gradient(left, #2bc4ed 50%, #d7f63f 100%);
-  background: -webkit-linear-gradient(left, #2bc4ed 50%,#d7f63f 100%);
-  background: linear-gradient(to right, #2bc4ed 50%,#d7f63f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ed', endColorstr='#d7f63f',GradientType=1 );
+background: -moz-linear-gradient(-45deg, #2bc4ed 16%, #d7f63f 100%);
+background: -webkit-linear-gradient(-45deg, #2bc4ed 16%,#d7f63f 100%);
+background: linear-gradient(135deg, #2bc4ed 16%,#d7f63f 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ed', endColorstr='#d7f63f',GradientType=1 );
   text-transform: uppercase;
   font-weight: 700;
 }
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link,section#registrationForm .form-control{
-  color: var(--azulLasalle);
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link{
+  color: #fff;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
   text-decoration: underline;
@@ -116,7 +116,13 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link:hover{
   text-decoration: underline;
 }
-
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  
+}
+.navbar-light  .navbar-toggler,.navbar-light  .navbar-toggler:focus{
+  border-color: rgb(255,255,255);
+}
 /*Fin Menu*/
 /*Header*/
 
@@ -252,7 +258,7 @@ section#registration{
 }
 section#registration p.title{
   font-size: 90px;
-  color: #bfeb50;
+  color: #65e233;
   font-weight: 700;
 }
 section#registration div.bgAzul{
@@ -260,7 +266,7 @@ section#registration div.bgAzul{
 }
 section#registration div.feeInfo p.title{
   font-size: 20px;
-
+  color: #fff;
 }
 section#registration div.feeInfo{
   color: #fff;
@@ -334,6 +340,9 @@ section#registrationForm p.subtitle{
 section#registrationForm p.instructions{
   font-size: 25px;
   font-weight: 300;
+}
+section#registrationForm .form-control{
+  color: #01215e;
 }
 button.btn{
   border-radius: 0;
@@ -425,8 +434,108 @@ footer div ul.listaEscuelas li {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  html{
+  section#home div.row.justify-content-end figure{
+    text-align: right;
+  }
+  section#home div.row.justify-content-end figure img{
+    width: 40%!important;
+  }
+
+  section#welcome {
+    padding-bottom: 20px;
+  }
+
+  section#welcome p.dear{
+    font-size: 2em;
+
+  }
+  section#welcome div.welcomeText {
+    padding: 18px 10px 10px 10px;
+    margin: 10px 0px;
+    font-size: 16px;
+  }
+  section#welcome p.namePerson {
+    font-size: 18px;
+  }
+  section#welcome p.namePerson span.position {
+    font-size: 16px;
+  }
+  section#globalChallenges {
+    padding: 10px;
+  }
+  section#globalChallenges h1.globalTitle {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  section#globalChallenges p.globalSubtitle {
+    font-size: 28px;
+  }
+  section#globalChallenges p.description {
+    font-size: 16px;
+  }
+  section#registration div.feeInfo {
+    padding: 20px;
+  }
+
+
+  section#program {
+    padding: 10px;
+  }
+  section#program p.title, section#program span.mayores {
+    font-size: 75px;
+  }
+  section#program p.subtitle {
+    margin-top: -50px;
+  }
+  section#program div.boxMonday {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  section#program div.content {
     font-size: 20px;
+  }
+  section#program div.endContent div.col-sm-6:nth-child(2){
+    margin-top: 30px;
+  }
+  section#registration {
+    padding: 10px;
+  }
+  section#registration p.title {
+    font-size: 50px;s
+  }
+  section#registration figure img{
+    float: none !important;
+    width: 40%!important;
+  }
+  section#registration figure{
+    text-align: center;
+  }
+
+  section#alternatingProgram {
+    padding: 10px;
+  }
+  section#alternatingProgram p.title {
+      font-size: 50px;
+  }
+  section#alternatingProgram p.subtitle {
+    font-size: 40px;
+  }
+  section#alternatingProgram div.duringBox {
+    padding-right: 0;
+    padding-left: 2%;
+  }
+  section#alternatingProgram div.visitUniBox {
+    margin-top: 50px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  section#registrationForm {
+    padding: 10px;
+  }
+
+  section#registrationForm p.title {
+    font-size: 50px;
   }
 
 }

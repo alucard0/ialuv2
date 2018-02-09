@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
+    <meta name="description" content="Strength in Diversity">
     <meta name="author" content="La Salle México">
     <!--Facebook -->
     <!--
@@ -54,6 +54,7 @@
 
     <!-- Theme CSS -->
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,28 +66,7 @@
 </head>
 
 <body id="page-top">
-<!-- Twitter -->
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-<!-- Fin Twitter -->
-
-<div >
-
-</div>
 <header class="container">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
      <a class="navbar-brand" href="#"></a>
@@ -119,16 +99,16 @@
 </section>
 <section id="welcome" class="container-fluid">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-12 col-sm-6">
       <p class="text-right dear">Dear<br>Lasallians</p>
-      <div class="row text-right">
+      <div class="row text-right d-none d-sm-block">
         <div class="col">
           <p class="namePerson">Mtro. Andrés Govela Gutierrez, fsc <br><span class="position">President, La Salle Mexico Universities Network</span></p>
           <p class="namePerson">Dr. Enrique A. González, Álvarez, fsc <br><span class="position">Rector, La Salle Mexico City, Mexico</span> </p>
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-12  col-sm-6">
       <div class="welcomeText">
         <p>In 2018, our International Association of Lasallian Universities celebrates 20 years of joint work and efforts to enhance the Lasallian educational project throughout the world.</p>
         <p>We are pleased to invite the University Rectors, and the Internationalization and Postgraduate Directors to the XII Encuentro IALU and the General Assembly - Strength in Diversity: confronting global challenges through higher education.</p>
@@ -141,13 +121,24 @@
         <p>Indivisa Manent</p>
       </div>
     </div>
+
   </div>
-  
+    <div class="row text-right d-block d-sm-none">
+      <div class="col-12">
+        <p class="namePerson">Mtro. Andrés Govela Gutierrez, <i>fsc</i> <br><span class="position">President, La Salle Mexico <br>Universities Network</span></p>
+        <p class="namePerson">Dr. Enrique A. González, Álvarez, <i>fsc</i> <br><span class="position">Rector, La Salle Mexico City, Mexico</span> </p>
+      </div>
+    </div>
 </section>
 
 <section id="globalChallenges" class="container-fluid">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-12 col-sm-6 d-block d-sm-none">
+      <h1 class="text-right globalTitle">Confronting<br>global challenges</h1>
+      <p class="text-right globalSubtitle">through education</p>
+      <figure><img src="images/home/IALULanding_grass.png" alt="Chicos recostados en el cesped" class="img-fluid mx-auto d-block"></figure>
+    </div>
+    <div class="col-12 col-sm-6">
       <div class="row">
         <div class="col">
           <figure>
@@ -170,16 +161,14 @@
           </figure>
           <p class="description">Borderline experiences of Lasallian institutions.</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
+        <div class="col">
           <figure>
             <img src="images/home/IALULanding_SuscessStories.png" alt="Success stories" class="img-fluid">
             <figcaption>Success stories</figcaption>
           </figure>
           <p class="description">Find out about borderline cases implemented in the world.</p>
         </div>
-        <div class="col-sm-3">
+        <div class="col ">
           <figure>
             <img src="images/home/IALULanding_cultural.png" alt="Cultural activities" class="img-fluid">
             <figcaption>Cultural activities</figcaption>
@@ -187,9 +176,8 @@
           <p class="topic">Integration activities and intercultural dialogue.</p>
         </div>
       </div>
-      
     </div>
-    <div class="col-sm-6">
+    <div class="col-12 col-sm-6 d-none d-sm-block">
       <h1 class="text-right globalTitle">Confronting<br>global challenges</h1>
       <p class="text-right globalSubtitle">through education</p>
       <figure><img src="images/home/IALULanding_grass.png" alt="Chicos recostados en el cesped" class="img-fluid mx-auto d-block"></figure>
@@ -199,86 +187,90 @@
 
 <section id="program" class="container-fluid">
     <div class="row">
-      <div class="col-sm-6 boxMonday">
+      <div class="col-12 col-sm-6 d-block d-sm-none">
+        <p class="text-right title">Program</p>
+        <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
+      </div>
+      <div class="col-12 col-sm-6 boxMonday">
         <p class="orangeBG col-sm-3">Monday, June 18</p>
           <div class="row content">
-            <div class="col-sm-3">09:00 12:00</div>
-            <div class="col-sm-9">Meetings by region</div>
-            <div class="col-sm-3">16:00 18:00</div>
-            <div class="col-sm-9">Registration for participants</div>
-            <div class="col-sm-3">19:00</div>
-            <div class="col-sm-9">Welcome Cocktail - Camino Real Hotel</div>
+            <div class="col-5 col-sm-3">09:00 12:00</div>
+            <div class="col-7 col-sm-9">Meetings by region</div>
+            <div class="col-5 col-sm-3">16:00 18:00</div>
+            <div class="col-7 col-sm-9">Registration for participants</div>
+            <div class="col-5 col-sm-3">19:00</div>
+            <div class="col-7 col-sm-9">Welcome Cocktail - Camino Real Hotel</div>
           </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-12 col-sm-6 d-none d-sm-block">
         <p class="text-right title">Program</p>
         <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
       </div>
       
     </div>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-12 col-sm-4">
         <p class="day">Day 1</p>
         <p class="date">Tuesday, June 19</p>
         <div class="row content">
-          <div class="col-sm-3">09:00 10:00</div>
-          <div class="col-sm-9">Opening ceremony</div>
-          <div class="col-sm-3">10:00 11:00</div>
-          <div class="col-sm-9">Keynote speech</div>
-          <div class="col-sm-3">11:00 12:00</div>
-          <div class="col-sm-9">IALU: Celebrating 20 years</div>
-          <div class="col-sm-3">12:00 13:00</div>
-          <div class="col-sm-9">Free time</div>
-          <div class="col-sm-3">13:00 14:30</div>
-          <div class="col-sm-9">Lunch</div>
-          <div class="col-sm-3">14:30 15:00</div>
-          <div class="col-sm-9">Official photo</div>
-          <div class="col-sm-3">15:00 16:30</div>
-          <div class="col-sm-9">UN Confernence</div>
-          <div class="col-sm-3">16:30 18:30</div>
-          <div class="col-sm-9">Coffee between experts</div>
-          <div class="col-sm-3">18:30 20:00</div>
-          <div class="col-sm-9">Wellness Center Opneing</div>
+          <div class="col-5 col-sm-3">09:00 10:00</div>
+          <div class="col-7 col-sm-9">Opening ceremony</div>
+          <div class="col-5 col-sm-3">10:00 11:00</div>
+          <div class="col-7 col-sm-9">Keynote speech</div>
+          <div class="col-5 col-sm-3">11:00 12:00</div>
+          <div class="col-7 col-sm-9">IALU: Celebrating 20 years</div>
+          <div class="col-5 col-sm-3">12:00 13:00</div>
+          <div class="col-7 col-sm-9">Free time</div>
+          <div class="col-5 col-sm-3">13:00 14:30</div>
+          <div class="col-7 col-sm-9">Lunch</div>
+          <div class="col-5 col-sm-3">14:30 15:00</div>
+          <div class="col-7 col-sm-9">Official photo</div>
+          <div class="col-5 col-sm-3">15:00 16:30</div>
+          <div class="col-7 col-sm-9">UN Confernence</div>
+          <div class="col-5 col-sm-3">16:30 18:30</div>
+          <div class="col-7 col-sm-9">Coffee between experts</div>
+          <div class="col-5 col-sm-3">18:30 20:00</div>
+          <div class="col-7 col-sm-9">Wellness Center Opneing</div>
         </div>
       </div>
       <div class="col-sm-4">
         <p class="day">Day 2</p>
         <p class="date">Wednesday, June 20</p>
         <div class="row content">
-          <div class="col-sm-3">09:00 10:30</div>
-          <div class="col-sm-9">Case: La Salle Nezahualcóyotl</div>
-          <div class="col-sm-3">10:30 11:30</div>
-          <div class="col-sm-9">Brother Superior's presentation</div>
-          <div class="col-sm-3">11:30 13:00</div>
-          <div class="col-sm-9">The border: successful cases</div>
-          <div class="col-sm-3">13:00 14:30</div>
-          <div class="col-sm-9">Lunch</div>
-          <div class="col-sm-3">15:00 16:30</div>
-          <div class="col-sm-9">Presentation</div>
-          <div class="col-sm-3">17:00 18:00</div>
-          <div class="col-sm-9">Mass held in the Basílica of Guadalupe</div>
-          <div class="col-sm-3">19:00 </div>
-          <div class="col-sm-9">Dinner at the National Museum of Anthropology</div>
+          <div class="col-5 col-sm-3">09:00 10:30</div>
+          <div class="col-7 col-sm-9">Case: La Salle Nezahualcóyotl</div>
+          <div class="col-5 col-sm-3">10:30 11:30</div>
+          <div class="col-7 col-sm-9">Brother Superior's presentation</div>
+          <div class="col-5 col-sm-3">11:30 13:00</div>
+          <div class="col-7 col-sm-9">The border: successful cases</div>
+          <div class="col-5 col-sm-3">13:00 14:30</div>
+          <div class="col-7 col-sm-9">Lunch</div>
+          <div class="col-5 col-sm-3">15:00 16:30</div>
+          <div class="col-7 col-sm-9">Presentation</div>
+          <div class="col-5 col-sm-3">17:00 18:00</div>
+          <div class="col-7 col-sm-9">Mass held in the Basílica of Guadalupe</div>
+          <div class="col-5 col-sm-3">19:00 </div>
+          <div class="col-7 col-sm-9">Dinner at the National Museum of Anthropology</div>
         </div>
       </div>
       <div class="col-sm-4">
         <p class="day">Day 3</p>
         <p class="date">Thursday, June 21</p>
         <div class="row content">
-          <div class="col-sm-3">09:00 10:00</div>
-          <div class="col-sm-9">Presentation</div>
-          <div class="col-sm-3">10:00 11:30</div>
-          <div class="col-sm-9">Work by commission</div>
-          <div class="col-sm-3">11:30 12:00</div>
-          <div class="col-sm-9">Free time</div>
-          <div class="col-sm-3">12:00 13:00</div>
-          <div class="col-sm-9">Summary</div>
-          <div class="col-sm-3">14:00 15:30</div>
-          <div class="col-sm-9">Lunch</div>
-          <div class="col-sm-3">15:30 16:30</div>
-          <div class="col-sm-9">Assembly</div>
-          <div class="col-sm-3">16:30 17:00</div>
-          <div class="col-sm-9">Closing ceremony</div>
+          <div class="col-5 col-sm-3">09:00 10:00</div>
+          <div class="col-7 col-sm-9">Presentation</div>
+          <div class="col-5 col-sm-3">10:00 11:30</div>
+          <div class="col-7 col-sm-9">Work by commission</div>
+          <div class="col-5 col-sm-3">11:30 12:00</div>
+          <div class="col-7 col-sm-9">Free time</div>
+          <div class="col-5 col-sm-3">12:00 13:00</div>
+          <div class="col-7 col-sm-9">Summary</div>
+          <div class="col-5 col-sm-3">14:00 15:30</div>
+          <div class="col-7 col-sm-9">Lunch</div>
+          <div class="col-5 col-sm-3">15:30 16:30</div>
+          <div class="col-7 col-sm-9">Assembly</div>
+          <div class="col-5 col-sm-3">16:30 17:00</div>
+          <div class="col-7 col-sm-9">Closing ceremony</div>
         </div>
       </div>
     </div>
@@ -286,10 +278,10 @@
         <div class="col-sm-6">
           <p class="orangeBG col-sm-3">Friday, June 22</p>
           <div class="row content">
-            <div class="col-sm-3">09:00 12:00</div>
-            <div class="col-sm-9">IALU Board</div>
-            <div class="col-sm-3">12:00</div>
-            <div class="col-sm-9">Visit to universities</div>
+            <div class="col-5 col-sm-3">09:00 12:00</div>
+            <div class="col-7 col-sm-9">IALU Board</div>
+            <div class="col-5 col-sm-3">12:00</div>
+            <div class="col-7 col-sm-9">Visit to universities</div>
           </div>
         </div>
         <div class="col-sm-6">
@@ -404,84 +396,39 @@
   <form>
     <div class="form-row">
       <div class="col-md-6">
+        <!-- Info Personal -->
         <div class="form-row">
-           <div class="form-group col-md-3">
-            <select id="inputState" class="form-control">
-              <option selected>Prefix</option>
-              <option>...</option>
-            </select>
+          <div class="form-group col-md-1">
+            <figure><img src="images/home/LandingPage-01.png" alt=""></figure>
           </div>
-          <div class="form-group col-md-5">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+           <div class="form-group col-md-4">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Prefix">
           </div>
           <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Last Names">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Name">*
+          </div>
+          <div class="form-group col-md-4">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Last names">*
           </div>
         </div>
         <div class="form-row">
+          <div class="form-group col-md-1">
+            <figure><img src="images/home/LandingPage-02.png" alt=""></figure>
+          </div>
           <div class="form-group col-md-8">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Institution/Organization">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Institution/Organization">*
           </div>
           <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Position">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Position">*
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-8">
-             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          <div class="form-group col-md-1">
+            <figure><img src="images/home/LandingPage-03.png" alt=""></figure>
+          </div>
+          <div class="form-group col-md-11">
+             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">*
            </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-11">
-              <input type="text" class="form-control" id="inputAddress" placeholder="Address">
-          </div>
-          <div class="form-group col-md-11">
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="City">
-          </div>
-          <div class="form-group col-sm-5">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="State/Province">
-          </div>
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Postal Code">
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-goup col-md-11">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-6">
-        <div class="form-row d-flex justify-content-end">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone">
-          </div>
-        </div>
-        <div class="form-row d-flex justify-content-end">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Telephone">
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Twitter">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="LinkedIn">
-          </div>
         </div>
         <div class="form-row">
           <div class="form-group col-sm-6">
@@ -500,8 +447,30 @@
             </select>
           </div>
         </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="form-row d-flex justify-content-end">
+          <div class="form-group col-sm-3">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+          </div>
+          <div class="form-group col-sm-9">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone">*
+          </div>
+        </div>
+
+        <!-- Telefonos de contacto -->
+        <div class="form-row d-flex justify-content-end">
+          <div class="form-group col-sm-3">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+          </div>
+          <div class="form-group col-sm-9">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Telephone">*
+          </div>
+        </div>
         <div class="form-group">
-           <input type="text" class="form-control" id="inputAddress2" placeholder="Contact in case of emergency">
+           <input type="text" class="form-control" id="inputAddress2" placeholder="Contact in case of emergency">*
         </div>
 
         <div class="form-row">
@@ -509,12 +478,47 @@
             <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
           </div>
           <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone in case of emergency">
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone in case of emergency">*
           </div>
-        </div>
+        </div>  
       </div>
 
     </div>
+
+        <!-- Informacion de vivienda -->
+        <div class="form-row">
+          <div class="form-goup col-md-3">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">*
+          </div>
+          <div class="form-group col-sm-3">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="City">
+          </div>
+          <div class="form-group col-sm-3">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="State/Province">*
+          </div>
+          <div class="form-group col-sm-3">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Postal Code">*
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address">*
+          </div>
+          <div class="form-group col-md-12">
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+          </div>
+        </div>
+
+      <!-- Redes Sociales-->
+      <div class="form-row">
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Twitter">
+          </div>
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="LinkedIn">
+          </div>
+      </div>
+
     <div class="form-group">
         <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,
 vegetariano diet, vegan diet, etc.; or if you need access assistance please write it down.</label>
