@@ -393,7 +393,7 @@
   <p class="text-right instructions">Your name and institution will appear in your badge <br>as they are written in the registration.</p>
   <p class="textletf instructions">*Mandatory fields to fill in</p>
 
-  <form>
+  <form id="Registration">
     <div class="form-row">
       <div class="col-md-6">
         <!-- Info Personal -->
@@ -402,13 +402,13 @@
             <figure><img src="images/home/LandingPage-01.png" alt=""></figure>
           </div>
            <div class="form-group col-md-4">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Prefix">
+            <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix">
           </div>
           <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Name">*
+            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name">*
           </div>
           <div class="form-group col-md-4">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Last names">*
+            <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last names">*
           </div>
         </div>
         <div class="form-row">
@@ -416,10 +416,10 @@
             <figure><img src="images/home/LandingPage-02.png" alt=""></figure>
           </div>
           <div class="form-group col-md-8">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Institution/Organization">*
+            <input type="text" class="form-control" id="inputInstitution" name="inputInstitution" placeholder="Institution/Organization">*
           </div>
           <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Position">*
+            <input type="text" class="form-control" id="inputPosition" name="inputPosition" placeholder="Position">*
           </div>
         </div>
         <div class="form-row">
@@ -427,20 +427,20 @@
             <figure><img src="images/home/LandingPage-03.png" alt=""></figure>
           </div>
           <div class="form-group col-md-11">
-             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">*
+             <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">*
            </div>
         </div>
         <div class="form-row">
           <div class="form-group col-sm-6">
-            <select id="inputState" class="form-control">
-              <option selected>Gender</option>
-              <option>Female</option>
-              <option>Male</option>
+            <select id="inputGender" name="inputGender" class="form-control">
+              <option selected value="">Gender</option>
+              <option value="F">Female</option>
+              <option value="M">Male</option>
             </select>
           </div>
           <div class="form-group col-sm-6">
-            <select id="inputState" class="form-control">
-              <option selected>Jacket size</option>
+            <select id="inputSize" name="inputSize" class="form-control">
+              <option selected value="">Jacket size</option>
               <option>S</option>
               <option>M</option>
               <option>L</option>
@@ -453,32 +453,32 @@
       <div class="col-md-6">
         <div class="form-row d-flex justify-content-end">
           <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+            <input type="tel" class="form-control" id="inputLandLineCC" name="inputLandLineCC" placeholder="Country code">
           </div>
           <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone">*
+            <input type="tel" class="form-control" id="inputLandLine" name="inputLandLine" placeholder="Telephone">*
           </div>
         </div>
 
         <!-- Telefonos de contacto -->
         <div class="form-row d-flex justify-content-end">
           <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+            <input type="tel" class="form-control" id="inputCellphoneCC" name="inputCellphoneCC" placeholder="Country code">
           </div>
           <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Telephone">*
+            <input type="tel" class="form-control" id="inputCellphone" name="inputCellphone" placeholder="Mobile Telephone">*
           </div>
         </div>
         <div class="form-group">
-           <input type="text" class="form-control" id="inputAddress2" placeholder="Contact in case of emergency">*
+           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency">*
         </div>
 
         <div class="form-row">
           <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
+            <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code">
           </div>
           <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone in case of emergency">*
+            <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency">*
           </div>
         </div>  
       </div>
@@ -488,47 +488,70 @@
         <!-- Informacion de vivienda -->
         <div class="form-row">
           <div class="form-goup col-md-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">*
+			 <select class="form-control" id="inputCountry" name="inputCountry">
+				<option value="" selected disabled>Country</option>
+				<?php include 'controlador/ControladorPaises.php'; ?>
+			</select>*
           </div>
           <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="City">
+            <input type="text" class="form-control" id="inputCity" name="inputCity" placeholder="City">
           </div>
           <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="State/Province">*
+            <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province">*
           </div>
           <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Postal Code">*
+            <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code">*
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-12">
-              <input type="text" class="form-control" id="inputAddress" placeholder="Address">*
+              <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Address">*
           </div>
           <div class="form-group col-md-12">
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
+                <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2">
           </div>
         </div>
 
       <!-- Redes Sociales-->
       <div class="form-row">
           <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Twitter">
+            <input type="text" class="form-control" id="inputTwitter" name="inputTwitter" placeholder="Twitter">
           </div>
           <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="LinkedIn">
+            <input type="text" class="form-control" id="inputLinkedIn" name="inputLinkedIn" placeholder="LinkedIn">
           </div>
       </div>
 
     <div class="form-group">
         <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,
 vegetariano diet, vegan diet, etc.; or if you need access assistance please write it down.</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3"></textarea>
         
     </div>
 
-    <button type="button" class="btn btn-primary btn-lg">Submit</button>
+    <button type="button" class="btn btn-primary btn-lg" id="btnSend">Submit</button>
   </form>
 
 </section>
+
+<!-- Ventana Exito -->
+<div class="modal fade" id="Ventana_Exito" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Contenido Ventana -->
+      <div class="modal-content">
+        <div class="modal-header">
+			<div class="modal-title">
+			<h4 class="text-align: center">Registration Successful.</h4>	
+			<p class="text-center">See you in Mexico</p>
+			</div>
+		</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 <?php include 'footer.php';?>
