@@ -488,7 +488,7 @@
         <!-- Informacion de vivienda -->
         <div class="form-row">
           <div class="form-goup col-md-3">
-			 <select class="form-control" id="inputCountry" name="inputCountry">
+			 <select class="form-control" id="inputCountry" name="inputCountry" onchange="getval(this);">
 				<option value="" selected disabled>Country</option>
 				<?php include 'controlador/ControladorPaises.php'; ?>
 			</select>*
@@ -531,7 +531,7 @@ vegetariano diet, vegan diet, etc.; or if you need access assistance please writ
 
     <button type="button" class="btn btn-primary btn-lg" id="btnSend">Submit</button>
   </form>
-
+	<?php include 'controlador/ControladorTelefonos.php'; ?>
 </section>
 
 <!-- Ventana Exito -->
