@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.26-MariaDB, for Win32 (AMD64)
+-- MySQL dump 10.13  Distrib 5.7.21, for Win64 (x86_64)
 --
 -- Host: localhost    Database: ialu
 -- ------------------------------------------------------
--- Server version	10.1.26-MariaDB
+-- Server version	5.7.21-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -72,18 +72,25 @@ CREATE TABLE `participante` (
   `commentario` varchar(300) DEFAULT NULL,
   `Posicion` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `pais_fk` (`pais_fk`),
-  KEY `telefono_fk` (`telefono_fk`),
-  KEY `telefono_emergencia_fk` (`telefono_emergencia_fk`),
-  KEY `celular_fk` (`celular_fk`),
-  CONSTRAINT `participante_ibfk_1` FOREIGN KEY (`pais_fk`) REFERENCES `pais` (`id`),
-  CONSTRAINT `participante_ibfk_2` FOREIGN KEY (`telefono_fk`) REFERENCES `telefono` (`id`),
-  CONSTRAINT `participante_ibfk_3` FOREIGN KEY (`telefono_emergencia_fk`) REFERENCES `telefono` (`id`),
-  CONSTRAINT `participante_ibfk_4` FOREIGN KEY (`celular_fk`) REFERENCES `telefono` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+  KEY `FK_Telephone` (`telefono_fk`),
+  KEY `FK_Cellphone` (`celular_fk`),
+  KEY `FK_Emergency` (`telefono_emergencia_fk`),
+  KEY `FK_Country` (`pais_fk`),
+  CONSTRAINT `FK_Cellphone` FOREIGN KEY (`celular_fk`) REFERENCES `telefono` (`id`),
+  CONSTRAINT `FK_Country` FOREIGN KEY (`pais_fk`) REFERENCES `pais` (`id`),
+  CONSTRAINT `FK_Emergency` FOREIGN KEY (`telefono_emergencia_fk`) REFERENCES `telefono` (`id`),
+  CONSTRAINT `FK_Telephone` FOREIGN KEY (`telefono_fk`) REFERENCES `telefono` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+--
+-- Dumping data for table `participante`
+--
 
+LOCK TABLES `participante` WRITE;
+/*!40000 ALTER TABLE `participante` DISABLE KEYS */;
+/*!40000 ALTER TABLE `participante` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `telefono`
@@ -97,9 +104,17 @@ CREATE TABLE `telefono` (
   `lada` varchar(8) DEFAULT NULL,
   `numero` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+--
+-- Dumping data for table `telefono`
+--
+
+LOCK TABLES `telefono` WRITE;
+/*!40000 ALTER TABLE `telefono` DISABLE KEYS */;
+/*!40000 ALTER TABLE `telefono` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -110,4 +125,4 @@ CREATE TABLE `telefono` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-05 12:11:27
+-- Dump completed on 2018-03-06 11:37:34
