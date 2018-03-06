@@ -104,6 +104,11 @@ $( "#Registration" ).validate({
 	}
 });
 
+$(document).ready(function() {
+    $('.js-example-basic-single').select2({
+	theme: "classic"
+	});
+});
 
 /*Funcion para Registrar al Aspirante*/
 jQuery(function($){

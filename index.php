@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Strength in Diversity">
     <meta name="author" content="La Salle México">
+
+
     <!--Facebook -->
     <!--
     <meta property="og:url" content="http://informerector.lasalle.mx"/>
@@ -488,7 +490,7 @@
         <!-- Informacion de vivienda -->
         <div class="form-row">
           <div class="form-goup col-md-3">
-			 <select class="form-control" id="inputCountry" name="inputCountry" onchange="getval(this);">
+			 <select class="js-example-basic-single form-control" id="inputCountry" name="inputCountry" onchange="getval(this);" >
 				<option value="" selected disabled>Country</option>
 				<?php include 'controlador/ControladorPaises.php'; ?>
 			</select>*

@@ -861,3 +861,12 @@ body {
   transform: scale(0.7,0.7);
   opacity: 0.0;
 }
+
+.select2-container .select2-selection--single
+{
+	height: 45px !important;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+	height: 43px !important;
+}
