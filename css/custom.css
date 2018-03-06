@@ -1,3 +1,146 @@
+/*FONTS*/
+
+/*Sans*/
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSans-SC";
+  src: url("fonts/IndivisaTextSans-BoldSc.otf");
+  font-variant: small-caps;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-BoldItalic.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans-SC";
+  src: url("fonts/IndivisaTextSans-BoldSc.otf");
+  font-variant: small-caps;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-LightSc.otf");
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Regular.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-RegularItalic.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSans-SC";
+  src: url("fonts/IndivisaTextSans-RegularSc.otf");
+  font-weight: 500;
+  font-variant: small-caps;
+}
+
+/*Serif*/
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif-SC";
+  src: url("fonts/IndivisaTextSerif-BlackSc.otf");
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-BoldItalic.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif-SC";
+  src: url("fonts/IndivisaTextSerif-BoldSc.otf");
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif-SC";
+  src: url("fonts/IndivisaTextSerif-LightSc.otf");
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Regular.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-RegularItalic.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif-SC";
+  src: url("fonts/IndivisaTextSerif-RegularSc.otf");
+  font-variant: small-caps;
+}
 /*General*/
 html,
 body {
