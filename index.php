@@ -593,7 +593,7 @@
               <option selected value="" selected disabled>Gender</option>
               <option value="F">Female</option>
               <option value="M">Male</option>
-            </select>
+            </select>*
           </div>
           <div class="form-group col-sm-6">
             <select id="inputSize" name="inputSize" class="form-control">
@@ -601,7 +601,7 @@
               <option>S</option>
               <option>M</option>
               <option>L</option>
-            </select>
+            </select>*
           </div>
         </div>
       </div>

@@ -56,20 +56,26 @@ $( "#Registration" ).validate({
 	},
 	inputAddress: {
 		required: true
+	},
+	inputGender:  {
+		required: true
+	},
+	inputSize:  {
+		required: true
 	}
   },
 	messages: {
 		inputName:{
 			required: "Required Field",
-			lettersonly: "Carácter inválido"
+			lettersonly: "Invalid character"
 		},
 		inputLastName:{
 			required: "Required Field",
-			lettersonly: "Carácter inválido" 
+			lettersonly: "Invalid character" 
 		},
 		inputEmail:{
-			required: "Campo Requerido",
-			email: "Ingresa un email válido"
+			required: "Required Field",
+			email: "Invalid email"
 		},
 		inputInstitution: {
 			required: "Required Field"
@@ -99,6 +105,12 @@ $( "#Registration" ).validate({
 			required: "Required Field"
 		},
 		inputAddress: {
+			required: "Required Field"
+		},
+		inputGender:  {
+			required: "Required Field"
+		},
+		inputSize:  {
 			required: "Required Field"
 		}
 	}
