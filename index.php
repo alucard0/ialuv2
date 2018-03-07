@@ -293,6 +293,7 @@
         </div>
     </div>
 </section>
+
 <section id="registration" class="container-fluid">
   <p class="text-left title"> Registration</p>
   <div class="row">
@@ -360,6 +361,30 @@
           </ul>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid" id="accomodation">
+  <p class="titulo">Accommodation</p>
+  <p class="subtitulo">maps</p>
+  <p>Hotel reservations shall be directly arranged with the hotel.</p>
+
+  <div class="row">
+    <div class="col-12 col-sm-6">
+      <div class="row">
+        <div class="col">
+          <p class="nombreHotel">Hotel Camino Real Polanco (host hotel)</p>
+          <figure><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img fluid"></figure>
+          <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590, 52-55 (5263) 8888</p>
+          <a href="http://www.caminoreal.com/">www.caminoreal.com</a>
+        </div>
+        <div class="col">
+          <figure><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6">
+      
     </div>
   </div>
 </section>

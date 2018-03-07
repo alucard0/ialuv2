@@ -399,7 +399,7 @@ section#program div.endContent{
 section#registration{
   padding: 100px;
 }
-section#registration p.title{
+section#registration p.title,section#accomodation p.titulo{
   font-size: 90px;
   color: #65e233;
   font-weight: 700;
@@ -430,6 +430,13 @@ section#registration div.boxCurrency{
 section#registration ul.infoPay{
   margin-left: 20px;
 }
+
+section#accomodation{
+  padding: 100px;
+}
+
+
+
 section#alternatingProgram{
   background-image: url('../images/home/IALULanding_Back04.png');
   -webkit-background-size: cover;
