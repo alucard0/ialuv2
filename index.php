@@ -374,7 +374,7 @@
       <div class="row">
         <div class="col">
           <p class="nombreHotel">Hotel Camino Real Polanco (host hotel)</p>
-          <figure><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img fluid"></figure>
+          <figure><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img-fluid"></figure>
           <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590, 52-55 (5263) 8888</p>
           <a href="http://www.caminoreal.com/">www.caminoreal.com</a>
         </div>
@@ -382,10 +382,128 @@
           <figure><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
         </div>
       </div>
+      <p>Group Code: La Salle</p>
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Room Type</th>
+              <th scope="col">Deluxe Room</th>
+              <th scope="col">Pool View</th>
+              <th scope="col">Camino Real Club</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Special Rate Single Occupancy</td>
+              <td>$ 183.86 USD</td>
+              <td>$ 207.66 USD</td>
+              <td>$ 255.26 USD</td>
+            </tr>
+            <tr>
+              <td>Special Rate Double Occupancy</td>
+              <td>$ 207.08 USD</td>
+              <td>$ 230.88 USD</td>
+              <td>$ 278.48 USD</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <ul>
+          <li>Single / double occupancy</li>
+          <li>Package Rate (buffet breakfast included)</li>
+          <li>All rates include current Federal Taxes (VAT) and lodging tax.</li>
+          <li>Additional person $55 USD plus tax. Space subject to availability.</li>
+          <li>The exchange rate will be determined by the length of stay.</li>
+        </ul>
+      </div>
     </div>
     <div class="col-12 col-sm-6">
-      
+      <div class="row">
+        <div class="col">
+          <p class="nombreHotel">Hotel Galería Plaza (sede alterna)</p>
+          <figure><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
+          <p class="direccion">Hamburgo 195, Colonia Juárez, CDMX 06600 Tel (55) 52-30-17-17</p>
+          <a href="http://www.brisas.com.mx">www.brisas.com.mx</a>
+        </div>
+        <div class="col">
+          <figure><img src="images/home/IALULanding_GaleriaPlazaFoto.png" alt="" class="img-fluid"></figure>
+        </div>
+      </div>
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Room Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Single $</td>
+              <td>1,650.00</td>
+            </tr>
+            <tr>
+              <td>Double $</td>
+              <td>1,850.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <ul>
+          <li>Rates in national currency.</li>
+          <li>Rates per night, double occupancy.</li>
+          <li>Buffett breakfast and Wi Fi are included within the rates.</li>
+          <li>Additional 16% VAT and 3% lodging tax.</li>
+        </ul>
+      </div>
     </div>
+  </div>
+</section>
+
+<section id="applications" class="container-fluid">
+  <p class="titulo">Applications</p>
+  <div class="row">
+    <div class="col-12 col-sm-4">
+      <figure><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
+      <p>Mini-lectures success stories</p>
+      <p>We would like to know about the Lasallian universities’ success in the borders through the following categories:</p>
+      <ul>
+        <li>Volunteering projects and social impact </li>
+        <li>Research projects and use of knowledge </li>
+        <li>Spreading knowledge Program</li>
+      </ul>
+      <p>Every university can present their testimonials and be part of the Encuentro, in the section - On the border: success stories.</p>
+      <p>The chosen projects will have 20 minutes to present.</p>
+      <p>The organizing committee will choose the most emblematic projects.</p>
+      <p>If you want to participate please send us an email not later than May 15, 2018. The document must be in English and should contain the following information:</p>
+      <ol>
+        <li>Name of the program</li>
+        <li>Brief description of the university</li>
+        <li>Description of the program / project / initiative and its main purpose in relation to the institutional goals.</li>
+        <li>¿What were you results?</li>
+        <li>Sharing any additional information to explain and support the main purpose or the results.</li>
+        <li>If necessary, make a brief description of the proporcione una breve descripción de los annexes.</li>
+      </ol>
+      <p>The participating projects will be announced on May 30 and included in the Official Agenda of the Encuentro.</p>
+      <p>All of these projects will be published in the XII Encuentro’s website.</p>
+      <p>For more information:<a href="mailto:ialu@ulsa.mx "></a>ialu@ulsa.mx</p>
+    </div>
+    <div class="col-12 col-sm-4">
+      <figure><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
+      <p>Poster Fair</p>
+      <p>As part of being aware of each of our universities endeavors, a Poster exhibition with general information and representative statistics will be displayed.</p>
+      <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
+      <p>All posters must be printed and displayed by each team. You should upload the file to the following link XXXXXXXXXXXXXX before May 30, 2018.</p>
+      <p>Requirements:</p>
+      <ul>
+        <li>Measures: 90 X 60 cm</li>
+        <li>File: jpg / psd / pdf</li>
+        <li>High resolution, min. 300 dpi</li>
+      </ul>
+    </div>
+    <div class="col-12 col-sm-4"></div>
   </div>
 </section>
 

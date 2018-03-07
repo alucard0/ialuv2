@@ -147,7 +147,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: 'Roboto', serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*Colores*/
@@ -399,7 +399,9 @@ section#program div.endContent{
 section#registration{
   padding: 100px;
 }
-section#registration p.title,section#accomodation p.titulo{
+section#registration p.title,
+section#accomodation p.titulo,
+section#applications p.titulo{
   font-size: 90px;
   color: #65e233;
   font-weight: 700;
@@ -435,7 +437,9 @@ section#accomodation{
   padding: 100px;
 }
 
-
+section#applications{
+  padding: 100px;
+}
 
 section#alternatingProgram{
   background-image: url('../images/home/IALULanding_Back04.png');
@@ -583,7 +587,7 @@ footer div ul.listaEscuelas li {
 /*Media Queries*/
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (max-width: 575.98px){
   section#home div.row.justify-content-end figure{
     text-align: right;
   }
@@ -690,190 +694,31 @@ footer div ul.listaEscuelas li {
 
 }
 
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)  {
  html{
     font-size: 20px;
   }
 
 }
 
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
 
  html{
     font-size: 16px;
   }
 }
 
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
 
  html{
     font-size: 16px;
   }
 }
 
-.bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
-}
-.text-primary {
-  color: #fdcc52;
-}
-.no-gutter > [class*='col-'] {
-  padding-right: 0;
-  padding-left: 0;
-}
-.btn-outline {
-  color: white;
-  border-color: white;
-  border: 1px solid;
-}
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-  color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
-}
-.btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border-radius: 300px;
-}
-.btn-xl {
-  padding: 15px 45px;
-  font-size: 11px;
-}
-::-moz-selection {
-  color: white;
-  text-shadow: none;
-  background: #222222;
-}
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #222222;
-}
-img::selection {
-  color: white;
-  background: transparent;
-}
-img::-moz-selection {
-  color: white;
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: #222222;
-}
+/* Extra large devices (large desktops, 1200px and up*/
+@media (min-width: 1200px) {
 
-/*Animations*/
-
-.fromTopIn
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(0,0);
-  opacity: 1.0;
-}
-
-.fromTopOut
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(0,-10px);
-  opacity: 0.0;
-}
-
-.fromBottomIn
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(0,0);
-  opacity: 1.0;
-}
-
-.fromBottomOut
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(0,10px);
-  opacity: 0.0;
-}
-
-.fromLeftIn
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(0,0);
-  opacity: 1.0;
-}
-
-.fromLeftOut
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(-10px,0);
-  opacity: 0.0;
-}
-
-.fromRightIn
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(0,0);
-  opacity: 1.0;
-}
-
-.fromRightOut
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: translate(10px, 0);
-  opacity: 0.0;
-}
-
-.scaleUpIn
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: scale(1.0,1.0);
-  opacity: 1.0;
-}
-
-.scaleUpOut
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: scale(1.3,1.3);
-  opacity: 0.0;
-}
-
-.scaleDownIn
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: scale(1.0,1.0);
-  opacity: 1.0;
-}
-
-.scaleDownOut
-{
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  
-  transform: scale(0.7,0.7);
-  opacity: 0.0;
-}
-
-.select2-container .select2-selection--single
-{
-	height: 45px !important;
-}
-
-.select2-container--classic .select2-selection--single .select2-selection__arrow {
-	height: 43px !important;
 }
