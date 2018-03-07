@@ -262,8 +262,13 @@ section#registrationForm
 {
   padding: 50px;
 }
-section#globalChallenges figure figcaption,section#globalChallenges h1.globalTitle,
-section#registrationForm p.title, section#registrationForm p.subtitle,section#registrationForm p.instructions{
+section#globalChallenges figure figcaption,
+section#globalChallenges h1.globalTitle,
+section#registrationForm p.title, 
+section#registrationForm p.subtitle,section#registrationForm p.instructions,
+section#accomodation p.groupCode,
+section#accomodation ul.infoHotel,
+section#applications p.infoReq{
   color: var(--azulagua);
 }
 
@@ -344,7 +349,9 @@ section#applications p.titulo{
   font-size: 90px;
   font-weight: 700;
 }
-section#registration div.bgAzul{
+section#registration div.bgAzul,
+section#accomodation p.nombreHotel,
+section#applications p.appTitle{
   background: var(--azulagua);
 }
 section#registration div.feeInfo p.title{
@@ -372,8 +379,18 @@ section#registration ul.infoPay{
 }
 
 /*Accomodation*/
-.azulBG{
+section#accomodation p.nombreHotel,
+section#applications p.appTitle{
+  color:#fff;
+  padding-left: 5px;
+}
 
+section#accomodation table.table tbody td,
+section#accomodation table.table thead th{
+  border-top: none;
+}
+section#accomodation table.table thead th{
+  border-bottom: 2px solid #009696;
 }
 /*Application*/
 

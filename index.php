@@ -382,7 +382,7 @@
           <figure><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
         </div>
       </div>
-      <p>Group Code: La Salle</p>
+      <p class="groupCode">Group Code: La Salle</p>
       <div class="row">
         <table class="table">
           <thead>
@@ -410,7 +410,7 @@
         </table>
       </div>
       <div class="row">
-        <ul>
+        <ul class="infoHotel">
           <li>Single / double occupancy</li>
           <li>Package Rate (buffet breakfast included)</li>
           <li>All rates include current Federal Taxes (VAT) and lodging tax.</li>
@@ -440,18 +440,16 @@
           </thead>
           <tbody>
             <tr>
-              <td>Single $</td>
-              <td>1,650.00</td>
+              <td>Single $1,650.00</td>
             </tr>
             <tr>
-              <td>Double $</td>
-              <td>1,850.00</td>
+              <td>Double $1,850.00</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="row">
-        <ul>
+        <ul class="infoHotel">
           <li>Rates in national currency.</li>
           <li>Rates per night, double occupancy.</li>
           <li>Buffett breakfast and Wi Fi are included within the rates.</li>
@@ -467,7 +465,7 @@
   <div class="row">
     <div class="col-12 col-sm-4">
       <figure><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
-      <p>Mini-lectures success stories</p>
+      <p class="appTitle">Mini-lectures success stories</p>
       <p>We would like to know about the Lasallian universities’ success in the borders through the following categories:</p>
       <ul>
         <li>Volunteering projects and social impact </li>
@@ -492,21 +490,22 @@
     </div>
     <div class="col-12 col-sm-4">
       <figure><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
-      <p>Poster Fair</p>
+      <p class="appTitle">Poster Fair</p>
       <p>As part of being aware of each of our universities endeavors, a Poster exhibition with general information and representative statistics will be displayed.</p>
       <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
       <p>All posters must be printed and displayed by each team. You should upload the file to the following link XXXXXXXXXXXXXX before May 30, 2018.</p>
-      <p>Requirements:</p>
+      <p class="infoReq">Requirements:</p>
       <ul>
         <li>Measures: 90 X 60 cm</li>
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
       <figure><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
+      <p class="appTitle">Photo Exhibition</p>
       <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
       <p>The pictures will be printed and displayed by each team. You should upload the file to the following link XXXXXXXXXXXXXX before May 30, 2018. </p>
-      <p>Requirements:</p>
+      <p class="infoReq">Requirements:</p>
       <ul>
         <li>Measures: 90 X 60 cm</li>
         <li>File: jpg / psd / pdf</li>
