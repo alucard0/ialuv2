@@ -578,14 +578,14 @@
         <div class="form-row">
           <div class="form-group col-sm-6">
             <select id="inputGender" name="inputGender" class="form-control">
-              <option selected value="">Gender</option>
+              <option selected value="" selected disabled>Gender</option>
               <option value="F">Female</option>
               <option value="M">Male</option>
             </select>
           </div>
           <div class="form-group col-sm-6">
             <select id="inputSize" name="inputSize" class="form-control">
-              <option selected value="">Jacket size</option>
+              <option selected value="" selected disabled>Jacket size</option>
               <option>S</option>
               <option>M</option>
               <option>L</option>

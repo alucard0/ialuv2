@@ -76,7 +76,7 @@
 		}
 		public function escribir($query) {
 			$result=$this->mysqli->query($query);
-			echo "<script>console.log( 'Debug Objects: " . $query . "' );</script>";
+			//echo "<script>console.log( 'Debug Objects: " . $query . "' );</script>";
 			return $result;
 		}
 		public function escapar_datos ($var){

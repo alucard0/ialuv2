@@ -5,7 +5,7 @@
 */
 include_once '../modelo/ConectaBD.php';
 
-	class AspiranteBO
+	class ParticipanteBO
 	{
 
 		//Constructor
@@ -14,7 +14,7 @@ include_once '../modelo/ConectaBD.php';
 
 		}
 		//Metodos
-		public function insertarAspirante($datos_aspirante)
+		public function insertarParticipante($datos_aspirante)
 		{
 			$bdconectada = new ConectaBD();
 			$bdconectada->conectar();
