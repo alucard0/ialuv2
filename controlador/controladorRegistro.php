@@ -1,10 +1,10 @@
 <?php
-include_once '../modelo/Aspirante.php';
-include_once '../modelo/AspiranteBO.php';
+include_once '../modelo/Participante.php';
+include_once '../modelo/ParticipanteBO.php';
 include_once '../modelo/ConectaBD.php';
 
-$aspirante = new Aspirante($_POST);
-$aspiranteLogica = new AspiranteBO();
+$participante = new Participante($_POST);
+$participanteLogica = new ParticipanteBO();
 
-$aspiranteLogica->insertarAspirante($aspirante);
+$participanteLogica->insertarParticipante($participante);
 ?>

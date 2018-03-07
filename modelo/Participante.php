@@ -3,7 +3,7 @@
 * 	@author Amilkhael Chávez Delgado;
 *	Documento: Clase que modela la tabla Oferta Educativa
 */
-	class Aspirante
+	class Participante
 	{
 
 		//Atributos
