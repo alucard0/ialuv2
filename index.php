@@ -77,13 +77,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Program</a>
-        <a class="nav-item nav-link" href="#">Registration</a>
-        <a class="nav-item nav-link" href="#">Accommodation</a>
-        <a class="nav-item nav-link" href="#">Application</a>
-        <a class="nav-item nav-link" href="#">Alternating Program</a>
-        <a class="nav-item nav-link" href="#">Registration Form</a>
+        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#program">Program</a>
+        <a class="nav-item nav-link" href="#registration">Registration</a>
+        <a class="nav-item nav-link" href="#accomodation">Accommodation</a>
+        <a class="nav-item nav-link" href="#applications">Application</a>
+        <a class="nav-item nav-link" href="#alternatingProgram">Alternating Program</a>
+        <a class="nav-item nav-link" href="#registrationForm">Registration Form</a>
       </div>
     </div>
   </nav>
@@ -502,8 +502,21 @@
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
+      <figure><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
+      <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
+      <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
+      <p>The pictures will be printed and displayed by each team. You should upload the file to the following link XXXXXXXXXXXXXX before May 30, 2018. </p>
+      <p>Requirements:</p>
+      <ul>
+        <li>Measures: 90 X 60 cm</li>
+        <li>File: jpg / psd / pdf</li>
+        <li>High resolution, min. 300 dpi</li>
+      </ul>
     </div>
-    <div class="col-12 col-sm-4"></div>
+    <div class="col-12 col-sm-4">
+       <figure><img src="images/home/IALU-Landing_foto1.png" alt="" class="img-fluid"></figure>
+    </div>
+     
   </div>
 </section>
 

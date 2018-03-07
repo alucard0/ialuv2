@@ -172,72 +172,6 @@ a:focus {
 }
 /*Botones*/
 
-.scrollEstilo a.scroll {
-  position: absolute;
-  bottom: 5px;
-  left: 48%;
-  /*right: 2%;*/
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #fff;
-  
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: opacity .3s;
- 
-}
-.scrollEstilo a.scroll:hover {
-  opacity: .5;
-}
-
-section a.scroll, header a.scroll {
-  padding-top: 70px;
-}
-section a.scroll span, header a.scroll span{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 4px solid #fff;
-  border-bottom: 4px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb05 1.5s infinite;
-  animation: sdb05 1.5s infinite;
-  box-sizing: border-box;
- 
-}
-@-webkit-keyframes sdb05 {
-  0% {
-    -webkit-transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
-}
-@keyframes sdb05 {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
-}
-
 
 /*Fin General*/
 /*Menu*/
@@ -288,7 +222,11 @@ section#welcome{
 }
 section#welcome p.dear,section#program span.mayores,
 section#program p.day,section#alternatingProgram p.subtitle,
-section#alternatingProgram p.title span.mayores, section#registrationForm p.title span.mayores{
+section#alternatingProgram p.title span.mayores, 
+section#registrationForm p.title span.mayores,
+section#registration p.title,
+section#accomodation p.titulo,
+section#applications p.titulo{
   color: var(--verdegradiente);
 }
 section#welcome p.dear{
@@ -314,8 +252,15 @@ section#welcome p.namePerson span.position{
 }
 
 /*Confronting challenges*/
-section#globalChallenges{
-  padding: 100px;
+section#globalChallenges,
+section#program,
+section#registration,
+section#accomodation,
+section#applications,
+section#alternatingProgram,
+section#registrationForm
+{
+  padding: 50px;
 }
 section#globalChallenges figure figcaption,section#globalChallenges h1.globalTitle,
 section#registrationForm p.title, section#registrationForm p.subtitle,section#registrationForm p.instructions{
@@ -353,9 +298,7 @@ section#program{
   background-attachment: fixed;
   color: #fff;
 }
-section#program{
-  padding: 100px;
-}
+
 section#program p.title,section#program span.mayores{
   font-size: 90px;
   font-weight: 900;
@@ -395,15 +338,10 @@ section#program div.endContent{
   margin-top: 30px;
 }
 
-
-section#registration{
-  padding: 100px;
-}
 section#registration p.title,
 section#accomodation p.titulo,
 section#applications p.titulo{
   font-size: 90px;
-  color: #65e233;
   font-weight: 700;
 }
 section#registration div.bgAzul{
@@ -433,13 +371,12 @@ section#registration ul.infoPay{
   margin-left: 20px;
 }
 
-section#accomodation{
-  padding: 100px;
-}
+/*Accomodation*/
+.azulBG{
 
-section#applications{
-  padding: 100px;
 }
+/*Application*/
+
 
 section#alternatingProgram{
   background-image: url('../images/home/IALULanding_Back04.png');
@@ -452,9 +389,7 @@ section#alternatingProgram{
   background-attachment: fixed;
   color: #fff;
 }
-section#alternatingProgram{
-  padding: 100px;
-}
+
 section#alternatingProgram p.title{
   font-size: 90px;
   font-weight: 700;
@@ -474,9 +409,7 @@ section#alternatingProgram div.visitUniBox{
     padding-left: 9%;
     margin-left: 27%;
 }
-section#registrationForm{
-  padding: 100px;
-}
+
 
 section#registrationForm p.title{
   font-size: 70px;
@@ -505,6 +438,14 @@ button.btn{
 .btn-primary{
   background-color: var(--azulagua);
   border-color: var(--azulagua);
+}
+.select2-container .select2-selection--single
+{
+  height: 40px !important;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+  height: 38px !important;
 }
 /*Fin Contenido*/
 
