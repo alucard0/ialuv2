@@ -36,20 +36,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Web Fonts -->
-    <script>
-      WebFontConfig = {
-        google: { families: [ 'Roboto:100,300,400,500,700,900'] }
-      };
-      (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })(); 
-    </script>
 
     <!-- Plugin CSS -->
 
@@ -101,7 +87,7 @@
 </section>
 <section id="welcome" class="container-fluid">
   <div class="row">
-    <div class="col-12 col-sm-6">
+    <div class="col-12 col-sm-6 col-xl-4">
       <p class="text-right dear">Dear<br>Lasallians</p>
       <div class="row text-right d-none d-sm-block">
         <div class="col">
@@ -110,13 +96,13 @@
         </div>
       </div>
     </div>
-    <div class="col-12  col-sm-6">
+    <div class="col-12  col-sm-6 col-xl-8">
       <div class="welcomeText">
         <p>In 2018, our International Association of Lasallian Universities celebrates 20 years of joint work and efforts to enhance the Lasallian educational project throughout the world.</p>
         <p>We are pleased to invite the University Rectors, and the Internationalization and Postgraduate Directors to the XII Encuentro IALU and the General Assembly - Strength in Diversity: confronting global challenges through higher education.</p>
         <p>The Encuentro will be held at Universidad La Salle, Mexico City, Mexico on June 19-21, 2018. It will be hosted by the La Salle Mexico network of universities constituted by fifteen campuses around the country. This will be an opportunity for us to reflect about the role that universities play focusing on Lasallian institutions in order to reach the Millennium Goals and be aware of the actions undertaken to reach borders and to reinforce our association.</p>
         <p>Br. Robert Schieler, Superior General of the Brothers of the Christian Schools will be participating on the event, as well as keynote speakers talking about the global agenda and education.</p>
-        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on www.ialu.org/XII not later than May 30, 2018.</p>
+        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on <a href="www.ialu.org/XII" target="_blak" rel="noopener">www.ialu.org/XII</a> not later than May 30, 2018.</p>
         <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, the successful cases exposition, and the photo exhibition. Please visit www.ialu.org/XII to learn more about the full program and the Encuentro.</p>
         <p>As Lasallian universities we are convinced that the only way to face the global challenges is through education, research and innovation; people are the key to do so and it is within them that we shall find the strength to keep transforming our world: diversity.</p>
         <p>We look forward to seeing you at the XII Encuentro IALU.</p>
@@ -194,14 +180,15 @@
         <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
       </div>
       <div class="col-12 col-sm-6 boxMonday">
-        <p class="orangeBG col-sm-3">Monday, June 18</p>
+        <p class="orangeBG col-sm-4">Monday, June 18</p>
+        <hr class="orange">
           <div class="row content">
-            <div class="col-5 col-sm-3">09:00 12:00</div>
-            <div class="col-7 col-sm-9">Meetings by region</div>
-            <div class="col-5 col-sm-3">16:00 18:00</div>
-            <div class="col-7 col-sm-9">Registration for participants</div>
-            <div class="col-5 col-sm-3">19:00</div>
-            <div class="col-7 col-sm-9">Welcome Cocktail - Camino Real Hotel</div>
+            <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Meetings by region</div>
+            <div class="col-5 col-sm-3 col-md-5">16:00 18:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Registration for participants</div>
+            <div class="col-5 col-sm-3 col-md-5">19:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail - Camino Real Hotel</div>
           </div>
       </div>
       <div class="col-12 col-sm-6 d-none d-sm-block">
@@ -210,84 +197,88 @@
       </div>
       
     </div>
-    <div class="row">
+    <div class="row no-gutters">
       <div class="col-12 col-sm-4">
         <p class="day">Day 1</p>
         <p class="date">Tuesday, June 19</p>
+        <hr class="orange">
         <div class="row content">
-          <div class="col-5 col-sm-3">09:00 10:00</div>
-          <div class="col-7 col-sm-9">Opening ceremony</div>
-          <div class="col-5 col-sm-3">10:00 11:00</div>
-          <div class="col-7 col-sm-9">Keynote speech</div>
-          <div class="col-5 col-sm-3">11:00 12:00</div>
-          <div class="col-7 col-sm-9">IALU: Celebrating 20 years</div>
-          <div class="col-5 col-sm-3">12:00 13:00</div>
-          <div class="col-7 col-sm-9">Free time</div>
-          <div class="col-5 col-sm-3">13:00 14:30</div>
-          <div class="col-7 col-sm-9">Lunch</div>
-          <div class="col-5 col-sm-3">14:30 15:00</div>
-          <div class="col-7 col-sm-9">Official photo</div>
-          <div class="col-5 col-sm-3">15:00 16:30</div>
-          <div class="col-7 col-sm-9">UN Confernence</div>
-          <div class="col-5 col-sm-3">16:30 18:30</div>
-          <div class="col-7 col-sm-9">Coffee between experts</div>
-          <div class="col-5 col-sm-3">18:30 20:00</div>
-          <div class="col-7 col-sm-9">Wellness Center Opneing</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Opening ceremony</div>
+          <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Keynote speech</div>
+          <div class="col-5 col-sm-3 col-md-5">11:00 12:00</div>
+          <div class="col-7 col-sm-9 col-md-7">IALU: Celebrating 20 years</div>
+          <div class="col-5 col-sm-3 col-md-5">12:00 13:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Free time</div>
+          <div class="col-5 col-sm-3 col-md-5">13:00 14:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
+          <div class="col-5 col-sm-3 col-md-5">14:30 15:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Official photo</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 16:30</div>
+          <div class="col-7 col-sm-9 col-md-7">UN Confernence</div>
+          <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Coffee between experts</div>
+          <div class="col-5 col-sm-3 col-md-5">18:30 20:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Wellness Center Opneing</div>
         </div>
       </div>
       <div class="col-sm-4">
         <p class="day">Day 2</p>
         <p class="date">Wednesday, June 20</p>
+        <hr class="orange">
         <div class="row content">
-          <div class="col-5 col-sm-3">09:00 10:30</div>
-          <div class="col-7 col-sm-9">Case: La Salle Nezahualcóyotl</div>
-          <div class="col-5 col-sm-3">10:30 11:30</div>
-          <div class="col-7 col-sm-9">Brother Superior's presentation</div>
-          <div class="col-5 col-sm-3">11:30 13:00</div>
-          <div class="col-7 col-sm-9">The border: successful cases</div>
-          <div class="col-5 col-sm-3">13:00 14:30</div>
-          <div class="col-7 col-sm-9">Lunch</div>
-          <div class="col-5 col-sm-3">15:00 16:30</div>
-          <div class="col-7 col-sm-9">Presentation</div>
-          <div class="col-5 col-sm-3">17:00 18:00</div>
-          <div class="col-7 col-sm-9">Mass held in the Basílica of Guadalupe</div>
-          <div class="col-5 col-sm-3">19:00 </div>
-          <div class="col-7 col-sm-9">Dinner at the National Museum of Anthropology</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Case: La Salle Nezahualcóyotl</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 11:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Brother Superior's presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">11:30 13:00</div>
+          <div class="col-7 col-sm-9 col-md-7">The border: successful cases</div>
+          <div class="col-5 col-sm-3 col-md-5">13:00 14:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 16:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Mass held in the Basílica of Guadalupe</div>
+          <div class="col-5 col-sm-3 col-md-5">19:00 </div>
+          <div class="col-7 col-sm-9 col-md-7">Dinner at the National Museum of Anthropology</div>
         </div>
       </div>
       <div class="col-sm-4">
         <p class="day">Day 3</p>
         <p class="date">Thursday, June 21</p>
+        <hr class="orange">
         <div class="row content">
-          <div class="col-5 col-sm-3">09:00 10:00</div>
-          <div class="col-7 col-sm-9">Presentation</div>
-          <div class="col-5 col-sm-3">10:00 11:30</div>
-          <div class="col-7 col-sm-9">Work by commission</div>
-          <div class="col-5 col-sm-3">11:30 12:00</div>
-          <div class="col-7 col-sm-9">Free time</div>
-          <div class="col-5 col-sm-3">12:00 13:00</div>
-          <div class="col-7 col-sm-9">Summary</div>
-          <div class="col-5 col-sm-3">14:00 15:30</div>
-          <div class="col-7 col-sm-9">Lunch</div>
-          <div class="col-5 col-sm-3">15:30 16:30</div>
-          <div class="col-7 col-sm-9">Assembly</div>
-          <div class="col-5 col-sm-3">16:30 17:00</div>
-          <div class="col-7 col-sm-9">Closing ceremony</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">10:00 11:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Work by commission</div>
+          <div class="col-5 col-sm-3 col-md-5">11:30 12:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Free time</div>
+          <div class="col-5 col-sm-3 col-md-5">12:00 13:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Summary</div>
+          <div class="col-5 col-sm-3 col-md-5">14:00 15:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
+          <div class="col-5 col-sm-3 col-md-5">15:30 16:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Assembly</div>
+          <div class="col-5 col-sm-3 col-md-5">16:30 17:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Closing ceremony</div>
         </div>
       </div>
     </div>
     <div class="row endContent">
-        <div class="col-sm-6">
-          <p class="orangeBG col-sm-3">Friday, June 22</p>
+        <div class="col-sm-5">
+          <p class="orangeBG col-sm-4">Friday, June 22</p>
+          <hr class="orange">
           <div class="row content">
-            <div class="col-5 col-sm-3">09:00 12:00</div>
-            <div class="col-7 col-sm-9">IALU Board</div>
-            <div class="col-5 col-sm-3">12:00</div>
-            <div class="col-7 col-sm-9">Visit to universities</div>
+            <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
+            <div class="col-7 col-sm-9 col-md-7">IALU Board</div>
+            <div class="col-5 col-sm-3 col-md-5">12:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Visit to universities</div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <p class="text-right orangeText">We highly recommend participants to <span class="font-italic"><strong>arrive to Mexico City on June18.</strong></span></p>
+        <div class="col-sm-7">
+          <p class="text-right orangeText">We highly recommend participants to <span>arrive to Mexico City on June 18.</span></p>
           <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the hotel.</p>
           <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
         </div>
@@ -298,8 +289,8 @@
   <p class="text-left title"> Registration</p>
   <div class="row">
     <div class="col-sm-6">
-      <p>Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
-      <ol>
+      <p class="instruccion">Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
+      <ol class="instruccion">
         <li>Fill in the registration form here</li>
         <li>Registration fee</li>
         <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
@@ -319,7 +310,7 @@
           <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
-          <p class="orangeBG col-sm-5 currency">MEXICAN PESOS</p>
+          <p class="orangeBG col-sm-6 currency">MEXICAN PESOS</p>
           <ul class="list-unstyled infoPay">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
@@ -355,6 +346,7 @@
             <li>Account 11 digits: 519-081-20039</li>
             <li>Account 18 digits: 014180519081200394</li>
             <li>Correspondent Bank: Banco Santander</li>
+            <br>
             <li>City: Madrid España</li>
             <li>SWIFT code: BSCHESMM</li>
             <li>Account: BMSXMXMM</li>
@@ -366,23 +358,24 @@
 </section>
 <section class="container-fluid" id="accomodation">
   <p class="titulo">Accommodation</p>
-  <p class="subtitulo">maps</p>
+  <p class="subtitulo">(maps)</p>
   <p>Hotel reservations shall be directly arranged with the hotel.</p>
 
   <div class="row">
-    <div class="col-12 col-sm-6">
-      <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+      <div class="row no-gutters">
         <div class="col">
-          <p class="nombreHotel">Hotel Camino Real Polanco (host hotel)</p>
+          <p class="nombreHotel">Hotel Camino Real Polanco <span>(host hotel)</span></p>
           <figure><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img-fluid"></figure>
-          <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590, 52-55 (5263) 8888</p>
-          <a href="http://www.caminoreal.com/">www.caminoreal.com</a>
+          <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590, Tel. +52 (55) 52 63 8888 </p>
+          <a clas="linkCamino" href="http://www.caminoreal.com/">www.caminoreal.com</a>
+          <p class="groupCode">Group Code: La Salle</p>
         </div>
         <div class="col">
           <figure><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
         </div>
       </div>
-      <p class="groupCode">Group Code: La Salle</p>
+      
       <div class="row">
         <table class="table">
           <thead>
@@ -419,36 +412,40 @@
         </ul>
       </div>
     </div>
-    <div class="col-12 col-sm-6">
-      <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+      <div class="row no-gutters">
         <div class="col">
-          <p class="nombreHotel">Hotel Galería Plaza (sede alterna)</p>
+          <p class="nombreHotel">Hotel Galería Plaza <span>(sede alterna)</span></p>
           <figure><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
-          <p class="direccion">Hamburgo 195, Colonia Juárez, CDMX 06600 Tel (55) 52-30-17-17</p>
+          <p class="direccion">Hamburgo 195, Col. Juárez, CDMX, 06600, Tel. +52 (55) 52 30 1717</p>
           <a href="http://www.brisas.com.mx">www.brisas.com.mx</a>
+
         </div>
         <div class="col">
           <figure><img src="images/home/IALULanding_GaleriaPlazaFoto.png" alt="" class="img-fluid"></figure>
         </div>
       </div>
-      <div class="row">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Room Type</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Single $1,650.00</td>
-            </tr>
-            <tr>
-              <td>Double $1,850.00</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="row justify-content-end">
+        <div class="col-6">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Room Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Single $1,650.00</td>
+              </tr>
+              <tr>
+                <td>Double $1,850.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
       </div>
-      <div class="row">
+      <div class="row justify-content-end">
         <ul class="infoHotel">
           <li>Rates in national currency.</li>
           <li>Rates per night, double occupancy.</li>

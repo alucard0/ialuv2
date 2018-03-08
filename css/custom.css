@@ -146,7 +146,9 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', serif;
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 18px;
 }
 
@@ -169,6 +171,7 @@ a {
 a:hover,
 a:focus {
   color: #fcbd20;
+  text-decoration: none;
 }
 /*Botones*/
 
@@ -221,14 +224,22 @@ section#welcome{
   background-attachment: fixed;
 }
 section#welcome p.dear,section#program span.mayores,
-section#program p.day,section#alternatingProgram p.subtitle,
+section#program p.day,
+section#alternatingProgram p.subtitle,
 section#alternatingProgram p.title span.mayores, 
 section#registrationForm p.title span.mayores,
 section#registration p.title,
 section#accomodation p.titulo,
-section#applications p.titulo{
+section#applications p.titulo,
+section#accomodation p.subtitulo{
   color: var(--verdegradiente);
 }
+section#welcome p.dear{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 section#welcome p.dear{
   font-size: 5em;
   line-height: 1em;
@@ -278,7 +289,6 @@ section#globalChallenges figure figcaption{
   font-weight: bold;
 }
 section#globalChallenges h1.globalTitle{
-  font-weight: 100;
   font-size: 70px;
   line-height: 70px;
   margin-bottom: 0;
@@ -288,8 +298,14 @@ section#globalChallenges p.globalSubtitle,section#program p.title,
 p.orangeText,section#alternatingProgram p.title,section#registrationForm p.title span.guion{
   color: var(--naranja);
 }
+section#globalChallenges p.globalSubtitle,
+section#globalChallenges figure figcaption,
+section#program p.orangeText span{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
 section#globalChallenges p.globalSubtitle{
-  font-weight: bold;
   font-size: 50px;
 }
 section#program{
@@ -303,10 +319,13 @@ section#program{
   background-attachment: fixed;
   color: #fff;
 }
-
+section#program p.title,
+section#program span.mayores{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 900;
+}
 section#program p.title,section#program span.mayores{
   font-size: 90px;
-  font-weight: 900;
   margin:0;
 }
 section#program p.subtitle{
@@ -317,8 +336,15 @@ section#program p.subtitle{
 
 section#program div.boxMonday{
   margin-top: 160px;
-}   
-
+} 
+section#program div.boxMonday p,section#program div.endContent p.orangeBG {
+  margin-left: -20px;
+}    
+section#program hr.orange {
+    border-top: 2px solid #F89527;;
+    margin: 1rem 0 1rem auto;
+    width: 100%;
+}
 
 
 p.orangeBG{
@@ -326,9 +352,17 @@ p.orangeBG{
   color: #fff;
   padding: 5px 10px;
 }
+section#program p.day,
+section#registration p.title,
+section#accomodation p.titulo,
+section#applications p.titulo,
+section#accomodation p.subtitulo{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 700;
+  font-style: italic;  
+}
 section#program p.day{
   font-size: 70px;
-  font-style: italic;  
 }
 
 section#program p.date{
@@ -342,12 +376,28 @@ section#program div.content{
 section#program div.endContent{
   margin-top: 30px;
 }
+section#program p.orangeText,
+section#registration .instruccion,
+section#registration div.feeInfo p.title,
+section#registration div.moreInfo p.orangeText,
+section#registration p.currency,
+section#accomodation p.groupCode,
+section#accomodation p.nombreHotel
+{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight:700;
+  font-style: normal;
+}
+section#program p.orangeText{
+  font-size: 18px;
+}
 
 section#registration p.title,
 section#accomodation p.titulo,
 section#applications p.titulo{
   font-size: 90px;
-  font-weight: 700;
+  text-shadow: black 7px 7px 20px;
+
 }
 section#registration div.bgAzul,
 section#accomodation p.nombreHotel,
@@ -357,40 +407,68 @@ section#applications p.appTitle{
 section#registration div.feeInfo p.title{
   font-size: 20px;
   color: #fff;
+  text-shadow: none;
 }
 section#registration div.feeInfo{
   color: #fff;
   padding: 30px;
 }
-section#registration div.feeInfo p.content{
-  font-weight: 100;
-}
+
 section#registration div.moreInfo{
   margin-top: 40px;
 }
-section#registration div.moreInfo p.orangeText{
-  font-weight:700;
-}
+
 section#registration div.boxCurrency{
   margin-top: 30px;
 }
 section#registration ul.infoPay{
   margin-left: 20px;
+  line-height:20px;
 }
 
 /*Accomodation*/
+section#accomodation figure, 
+section#accomodation p.direccion,
+section#accomodation p.titulo{
+  margin-bottom: 0;
+}
+
 section#accomodation p.nombreHotel,
 section#applications p.appTitle{
   color:#fff;
   padding-left: 5px;
 }
 
+section#accomodation p.subtitulo{
+  font-size: 40px;
+  margin-top: -25px;
+  text-shadow: black 7px 7px 20px;
+}
 section#accomodation table.table tbody td,
 section#accomodation table.table thead th{
   border-top: none;
 }
 section#accomodation table.table thead th{
   border-bottom: 2px solid #009696;
+}
+section#accomodation p.nombreHotel{
+  font-size: 15px;
+}
+section#accomodation p.nombreHotel span{
+  font-weight: 500;
+  font-style: italic;
+}
+/*
+section#accomodation a.linkCamino, section#accomodation p.groupCode{
+  display: inline;
+}
+section#accomodation p.groupCode{
+  margin-left: 80px;
+}
+*/
+section#accomodation p.groupCode{
+  margin-bottom: 0;
+  margin-top:  50px;
 }
 /*Application*/
 
@@ -621,6 +699,10 @@ footer div ul.listaEscuelas li {
   }
   section#registration figure{
     text-align: center;
+  }
+
+  section#accomodation p.nombreHotel{
+    font-size: 16px;
   }
 
   section#alternatingProgram {
