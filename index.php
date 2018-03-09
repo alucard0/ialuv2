@@ -89,12 +89,6 @@
   <div class="row">
     <div class="col-12 col-sm-6 col-xl-4">
       <p class="text-right dear">Dear<br>Lasallians</p>
-      <div class="row text-right d-none d-sm-block">
-        <div class="col">
-          <p class="namePerson">Mtro. Andrés Govela Gutierrez, fsc <br><span class="position">President, La Salle Mexico Universities Network</span></p>
-          <p class="namePerson">Dr. Enrique A. González, Álvarez, fsc <br><span class="position">Rector, La Salle Mexico City, Mexico</span> </p>
-        </div>
-      </div>
     </div>
     <div class="col-12  col-sm-6 col-xl-8">
       <div class="welcomeText">
@@ -426,7 +420,7 @@
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
       <div class="row no-gutters">
         <div class="col">
-          <p class="nombreHotel">Hotel Galería Plaza <span>(sede alterna)</span></p>
+          <p class="nombreHotel">Hotel Galería Plaza <span>(alternate seat)</span></p>
           <figure class="text-center"><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
         </div>
         <div class="col">
@@ -532,26 +526,100 @@
 
 <section id="alternatingProgram" class="container-fluid">
   <p class="text-right title">Alternating<br><span class="mayores">>></span> Program</p>
-  <div class="row duringBox">
-    <div class="col-12 col-sm-4">
-      <p class="subtitle">During<br>the Encuentro</p>
-    </div>
-    <div class="col-12 col-sm-8">
-      <p>On Thursday, June 21, during the Rectors’ Assembly, simultaneous meetings between the internationalization and research directors will take place.</p>
-      <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
-    </div>
-  </div>
-  <div class="row">
-    <hr class="green">
-  </div>
+
   <div class="row visitUniBox">
     <div class="col-12 col-sm-4">
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
     <div class="col-12 col-sm-8">
       <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to see the main tourist attractions of the state.</p>
-      <p>More information will be available soon.</p>
       <p>Those activities have an additional charge for transportation and accommodation.</p>
+
+    </div>
+  </div>
+  <div class="row">
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Bajio.pdf" target="_blank">
+          <figure class="text-center">
+            <figcaption>Bajío</figcaption>
+            <img src="images/home/flecha.png" alt="" class="img-fluid">
+          </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Cancun.pdf">
+          <figure class="text-center">
+            <figcaption>Cancún</figcaption>
+            <img src="images/home/flecha.png" alt="" class="img-fluid">
+          </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Cuernavaca.pdf">
+            <figure class="text-center">
+              <figcaption>Cuernavaca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Laguna.pdf">
+            <figure class="text-center">
+              <figcaption>Laguna</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Noroeste.pdf">
+            <figure class="text-center">
+              <figcaption>Noroeste</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Oaxaca.pdf">
+            <figure class="text-center">
+              <figcaption>Oaxaca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Pachuca.pdf">
+            <figure class="text-center">
+              <figcaption>Pachuca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Puebla.pdf">
+            <figure class="text-center">
+              <figcaption>Puebla</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/IALU_VISIT_Saltillo.pdf">
+            <figure class="text-center">
+              <figcaption>Saltillo</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+      </div>
+  <div class="row">
+    <hr class="green">
+  </div>
+  <div class="row duringBox">
+    <div class="col-12 col-sm-5">
+      <p class="subtitle">During<br>the Encuentro</p>
+    </div>
+    <div class="col-12 col-sm-7">
+      <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
     </div>
   </div>
 </section>

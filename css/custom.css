@@ -529,18 +529,20 @@ section#alternatingProgram p.title{
 }
 section#alternatingProgram p.subtitle{
   font-size: 45px;
-  line-height: 50px;
+  line-height: 40px;
 }
 section#alternatingProgram div.duringBox{
-    padding-right: 19%;
-    padding-left: 2%;
-}
-section#alternatingProgram div.visitUniBox{
   margin-top: 50px;
   padding-left: 9%;
   margin-left: 27%;
 }
-
+section#alternatingProgram div.visitUniBox{
+    padding-right: 19%;
+    padding-left: 2%;
+}
+section#alternatingProgram figcaption{
+  color: #fff;
+}
 
 section#registrationForm p.title{
   font-size: 70px;
@@ -786,13 +788,13 @@ footer div ul.listaEscuelas li {
     font-size: 40px;
   }
   section#alternatingProgram div.duringBox {
-    padding-right: 0;
-    padding-left: 2%;
-  }
-  section#alternatingProgram div.visitUniBox {
     margin-top: 50px;
     padding-left: 0;
     margin-left: 0;
+  }
+  section#alternatingProgram div.visitUniBox {
+    padding-right: 0;
+    padding-left: 2%;
   }
 
   section#registrationForm {
