@@ -102,7 +102,7 @@
         <p>We are pleased to invite the University Rectors, and the Internationalization and Postgraduate Directors to the XII Encuentro IALU and the General Assembly - Strength in Diversity: confronting global challenges through higher education.</p>
         <p>The Encuentro will be held at Universidad La Salle, Mexico City, Mexico on June 19-21, 2018. It will be hosted by the La Salle Mexico network of universities constituted by fifteen campuses around the country. This will be an opportunity for us to reflect about the role that universities play focusing on Lasallian institutions in order to reach the Millennium Goals and be aware of the actions undertaken to reach borders and to reinforce our association.</p>
         <p>Br. Robert Schieler, Superior General of the Brothers of the Christian Schools will be participating on the event, as well as keynote speakers talking about the global agenda and education.</p>
-        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on <a href="www.ialu.org/XII" target="_blak" rel="noopener">www.ialu.org/XII</a> not later than May 30, 2018.</p>
+        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on <a href="www.ialu.org/XII" class="linkCarta" target="_blak" rel="noopener">www.ialu.org/XII</a> not later than May 30, 2018.</p>
         <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, the successful cases exposition, and the photo exhibition. Please visit www.ialu.org/XII to learn more about the full program and the Encuentro.</p>
         <p>As Lasallian universities we are convinced that the only way to face the global challenges is through education, research and innovation; people are the key to do so and it is within them that we shall find the strength to keep transforming our world: diversity.</p>
         <p>We look forward to seeing you at the XII Encuentro IALU.</p>
@@ -286,7 +286,13 @@
 </section>
 
 <section id="registration" class="container-fluid">
-  <p class="text-left title"> Registration</p>
+  <div class="row">
+    <div class="col-12 col-sm-6">
+        <p class="text-left title"> Registration</p>
+        <hr class="green">
+    </div>
+  </div>
+ 
   <div class="row">
     <div class="col-sm-6">
       <p class="instruccion">Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
@@ -366,13 +372,18 @@
       <div class="row no-gutters">
         <div class="col">
           <p class="nombreHotel">Hotel Camino Real Polanco <span>(host hotel)</span></p>
-          <figure><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img-fluid"></figure>
-          <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590, Tel. +52 (55) 52 63 8888 </p>
-          <a clas="linkCamino" href="http://www.caminoreal.com/">www.caminoreal.com</a>
-          <p class="groupCode">Group Code: La Salle</p>
+          <figure class="text-center"><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img-fluid"></figure>
+          
         </div>
         <div class="col">
-          <figure><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
+          <figure ><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590,<br>Phone: +52 (55) 52 63 8888 </p>
+          <a clas="linkCamino" href="http://www.caminoreal.com/">www.caminoreal.com</a>
+          <p class="groupCode">Group Code: La Salle</p>
         </div>
       </div>
       
@@ -416,13 +427,16 @@
       <div class="row no-gutters">
         <div class="col">
           <p class="nombreHotel">Hotel Galería Plaza <span>(sede alterna)</span></p>
-          <figure><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
-          <p class="direccion">Hamburgo 195, Col. Juárez, CDMX, 06600, Tel. +52 (55) 52 30 1717</p>
-          <a href="http://www.brisas.com.mx">www.brisas.com.mx</a>
-
+          <figure class="text-center"><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
         </div>
         <div class="col">
           <figure><img src="images/home/IALULanding_GaleriaPlazaFoto.png" alt="" class="img-fluid"></figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="direccion">Hamburgo 195, Col. Juárez, CDMX, 06600,<br>Phone: +52 (55) 52 30 1717</p>
+          <a href="http://www.brisas.com.mx">www.brisas.com.mx</a>
         </div>
       </div>
       <div class="row justify-content-end">
@@ -483,7 +497,7 @@
       </ol>
       <p>The participating projects will be announced on May 30 and included in the Official Agenda of the Encuentro.</p>
       <p>All of these projects will be published in the XII Encuentro’s website.</p>
-      <p>For more information:<a href="mailto:ialu@ulsa.mx "></a>ialu@ulsa.mx</p>
+      <p>For more information: <a href="mailto:ialu@ulsa.mx ">ialu@ulsa.mx</a></p>
     </div>
     <div class="col-12 col-sm-4">
       <figure><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
@@ -497,7 +511,7 @@
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
-      <figure><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
+      <figure class="photoExInfo"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Photo Exhibition</p>
       <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
@@ -519,19 +533,22 @@
 <section id="alternatingProgram" class="container-fluid">
   <p class="text-right title">Alternating<br><span class="mayores">>></span> Program</p>
   <div class="row duringBox">
-    <div class="col-sm-3">
+    <div class="col-12 col-sm-4">
       <p class="subtitle">During<br>the Encuentro</p>
     </div>
-    <div class="col -sm-9">
+    <div class="col-12 col-sm-8">
       <p>On Thursday, June 21, during the Rectors’ Assembly, simultaneous meetings between the internationalization and research directors will take place.</p>
       <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
     </div>
   </div>
+  <div class="row">
+    <hr class="green">
+  </div>
   <div class="row visitUniBox">
-    <div class="col-sm-3">
+    <div class="col-12 col-sm-4">
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
-    <div class="col -sm-9">
+    <div class="col-12 col-sm-8">
       <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to see the main tourist attractions of the state.</p>
       <p>More information will be available soon.</p>
       <p>Those activities have an additional charge for transportation and accommodation.</p>
@@ -548,141 +565,213 @@
   <p class="textletf instructions">*Mandatory fields to fill in</p>
 
   <form id="Registration">
-    <div class="form-row">
-      <div class="col-md-6">
-        <!-- Info Personal -->
-        <div class="form-row">
-          <div class="form-group col-md-1">
-            <figure><img src="images/home/LandingPage-01.png" alt=""></figure>
+
+    <!--Personal Info-->
+    <div class="form-row personalInfo">
+      <div class="col-12">
+        <p class="seccionForm">Personal</p>
+        <hr>
+      </div>
+      
+      <div class="col-1">
+        <div class="form-group">
+            <figure class="text-right"><img src="images/home/LandingPage-01.png" alt=""></figure>
           </div>
-           <div class="form-group col-md-4">
+        </div>
+      <div class="col">
+        <div class="form-group">
             <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix">
-          </div>
-          <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name">*
-          </div>
-          <div class="form-group col-md-4">
-            <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last names">*
-          </div>
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-1">
-            <figure><img src="images/home/LandingPage-02.png" alt=""></figure>
-          </div>
-          <div class="form-group col-md-8">
-            <input type="text" class="form-control" id="inputInstitution" name="inputInstitution" placeholder="Institution/Organization">*
-          </div>
-          <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputPosition" name="inputPosition" placeholder="Position">*
-          </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name*">
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-1">
-            <figure><img src="images/home/LandingPage-03.png" alt=""></figure>
-          </div>
-          <div class="form-group col-md-11">
-             <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email">*
-           </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last names*">
         </div>
-        <div class="form-row">
-          <div class="form-group col-sm-6">
+      </div>
+
+    </div>
+    <div class="form-row">
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-02.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputInstitution" name="inputInstitution" placeholder="Institution/Organization*">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputPosition" name="inputPosition" placeholder="Position*">
+        </div>
+      </div>
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-09.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
             <select id="inputGender" name="inputGender" class="form-control">
-              <option selected value="" selected disabled>Gender</option>
+              <option selected value="" selected disabled>Gender*</option>
               <option value="F">Female</option>
               <option value="M">Male</option>
-            </select>*
+            </select>
           </div>
-          <div class="form-group col-sm-6">
-            <select id="inputSize" name="inputSize" class="form-control">
-              <option selected value="" selected disabled>Jacket size</option>
-              <option>S</option>
-              <option>M</option>
-              <option>L</option>
-            </select>*
-          </div>
-        </div>
       </div>
-
-
-      <div class="col-md-6">
-        <div class="form-row d-flex justify-content-end">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputLandLineCC" name="inputLandLineCC" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputLandLine" name="inputLandLine" placeholder="Telephone">*
-          </div>
-        </div>
-
-        <!-- Telefonos de contacto -->
-        <div class="form-row d-flex justify-content-end">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputCellphoneCC" name="inputCellphoneCC" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputCellphone" name="inputCellphone" placeholder="Mobile Telephone">*
-          </div>
-        </div>
+      <div class="col">
         <div class="form-group">
-           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency">*
+          <select id="inputSize" name="inputSize" class="form-control">
+            <option selected value="" selected disabled>Jacket size*</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
         </div>
-
-        <div class="form-row">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency">*
-          </div>
-        </div>  
+      </div>
+    </div>
+    
+    <!-- Digital Info -->
+    <div class="form-row digitalInfo">
+      <div class="col-12">
+        <p class="seccionForm">Digital Media</p>
+        <hr>
+      </div>
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-03.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email*">
+        </div>
       </div>
 
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-07.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputTwitter" name="inputTwitter" placeholder="Twitter">
+        </div>
+      </div>
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-08.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputLinkedIn" name="inputLinkedIn" placeholder="LinkedIn">
+        </div>
+      </div>
     </div>
 
-        <!-- Informacion de vivienda -->
-        <div class="form-row">
-          <div class="form-goup col-md-3">
-			 <select class="js-example-basic-single form-control" id="inputCountry" name="inputCountry" onchange="getval(this);" >
-				<option value="" selected disabled>Country</option>
-				<?php include 'controlador/ControladorPaises.php'; ?>
-			</select>*
+    <!--Contact Info-->
+    <div class="form-row contactInfo">
+      <div class="col-12">
+        <p class="seccionForm">Contact</p>
+        <hr>
+      </div>
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-04.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+              <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Address*">
           </div>
-          <div class="form-group col-sm-3">
+        </div>
+      <div class="col">
+        <div class="form-group">
+                <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2">
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col">
+         <div class="form-goup">
+              <select class="js-example-basic-single form-control" id="inputCountry" name="inputCountry" onchange="getval(this);" >
+              <option value="" selected disabled>Country*</option>
+              <?php include 'controlador/ControladorPaises.php'; ?>
+            </select>
+          </div>
+      </div>
+      <div class="col">
+          <div class="form-group">
             <input type="text" class="form-control" id="inputCity" name="inputCity" placeholder="City">
           </div>
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province">*
-          </div>
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code">*
-          </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province*">
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-12">
-              <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Address">*
-          </div>
-          <div class="form-group col-md-12">
-                <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2">
-          </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code*">
         </div>
-
-      <!-- Redes Sociales-->
-      <div class="form-row">
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputTwitter" name="inputTwitter" placeholder="Twitter">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputLinkedIn" name="inputLinkedIn" placeholder="LinkedIn">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-05.png" alt=""></figure>
+      </div>
+      <div class="col">
+      <div class="form-group">
+            <input type="tel" class="form-control" id="inputLandLineCC" name="inputLandLineCC" placeholder="Country code">
+        </div>
+      </div>
+      <div class="col">
+          <div class="form-group">
+            <input type="tel" class="form-control" id="inputLandLine" name="inputLandLine" placeholder="Telephone*">
           </div>
       </div>
-
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,
-vegetariano diet, vegan diet, etc.; or if you need access assistance please write it down.</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3"></textarea>
-        
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-06.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="tel" class="form-control" id="inputCellphoneCC" name="inputCellphoneCC" placeholder="Country code">
+        </div> 
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="tel" class="form-control" id="inputCellphone" name="inputCellphone" placeholder="Mobile Telephone*">
+        </div>
+      </div>
+      
     </div>
-
+    <div class="form-row">
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-10.png" alt=""></figure>
+      </div>
+      <div class="col">
+          <div class="form-group">
+           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*">
+        </div>
+      </div>
+      <div class="col-1">
+        <figure class="text-right"><img src="images/home/LandingPage-11.png" alt=""></figure>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+            <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency*">
+        </div>
+      </div>
+    </div>
+    <div class="form-row extraInfo">
+      <div class="col">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,<br>
+          vegetarian diet, vegan diet, etc.; or if you need<br>access assistance please write it down.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
     <button type="button" class="btn btn-primary btn-lg" id="btnSend">Submit</button>
   </form>
 	<?php include 'controlador/ControladorTelefonos.php'; ?>
