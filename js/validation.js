@@ -21,7 +21,7 @@ $( "#Registration" ).validate({
 	},
 	inputLastName: {
 		required: true,
-		lettersonly: true
+		lettersonly: false
 	},
     inputEmail: {
     	required: true,
