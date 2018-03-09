@@ -236,7 +236,7 @@ section#alternatingProgram p.subtitle,
 section#alternatingProgram p.title span.mayores, 
 section#registrationForm p.title span.mayores
 {
-  color: var(--verdegradiente);
+  color: #D7F63F;
 }
 section#welcome p.dear,
 section#registration p.title,
@@ -261,7 +261,7 @@ section#welcome div.welcomeText{
 }
 section#welcome p.namePerson{
   line-height: 20px;
-  color: var(--naranja);
+  color: #F89527;
   font-size: 25px;
 }
 section#welcome p.namePerson span.position{
@@ -288,7 +288,7 @@ section#accomodation p.groupCode,
 section#accomodation ul.infoHotel,
 section#applications p.infoReq,
 section#accomodation p.subtitulo{
-  color: var(--azulagua);
+  color: #009696;
 }
 
 
@@ -311,7 +311,7 @@ section#registration p.title,
 section#accomodation p.titulo,
 section#applications p.titulo
 {
-  color: var(--naranja);
+  color: #F89527;
 }
 section#globalChallenges p.globalSubtitle,
 section#globalChallenges figure figcaption,
@@ -380,7 +380,7 @@ section#registration hr.green {
 }
 
 p.orangeBG{
-  background: var(--naranja);
+  background: #F89527;
   color: #fff;
   padding: 5px 10px;
 }
@@ -438,7 +438,7 @@ section#applications p.titulo{
 section#registration div.bgAzul,
 section#accomodation p.nombreHotel,
 section#applications p.appTitle{
-  background: var(--azulagua);
+  background: #009696;
 }
 section#registration div.feeInfo p.title{
   font-size: 20px;
@@ -597,8 +597,8 @@ button.btn{
   padding: 10px 80px;
 }
 .btn-primary{
-  background-color: var(--azulagua);
-  border-color: var(--azulagua);
+  background-color: #009696;
+  border-color: #009696;
 }
 .select2-container .select2-selection--single
 {
@@ -614,6 +614,9 @@ button.btn{
     line-height: 40px !important;
     height: 38px !important;
     background: #E2E7ED;
+}
+.select2-container{
+  width: 100% !important;
 }
 /*Fin Contenido*/
 
@@ -709,7 +712,7 @@ footer div ul.listaEscuelas li {
   }
 
   section#welcome p.dear{
-    font-size: 2em;
+    font-size: 3em;
 
   }
   section#welcome div.welcomeText {
@@ -791,19 +794,31 @@ footer div ul.listaEscuelas li {
   section#registration figure{
     text-align: center;
   }
+  section#accomodation table.table tbody tr td{
+    font-size: 16px;
+  }
   section#registration p.title, section#accomodation p.titulo, section#applications p.titulo {
-      font-size: 38px;
+      font-size: 45px;
+  }
+  section#accomodation p.groupCode{
+    font-size: 20px;
+  }
+  section#accomodation p.nombreHotel{
+    font-size: 19px;
   }
 
-  section#accomodation p.nombreHotel{
-    font-size: 16px;
+  section#program span.mayores, 
+  section#alternatingProgram p.title span.mayores, 
+  section#registrationForm p.title span.mayores {
+    letter-spacing: -14px;
   }
 
   section#alternatingProgram {
     padding: 10px;
   }
   section#alternatingProgram p.title {
-      font-size: 50px;
+    font-size: 50px;
+    line-height: 50px;
   }
   section#alternatingProgram p.subtitle {
     font-size: 40px;
@@ -825,6 +840,9 @@ footer div ul.listaEscuelas li {
   section#registrationForm p.title {
     font-size: 50px;
   }
+  section#registrationForm p.subtitle {
+      line-height: 40px;
+  }
 
 }
 
@@ -838,7 +856,17 @@ footer div ul.listaEscuelas li {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+  section#welcome p.dear {
+    font-size: 3.5em;
+  }
+  section#alternatingProgram div.visitUniBox{
+    padding-right: 0;
+    margin-top: 50px;
+  }
+  section#alternatingProgram div.duringBox{
+    margin-left: 0;
+    padding-left: 0; 
+  }
  html{
     font-size: 16px;
   }

@@ -17,7 +17,7 @@ $( "#Registration" ).validate({
   rules: {
 	inputName: {
 		required: true,
-		lettersonly: true
+		lettersonly: false
 	},
 	inputLastName: {
 		required: true,

@@ -87,10 +87,10 @@
 </section>
 <section id="welcome" class="container-fluid">
   <div class="row">
-    <div class="col-12 col-sm-6 col-xl-4">
+    <div class="col-12 col-sm-4 col-xl-4">
       <p class="text-right dear">Dear<br>Lasallians</p>
     </div>
-    <div class="col-12  col-sm-6 col-xl-8">
+    <div class="col-12  col-sm-8 col-xl-8">
       <div class="welcomeText">
         <p>In 2018, our International Association of Lasallian Universities celebrates 20 years of joint work and efforts to enhance the Lasallian educational project throughout the world.</p>
         <p>We are pleased to invite the University Rectors, and the Internationalization and Postgraduate Directors to the XII Encuentro IALU and the General Assembly - Strength in Diversity: confronting global challenges through higher education.</p>
@@ -167,7 +167,7 @@
         <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
       </div>
       <div class="col-12 col-sm-6 boxMonday">
-        <p class="orangeBG col-sm-4">Monday, June 18</p>
+        <p class="orangeBG col-sm-4 col-md-6">Monday, June 18</p>
         <hr class="orange">
           <div class="row content">
             <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
@@ -255,7 +255,7 @@
     </div>
     <div class="row endContent">
         <div class="col-sm-5">
-          <p class="orangeBG col-sm-4">Friday, June 22</p>
+          <p class="orangeBG col-sm-4 col-md-7">Friday, June 22</p>
           <hr class="orange">
           <div class="row content">
             <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
@@ -303,7 +303,7 @@
           <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
-          <p class="orangeBG col-sm-6 currency">MEXICAN PESOS</p>
+          <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
           <ul class="list-unstyled infoPay">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
@@ -317,7 +317,7 @@
           <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
-          <p class="orangeBG col-sm-3 currency">USD</p>
+          <p class="orangeBG col-sm-3 col-md-5 currency">USD</p>
           <ul class="list-unstyled infoPay">
             <li>Bank: Banamex</li>
             <li>Account 11 digits: 0141 9085 533</li>
@@ -331,7 +331,7 @@
           <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75 float-right"></figure>
         </div>
         <div class="col-sm-8">
-          <p class="orangeBG col-sm-3 currency">EUROS</p>
+          <p class="orangeBG col-sm-3 col-md-5 currency">EUROS</p>
           <ul class="list-unstyled infoPay">
             <li>Beneficiary Bank: Bank Santander México S.A.</li>
             <li>SWIFT code: BMSXMXMM</li>
@@ -380,45 +380,47 @@
 	          <thead>
 	            <tr>
 	              <th scope="col">Room Type</th>
-	              <th scope="col">Deluxe Room</th>
-	              <th scope="col">Pool View</th>
-	              <th scope="col">Camino Real Club</th>
+	              <th scope="col">Deluxe Room<br>$USD</th>
+	              <th scope="col">Pool View <br>$USD</th>
+	              <th scope="col">Camino Real Club<br>$USD</th>
 	            </tr>
 	          </thead>
 	          <tbody>
 	            <tr>
 	              <td>Special Rate Single Occupancy</td>
-	              <td>$ 183.86 USD</td>
-	              <td>$ 207.66 USD</td>
-	              <td>$ 255.26 USD</td>
+	              <td>$183.86</td>
+	              <td>$207.66</td>
+	              <td>$255.26</td>
 	            </tr>
 	            <tr>
 	              <td>Special Rate Double Occupancy</td>
-	              <td>$ 207.08 USD</td>
-	              <td>$ 230.88 USD</td>
-	              <td>$ 278.48 USD</td>
+	              <td>$207.08</td>
+	              <td>$230.88</td>
+	              <td>$278.48</td>
 	            </tr>
 	          </tbody>
 	        </table>
     	</div>
       </div>
       <div class="row">
-        <ul class="infoHotel">
-          <li>Single / double occupancy</li>
-          <li>Package Rate (buffet breakfast included)</li>
-          <li>All rates include current Federal Taxes (VAT) and lodging tax.</li>
-          <li>Additional person $55 USD plus tax. Space subject to availability.</li>
-          <li>The exchange rate will be determined by the length of stay.</li>
-        </ul>
+      	<div class="col">
+	        <ul class="infoHotel">
+	          <li>Single / double occupancy</li>
+	          <li>Package Rate (buffet breakfast included)</li>
+	          <li>All rates include current Federal Taxes (VAT) and lodging tax.</li>
+	          <li>Additional person $55 USD plus tax. Space subject to availability.</li>
+	          <li>The exchange rate will be determined by the length of stay.</li>
+	        </ul>
+        </div>
       </div>
     </div>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
       <div class="row no-gutters">
-        <div class="col">
+        <div class="col-12 col-sm-12 col-md-6">
           <p class="nombreHotel">Hotel Galería Plaza <span>(alternate seat)</span></p>
           <figure class="text-center"><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
         </div>
-        <div class="col">
+        <div class="col-12 col-sm-12 col-md-6">
           <figure><img src="images/home/IALULanding_GaleriaPlazaFoto.png" alt="" class="img-fluid"></figure>
         </div>
       </div>
@@ -429,7 +431,7 @@
         </div>
       </div>
       <div class="row justify-content-end">
-        <div class="col-6">
+        <div class="col-12 col-sm-12 col-md-6">
           <table class="table">
             <thead>
               <tr>
@@ -449,12 +451,14 @@
 
       </div>
       <div class="row justify-content-end">
-        <ul class="infoHotel">
-          <li>Rates in national currency.</li>
-          <li>Rates per night, double occupancy.</li>
-          <li>Buffett breakfast and Wi Fi are included within the rates.</li>
-          <li>Additional 16% VAT and 3% lodging tax.</li>
-        </ul>
+      	<div class="col">
+      		<ul class="infoHotel">
+	          <li>Rates in national currency.</li>
+	          <li>Rates per night, double occupancy.</li>
+	          <li>Buffett breakfast and Wi Fi are included within the rates.</li>
+	          <li>Additional 16% VAT and 3% lodging tax.</li>
+	        </ul>
+      	</div>
       </div>
     </div>
   </div>
@@ -463,8 +467,8 @@
 <section id="applications" class="container-fluid">
   <p class="titulo">Applications</p>
   <div class="row">
-    <div class="col-12 col-sm-4">
-      <figure><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <figure class="text-center"><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
       <p class="appTitle">Mini-lectures success stories</p>
       <p>We would like to know about the Lasallian universities’ success in the borders through the following categories:</p>
       <ul>
@@ -488,8 +492,8 @@
       <p>All of these projects will be published in the XII Encuentro’s website.</p>
       <p>For more information: <a href="mailto:ialu@ulsa.mx ">ialu@ulsa.mx</a></p>
     </div>
-    <div class="col-12 col-sm-4">
-      <figure><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+      <figure class="text-center"><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Poster Fair</p>
       <p>As part of being aware of each of our universities endeavors, a Poster exhibition with general information and representative statistics will be displayed.</p>
       <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
@@ -500,7 +504,7 @@
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
-      <figure class="photoExInfo"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
+      <figure class="photoExInfo text-center"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Photo Exhibition</p>
       <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
@@ -512,7 +516,7 @@
         <li>High resolution, min. 300 dpi</li>
       </ul>
     </div>
-    <div class="col-12 col-sm-4">
+    <div class="col-12 col-sm-4 d-none d-lg-block d-xl-none d-xl-block">
        <figure><img src="images/home/IALU-Landing_foto1.png" alt="" class="img-fluid"></figure>
     </div>
      
@@ -523,17 +527,17 @@
   <p class="text-right title">Alternating<br><span class="mayores">>></span> Program</p>
 
   <div class="row visitUniBox">
-    <div class="col-12 col-sm-4">
+    <div class="col-12 col-sm-4 col-md-6 col-lg-4">
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
-    <div class="col-12 col-sm-8">
+    <div class="col-12 col-sm-8 col-md-6 col-lg-8">
       <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to see the main tourist attractions of the state.</p>
       <p>Those activities have an additional charge for transportation and accommodation.</p>
 
     </div>
   </div>
-  <div class="row">
-        <div class="col">
+  <div class="row justify-content-center">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Bajio.pdf" target="_blank">
           <figure class="text-center">
             <figcaption>Bajío</figcaption>
@@ -541,7 +545,7 @@
           </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Cancun.pdf">
           <figure class="text-center">
             <figcaption>Cancún</figcaption>
@@ -549,7 +553,7 @@
           </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Cuernavaca.pdf">
             <figure class="text-center">
               <figcaption>Cuernavaca</figcaption>
@@ -557,7 +561,7 @@
             </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Laguna.pdf">
             <figure class="text-center">
               <figcaption>Laguna</figcaption>
@@ -565,7 +569,7 @@
             </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Noroeste.pdf">
             <figure class="text-center">
               <figcaption>Noroeste</figcaption>
@@ -573,7 +577,7 @@
             </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Oaxaca.pdf">
             <figure class="text-center">
               <figcaption>Oaxaca</figcaption>
@@ -581,7 +585,7 @@
             </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Pachuca.pdf">
             <figure class="text-center">
               <figcaption>Pachuca</figcaption>
@@ -589,7 +593,7 @@
             </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Puebla.pdf">
             <figure class="text-center">
               <figcaption>Puebla</figcaption>
@@ -597,7 +601,7 @@
             </figure>
           </a>
         </div>
-        <div class="col">
+        <div class="col-4 col-md-auto">
           <a href="descargables/IALU_VISIT_Saltillo.pdf">
             <figure class="text-center">
               <figcaption>Saltillo</figcaption>
@@ -607,13 +611,15 @@
         </div>
       </div>
   <div class="row">
-    <hr class="green">
+  	<div class="col">
+    	<hr class="green">
+    </div>
   </div>
   <div class="row duringBox">
-    <div class="col-12 col-sm-5">
+    <div class="col-12 col-sm-5 col-md-6 col-lg-5">
       <p class="subtitle">During<br>the Encuentro</p>
     </div>
-    <div class="col-12 col-sm-7">
+    <div class="col-12 col-sm-7 col-md-6 col-lg-7">
       <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
     </div>
   </div>
@@ -636,22 +642,22 @@
         <hr>
       </div>
       
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <div class="form-group">
             <figure class="text-right"><img src="images/home/LandingPage-01.png" alt=""></figure>
           </div>
         </div>
-      <div class="col">
+      <div class="col-3 col-sm-3 col-md-2">
         <div class="form-group">
             <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix">
         </div>
       </div>
-      <div class="col">
+      <div class="col-7 col-sm-7 col-md-5">
         <div class="form-group">
             <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name*">
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-sm-12 col-md-4">
         <div class="form-group">
             <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last names*">
         </div>
@@ -659,23 +665,23 @@
 
     </div>
     <div class="form-row">
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-02.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-4">
         <div class="form-group">
             <input type="text" class="form-control" id="inputInstitution" name="inputInstitution" placeholder="Institution/Organization*">
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-sm-12 col-md-2">
         <div class="form-group">
             <input type="text" class="form-control" id="inputPosition" name="inputPosition" placeholder="Position*">
         </div>
       </div>
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-09.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-2">
         <div class="form-group">
             <select id="inputGender" name="inputGender" class="form-control">
               <option selected value="" selected disabled>Gender*</option>
@@ -684,7 +690,7 @@
             </select>
           </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-sm-10 col-md-2">
         <div class="form-group">
           <select id="inputSize" name="inputSize" class="form-control">
             <option selected value="" selected disabled>Jacket size*</option>
@@ -698,27 +704,27 @@
     
     <!-- Digital Info -->
     <div class="form-row">
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-03.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-3">
         <div class="form-group">
           <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email*">
         </div>
       </div>
 
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-07.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-3">
         <div class="form-group">
             <input type="text" class="form-control" id="inputTwitter" name="inputTwitter" placeholder="Twitter">
         </div>
       </div>
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-08.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-3">
         <div class="form-group">
             <input type="text" class="form-control" id="inputLinkedIn" name="inputLinkedIn" placeholder="LinkedIn">
         </div>
@@ -731,68 +737,68 @@
         <p class="seccionForm">Contact</p>
         <hr>
       </div>
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-04.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-6">
         <div class="form-group">
               <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Address*">
           </div>
         </div>
-      <div class="col">
+      <div class="col-12 col-sm-12 col-md-5">
         <div class="form-group">
-                <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2">
+            <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2">
         </div>
       </div>
     </div>
     <div class="form-row">
-      <div class="col">
-         <div class="form-goup">
+      <div class="col-12 col-sm-12 col-md-3">
+         <div class="form-group">
               <select class="js-example-basic-single form-control" id="inputCountry" name="inputCountry" onchange="getval(this);" >
               <option value="" selected disabled>Country*</option>
               <?php include 'controlador/ControladorPaises.php'; ?>
             </select>
           </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-sm-12 col-md-3">
           <div class="form-group">
             <input type="text" class="form-control" id="inputCity" name="inputCity" placeholder="City">
           </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-sm-12 col-md-3">
         <div class="form-group">
             <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province*">
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-sm-12 col-md-3">
         <div class="form-group">
             <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code*">
         </div>
       </div>
     </div>
     <div class="form-row">
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-05.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-4 col-sm-4 col-md-2">
       <div class="form-group">
             <input type="tel" class="form-control" id="inputLandLineCC" name="inputLandLineCC" placeholder="Country code">
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-6 col-md-3">
           <div class="form-group">
             <input type="tel" class="form-control" id="inputLandLine" name="inputLandLine" placeholder="Telephone*">
           </div>
       </div>
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-06.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-4 col-sm-4 col-md-2">
         <div class="form-group">
             <input type="tel" class="form-control" id="inputCellphoneCC" name="inputCellphoneCC" placeholder="Country code">
         </div> 
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-6 col-md-3">
         <div class="form-group">
             <input type="tel" class="form-control" id="inputCellphone" name="inputCellphone" placeholder="Mobile Telephone*">
         </div>
@@ -800,23 +806,23 @@
       
     </div>
     <div class="form-row">
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-10.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-10 col-sm-10 col-md-4">
           <div class="form-group">
            <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*">
         </div>
       </div>
-      <div class="col-1">
+      <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-11.png" alt=""></figure>
       </div>
-      <div class="col">
+      <div class="col-4 col-sm-4 col-md-2">
         <div class="form-group">
             <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code">
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-6 col-md-4">
         <div class="form-group">
             <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency*">
         </div>
