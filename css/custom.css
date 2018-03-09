@@ -562,13 +562,14 @@ section#registrationForm .form-control{
 section#registrationForm input,
 section#registrationForm select,
 section#registrationForm button,
-section#registrationForm select option{
+section#registrationForm select option,
+section#registrationForm textarea{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-section#registrationForm input,
-section#registrationForm select,
+section#registrationForm form#Registration input,
+section#registrationForm select
 {
   height: 40px;
 }
@@ -580,7 +581,6 @@ section#registrationForm .form-control {
 
 
 section#registrationForm div.personalInfo,
-section#registrationForm div.digitalInfo,
 section#registrationForm div.contactInfo,
 section#registrationForm div.extraInfo{
   margin-top: 50px;
@@ -745,14 +745,21 @@ footer div ul.listaEscuelas li {
     padding: 10px;
   }
   section#program p.title, section#program span.mayores {
-    font-size: 75px;
+    font-size: 65px;
   }
   section#program p.subtitle {
     margin-top: -50px;
   }
-  section#program div.boxMonday {
+  section#program div.boxMonday{
     margin-top: 0;
     font-size: 30px;
+  }
+  section#program div.endContent {
+    font-size: 30px;
+  }
+  section#program div.boxMonday p, 
+  section#program div.endContent p.orangeBG {
+    margin-left: 0;
   }
   section#program div.content {
     font-size: 20px;
@@ -760,9 +767,20 @@ footer div ul.listaEscuelas li {
   section#program div.endContent div.col-sm-6:nth-child(2){
     margin-top: 30px;
   }
-  section#registration {
-    padding: 10px;
+  section#program p.orangeText {
+    font-size: 17px;
   }
+
+  section#globalChallenges, 
+  section#program, 
+  section#registration, 
+  section#accomodation,
+  section#applications,
+  section#alternatingProgram,
+  section#registrationForm {
+      padding: 10px;
+  }
+
   section#registration p.title {
     font-size: 50px;s
   }
@@ -772,6 +790,9 @@ footer div ul.listaEscuelas li {
   }
   section#registration figure{
     text-align: center;
+  }
+  section#registration p.title, section#accomodation p.titulo, section#applications p.titulo {
+      font-size: 38px;
   }
 
   section#accomodation p.nombreHotel{

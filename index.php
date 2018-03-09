@@ -103,14 +103,7 @@
         <p>Indivisa Manent</p>
       </div>
     </div>
-
   </div>
-    <div class="row text-right d-block d-sm-none">
-      <div class="col-12">
-        <p class="namePerson">Mtro. Andrés Govela Gutierrez, <i>fsc</i> <br><span class="position">President, La Salle Mexico <br>Universities Network</span></p>
-        <p class="namePerson">Dr. Enrique A. González, Álvarez, <i>fsc</i> <br><span class="position">Rector, La Salle Mexico City, Mexico</span> </p>
-      </div>
-    </div>
 </section>
 
 <section id="globalChallenges" class="container-fluid">
@@ -364,13 +357,13 @@
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
       <div class="row no-gutters">
-        <div class="col">
+        <div class="col-12 col-sm-12 col-md-6">
           <p class="nombreHotel">Hotel Camino Real Polanco <span>(host hotel)</span></p>
           <figure class="text-center"><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img-fluid"></figure>
           
         </div>
-        <div class="col">
-          <figure ><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
+        <div class="col-12 col-sm-12 col-md-6">
+          <figure><img src="images/home/IALULanding_CaminoRealFoto.png" alt="" class="img-fluid"></figure>
         </div>
       </div>
       <div class="row">
@@ -382,30 +375,32 @@
       </div>
       
       <div class="row">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Room Type</th>
-              <th scope="col">Deluxe Room</th>
-              <th scope="col">Pool View</th>
-              <th scope="col">Camino Real Club</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Special Rate Single Occupancy</td>
-              <td>$ 183.86 USD</td>
-              <td>$ 207.66 USD</td>
-              <td>$ 255.26 USD</td>
-            </tr>
-            <tr>
-              <td>Special Rate Double Occupancy</td>
-              <td>$ 207.08 USD</td>
-              <td>$ 230.88 USD</td>
-              <td>$ 278.48 USD</td>
-            </tr>
-          </tbody>
-        </table>
+      	<div class="table-responsive">
+	        <table class="table">
+	          <thead>
+	            <tr>
+	              <th scope="col">Room Type</th>
+	              <th scope="col">Deluxe Room</th>
+	              <th scope="col">Pool View</th>
+	              <th scope="col">Camino Real Club</th>
+	            </tr>
+	          </thead>
+	          <tbody>
+	            <tr>
+	              <td>Special Rate Single Occupancy</td>
+	              <td>$ 183.86 USD</td>
+	              <td>$ 207.66 USD</td>
+	              <td>$ 255.26 USD</td>
+	            </tr>
+	            <tr>
+	              <td>Special Rate Double Occupancy</td>
+	              <td>$ 207.08 USD</td>
+	              <td>$ 230.88 USD</td>
+	              <td>$ 278.48 USD</td>
+	            </tr>
+	          </tbody>
+	        </table>
+    	</div>
       </div>
       <div class="row">
         <ul class="infoHotel">
@@ -702,11 +697,7 @@
     </div>
     
     <!-- Digital Info -->
-    <div class="form-row digitalInfo">
-      <div class="col-12">
-        <p class="seccionForm">Digital Media</p>
-        <hr>
-      </div>
+    <div class="form-row">
       <div class="col-1">
         <figure class="text-right"><img src="images/home/LandingPage-03.png" alt=""></figure>
       </div>
