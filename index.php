@@ -837,6 +837,15 @@
         </div>
       </div>
     </div>
+    <div class="form-row switch-field">
+      <div class="col">
+        <p>Will you come with a companion?</p>
+        <input type="radio" id="switch_yes" name="switch_2" value="yes" />
+        <label for="switch_yes">Yes</label>
+        <input type="radio" id="switch_no" name="switch_2" value="no" checked/>
+        <label for="switch_no">No</label>
+      </div>
+    </div>
     <button type="button" class="btn btn-primary btn-lg" id="btnSend">Submit</button>
   </form>
 	<?php include 'controlador/ControladorTelefonos.php'; ?>
