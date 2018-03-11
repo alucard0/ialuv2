@@ -1,8 +1,7 @@
 <?php
-	include_once 'modelo/ConectaBD.php';
-	include_once 'modelo/DesplegarPais.php';
+	include_once 'modelo/PaisBO.php';
 		
-		$Tel = new DesplegarPais;
-		$Tel->autofillTelefonos();
+		$pais_logica = new PaisBO();
+		$pais_logica->autofillTelefonos();
 
 ?>

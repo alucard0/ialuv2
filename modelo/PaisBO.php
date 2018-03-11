@@ -1,7 +1,7 @@
 <?php
 	include_once 'modelo/ConectaBD.php';
 	
-	class DesplegarPais{
+	class PaisBO{
 		//Constructor
 		public function __construct()
 		{

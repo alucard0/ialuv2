@@ -649,7 +649,7 @@
         </div>
       <div class="col-3 col-sm-3 col-md-2">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix">
+            <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix (i.e., PhD)">
         </div>
       </div>
       <div class="col-7 col-sm-7 col-md-5">

@@ -3,29 +3,19 @@
 * 	@author Amilkhael Chávez Delgado;
 *	Documento: Clase que modela la tabla Oferta Educativa
 */
-	class Participante
+	class Acompanante
 	{
 
 		//Atributos
-		private $idParticipante;
+		
 		private $idPersona;
-		private $prefix;
-		private $institucion;
-		private $position;
-		private $size;
-		private $twitter;
-		private $linkedin;
+		private $idParticipante;
 
 		//Constructor
-		public function __construct($post,$idPersona)
+		public function __construct()
 		{
-			$this->prefix = $post['prefix'];
-			$this->institucion = $post['institucion'];
-			$this->position = $post['position'];
-			$this->size = $post['size'];
-			$this->twitter = $post['twitter'];
-			$this->linkedin = $post['LinkedIn'];
-			$this->idPersona = $idPersona;
+
+			
 		}
 		//Metodos
 		public function __set($name,$value){

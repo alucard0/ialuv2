@@ -3,29 +3,18 @@
 * 	@author Amilkhael Chávez Delgado;
 *	Documento: Clase que modela la tabla Oferta Educativa
 */
-	class Participante
+	class Telefono
 	{
-
 		//Atributos
-		private $idParticipante;
+		private $id;
+		private $lada;
+		private $numero;
 		private $idPersona;
-		private $prefix;
-		private $institucion;
-		private $position;
-		private $size;
-		private $twitter;
-		private $linkedin;
-
+		private $tipo;
 		//Constructor
-		public function __construct($post,$idPersona)
+		public function __construct($idPersona)
 		{
-			$this->prefix = $post['prefix'];
-			$this->institucion = $post['institucion'];
-			$this->position = $post['position'];
-			$this->size = $post['size'];
-			$this->twitter = $post['twitter'];
-			$this->linkedin = $post['LinkedIn'];
-			$this->idPersona = $idPersona;
+			$this->idPersona=$idPersona;
 		}
 		//Metodos
 		public function __set($name,$value){
@@ -48,8 +37,6 @@
 		    }
 		    return null;
 		}
-
-
 	}
 
 

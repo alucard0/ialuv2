@@ -1,8 +1,7 @@
 <?php
-	include_once 'modelo/ConectaBD.php';
-	include_once 'modelo/DesplegarPais.php';
+	include_once 'modelo/PaisBO.php';
 		
-		$pais = new DesplegarPais;
-		$pais->despliega();
+		$logica_pais = new PaisBO();
+		$logica_pais->despliega();
 
 ?>

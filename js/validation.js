@@ -127,61 +127,61 @@ jQuery(function($){
   $('#btnSend').on('click', function (ev) {
     /*Obtener los valores del formulario*/
 	var prefix=$("#inputPrefix").val(); /*Obligatorio*/ 
-    console.log(prefix);
+    //console.log(prefix);
     var name=$("#inputName").val(); /*Obligatorio*/ 
-    console.log(name);
+    //console.log(name);
     var surname=$("#inputLastName").val();
-    console.log(surname); 
+   //console.log(surname); 
 	
 	var institucion=$("#inputInstitution").val();
-	console.log(institucion); 
+	//console.log(institucion); 
 	var position=$("#inputPosition").val();
-	console.log(position);
+	//console.log(position);
 		
 	var email=$("#inputEmail").val();
-	console.log(email); 
+	//console.log(email); 
 	var gender=$("#inputGender").val();
-	console.log(gender);
+	//console.log(gender);
 	var size=$("#inputSize").val();
-	console.log(size);
+	//console.log(size);
 	
 	var LandLineCC=$("#inputLandLineCC").val();
-	console.log(LandLineCC); 
+	//console.log(LandLineCC); 
 	var LandLine=$("#inputLandLine").val();
-	console.log(LandLine);
+	//console.log(LandLine);
 	
 	var cellphoneCC=$("#inputCellphoneCC").val();
-	console.log(cellphoneCC); 
+	//console.log(cellphoneCC); 
 	var cellphone=$("#inputCellphone").val();
-	console.log(cellphone);
+	//console.log(cellphone);
 	
 	var emergencyContact=$("#inputEmergencyContact").val();
-	console.log(emergencyContact);
+	//console.log(emergencyContact);
 	var emergencyPhoneCC=$("#inputEmergencyPhoneCC").val();
-	console.log(emergencyPhoneCC); 
+	//console.log(emergencyPhoneCC); 
 	var emergencyPhone=$("#inputEmergencyPhone").val();
-	console.log(emergencyPhone);
+	//console.log(emergencyPhone);
 	
 	var country=$("#inputCountry").val();
-	console.log(country);
+	//console.log(country);
 	var state=$("#inputState").val();
-	console.log(state); 
+	//console.log(state); 
 	var city=$("#inputCity").val();
-	console.log(city);
+	//console.log(city);
 	var zip=$("#inputZip").val();
-	console.log(zip);
+	//console.log(zip);
 	var address=$("#inputAddress").val();
-	console.log(address); 
+	//console.log(address); 
 	var address2=$("#inputAddress2").val();
-	console.log(address2);
+	//console.log(address2);
 	
 	var twitter=$("#inputTwitter").val();
-	console.log(twitter); 
+	//console.log(twitter); 
 	var LinkedIn=$("#inputLinkedIn").val();
-	console.log(LinkedIn);
+	//console.log(LinkedIn);
 	
 	var extras=$("#exampleFormControlTextarea1").val();
-	console.log(extras);
+	//console.log(extras);
 	
 	
 	
@@ -192,10 +192,33 @@ jQuery(function($){
         url: "controlador/controladorRegistro.php",
         type: "POST",
 		//dataType: 'json',
-        data: {"prefix":prefix, "name":name,"surname":surname,"institucion":institucion,"position":position,"email":email,"gender":gender,"size":size,"LandLineCC":LandLineCC,"LandLine":LandLine,"cellphoneCC":cellphoneCC,"cellphone":cellphone,"emergencyContact":emergencyContact,"emergencyPhoneCC":emergencyPhoneCC, "emergencyPhone":emergencyPhone, "country":country, "state":state, "city":city, "zip":zip, "address":address, "address2":address2, "twitter":twitter, "LinkedIn":LinkedIn, "extras":extras},
+        data: {"prefix":prefix,
+        "name":name,
+        "surname":surname,
+        "institucion":institucion,
+        "position":position,
+        "email":email,
+        "gender":gender,
+        "size":size,
+        "LandLineCC":LandLineCC,
+        "LandLine":LandLine,
+        "cellphoneCC":cellphoneCC,
+        "cellphone":cellphone,
+        "emergencyContact":emergencyContact,
+        "emergencyPhoneCC":emergencyPhoneCC,
+        "emergencyPhone":emergencyPhone,
+        "country":country,
+        "state":state,
+        "city":city,
+        "zip":zip,
+        "address":address,
+        "address2":address2,
+        "twitter":twitter,
+        "LinkedIn":LinkedIn,
+        "extras":extras},
         success: function (data) {
           /*Mostrar mensaje de enviado*/
-			console.log('Success');
+			//console.log('Success');
 			document.getElementById("Registration").reset();
 			$("#Ventana_Exito").modal('toggle');
 			$('#btnSend').disabled = false;
