@@ -287,8 +287,7 @@ section#registrationForm p.title,
 section#registrationForm p.subtitle,section#registrationForm p.instructions,
 section#accomodation p.groupCode,
 section#accomodation ul.infoHotel,
-section#applications p.infoReq,
-section#accomodation p.subtitulo{
+section#applications p.infoReq{
   color: #009696;
 }
 
@@ -375,6 +374,15 @@ hr{
 section#program hr.orange {
     border-top: 2px solid #F89527;
 }
+
+section#program div.content div.col-5:nth-child(4n+1){
+  background: rgba(126, 146, 249, 0.4);
+}
+section#program div.content div.col-7:nth-child(4n+2){
+  background: rgba(126, 146, 249, 0.4);
+}
+
+
 section#alternatingProgram hr.green,
 section#registration hr.green {
     border-top: 4px solid #D7F63F; 
@@ -391,9 +399,7 @@ section#program p.day,
 section#registration p.title,
 section#accomodation p.titulo,
 section#applications p.titulo,
-section#accomodation p.subtitulo,
 section#alternatingProgram p.subtitle,
-section#accomodation p.subtitulo
 {
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 700;
@@ -409,7 +415,7 @@ section#program p.date{
 }
 section#program div.content{
     font-size: 18px;
-    font-weight
+    margin-right: 20px;
 }
 section#program div.endContent{
   margin-top: 30px;
@@ -478,10 +484,6 @@ section#applications p.appTitle{
   padding-left: 5px;
 }
 
-section#accomodation p.subtitulo{
-  font-size: 40px;
-  margin-top: -25px;
-}
 section#accomodation table.table tbody td,
 section#accomodation table.table thead th{
   border-top: none;
@@ -492,11 +494,7 @@ section#accomodation table.table thead th{
 section#accomodation p.nombreHotel{
   font-size: 15px;
 }
-section#accomodation p.nombreHotel span{
-  font-family: IndivisaTextSans, sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
+
 /*
 section#accomodation a.linkCamino, section#accomodation p.groupCode{
   display: inline;

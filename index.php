@@ -65,8 +65,8 @@
         <a class="nav-item nav-link" href="#program">Program</a>
         <a class="nav-item nav-link" href="#registration">Registration</a>
         <a class="nav-item nav-link" href="#accomodation">Accommodation</a>
-        <a class="nav-item nav-link" href="#applications">Application</a>
-        <a class="nav-item nav-link" href="#alternatingProgram">Alternating Program</a>
+        <a class="nav-item nav-link" href="#applications">Submissions</a>
+        <a class="nav-item nav-link" href="#alternatingProgram">Campus visits</a>
         <a class="nav-item nav-link" href="#registrationForm">Registration Form</a>
       </div>
     </div>
@@ -86,17 +86,26 @@
 <section id="welcome" class="container-fluid">
   <div class="row">
     <div class="col-12 col-sm-4 col-xl-4">
-      <p class="text-right dear">Dear<br>Lasallians</p>
+      <p class="text-right dear">Dear<br>Lasallians<br>Colleagues</p>
     </div>
     <div class="col-12  col-sm-8 col-xl-8">
       <div class="welcomeText">
-        <p>In 2018, our International Association of Lasallian Universities celebrates 20 years of joint work and efforts to enhance the Lasallian educational project throughout the world.</p>
-        <p>We are pleased to invite the University Rectors, and the Internationalization and Postgraduate Directors to the XII Encuentro IALU and the General Assembly - Strength in Diversity: confronting global challenges through higher education.</p>
-        <p>The Encuentro will be held at Universidad La Salle, Mexico City, Mexico on June 19-21, 2018. It will be hosted by the La Salle Mexico network of universities constituted by fifteen campuses around the country. This will be an opportunity for us to reflect about the role that universities play focusing on Lasallian institutions in order to reach the Millennium Goals and be aware of the actions undertaken to reach borders and to reinforce our association.</p>
-        <p>Br. Robert Schieler, Superior General of the Brothers of the Christian Schools will be participating on the event, as well as keynote speakers talking about the global agenda and education.</p>
-        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on <a href="www.ialu.org/XII" class="linkCarta" target="_blak" rel="noopener">www.ialu.org/XII</a> not later than May 30, 2018.</p>
-        <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, the successful cases exposition, and the photo exhibition. Please visit www.ialu.org/XII to learn more about the full program and the Encuentro.</p>
-        <p>As Lasallian universities we are convinced that the only way to face the global challenges is through education, research and innovation; people are the key to do so and it is within them that we shall find the strength to keep transforming our world: diversity.</p>
+        <p>On behalf of the International Association of La Salle Universities, it is my pleasure to write you to invite you to <strong>Encuentro XII - Strength in Diversity: confronting global challenges through higher education.</strong></p>
+
+        <p>The Encuentro will be held at Universidad La Salle, Mexico City, Mexico on June 19-21, 2018. It will be hosted by the La Salle Mexico network of universities constituted by fifteen campuses around the country. This will be an opportunity for us to reflect about the role that universities play in providing answers to the difficult questions that are posed before us in everyday life.</p>
+
+        <p>As IALU celebrates its 20<sup>th</sup> Anniversary, this will also be a forum for us to engage on how far we have traveled as a network and identify the necessary actions for us to ensure sustainable progress in the next two decades.</p>
+
+        <p>Br. Robert Schieler, Superior General of the Brothers of the Christian Schools will be participating on the event, as well as keynote speakers which will bring light to the topics of internationalization and also innovation.</p>
+
+        <p>We encourage each President to be present. We also encourage Presidents to bring up to three people who might play an important role in one of the themes of IALU Committees (Mission, Internationalization and Research) or are representatives of other sectors of the institution’s leadership.</p>
+
+        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on <a href="http://www.ialu.org/XII" class="linkCarta" target="_blak" rel="noopener">www.ialu.org/XII</a> not later than May 30, 2018. At the program website, participants will have the choice of two hotels and transportations to and from the hotel to the program activities will be included.</p>
+
+        <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, a presentation of selected success stories and the photo exhibition. Please visit <a href="http://www.ialu.org/XII" class="linkCarta" target="_blak" rel="noopener">www.ialu.org/XII</a> to learn more about the full program and the Encuentro.</p>
+
+        <p>Finally, we note that while we will have sessions in two universities, the opportunity exists to develop stronger ties with our Mexican institutions both prior and after the Encuentro. We strongly encourage participants to take advantage of this opportunity to learn and interact with our Mexican counterparts. The details for these institutional visits are also provided in the Encuentro website.</p>
+
         <p>We look forward to seeing you at the XII Encuentro IALU.</p>
         <p>Indivisa Manent</p>
       </div>
@@ -167,11 +176,11 @@
       <div class="col-12 col-sm-6 boxMonday">
         <p class="orangeBG col-sm-4 col-md-6">Monday, June 18</p>
         <hr class="orange">
-          <div class="row content">
+          <div class="row content no-gutters">
             <div class="col-5 col-sm-3 col-md-5">16:00 20:00</div>
             <div class="col-7 col-sm-9 col-md-7">Check in at Hotel</div>
             <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
-            <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail - Camino Real Hotel</div>
+            <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail</div>
           </div>
       </div>
       <div class="col-12 col-sm-6 d-none d-sm-block">
@@ -185,7 +194,7 @@
         <p class="day">Day 1</p>
         <p class="date">Tuesday, June 19</p>
         <hr class="orange">
-        <div class="row content">
+        <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:15</div>
           <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
@@ -217,7 +226,7 @@
         <p class="day">Day 2</p>
         <p class="date">Wednesday, June 20</p>
         <hr class="orange">
-        <div class="row content">
+        <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:00</div>
           <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
@@ -250,7 +259,7 @@
         <p class="day">Day 3</p>
         <p class="date">Thursday, June 21</p>
         <hr class="orange">
-        <div class="row content">
+        <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:30</div>
           <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
           <div class="col-5 col-sm-3 col-md-5">9:00 09:45</div>
@@ -270,11 +279,11 @@
         </div>
       </div>
     </div>
-    <div class="row endContent">
+    <div class="row endContent ">
         <div class="col-sm-5">
           <p class="orangeBG col-sm-4 col-md-7">Friday, June 22</p>
           <hr class="orange">
-          <div class="row content">
+          <div class="row content no-gutters">
             <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
             <div class="col-7 col-sm-9 col-md-7">IALU Board Meeting</div>
           </div>
@@ -366,14 +375,13 @@
 </section>
 <section class="container-fluid" id="accomodation">
   <p class="titulo">Accommodation</p>
-  <p class="subtitulo">(maps)</p>
   <p>Hotel reservations shall be directly arranged with the hotel.</p>
 
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
       <div class="row no-gutters">
         <div class="col-12 col-sm-12 col-md-6">
-          <p class="nombreHotel">Hotel Camino Real Polanco <span>(host hotel)</span></p>
+          <p class="nombreHotel">Hotel Camino Real Polanco</p>
           <figure class="text-center"><img src="images/home/IALULanding_CaminoReal.png" alt="" class="img-fluid"></figure>
           
         </div>
@@ -384,7 +392,7 @@
       <div class="row">
         <div class="col">
           <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590,<br>Phone: +52 (55) 52 63 8888 </p>
-          <a clas="linkCamino" href="http://www.caminoreal.com/">www.caminoreal.com</a>
+          <a clas="linkCamino" href="https://www.caminoreal.com/Hotels/Details/CR/MEX" target="_blank" rel="noopener">www.caminoreal.com</a>
           <p class="groupCode">Group Code: La Salle</p>
         </div>
       </div>
@@ -432,7 +440,7 @@
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
       <div class="row no-gutters">
         <div class="col-12 col-sm-12 col-md-6">
-          <p class="nombreHotel">Hotel Galería Plaza <span>(alternate seat)</span></p>
+          <p class="nombreHotel">Hotel Galería Plaza Reforma</p>
           <figure class="text-center"><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
         </div>
         <div class="col-12 col-sm-12 col-md-6">
@@ -442,7 +450,7 @@
       <div class="row">
         <div class="col">
           <p class="direccion">Hamburgo 195, Col. Juárez, CDMX, 06600,<br>Phone: +52 (55) 52 30 1717</p>
-          <a href="http://www.brisas.com.mx">www.brisas.com.mx</a>
+          <a href="https://www.galeriaplazahotels.com.mx/en/reforma/" target="_blank" rel="noopener">www.galeriaplazahotels.com.mx</a>
         </div>
       </div>
       <div class="row justify-content-end">
@@ -450,15 +458,15 @@
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">Room Type</th>
+                <th scope="col">Room Type<br>$USD</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Single $1,650.00</td>
+                <td>Single $88.59</td>
               </tr>
               <tr>
-                <td>Double $1,850.00</td>
+                <td>Double $99.33</td>
               </tr>
             </tbody>
           </table>
@@ -480,7 +488,7 @@
 </section>
 
 <section id="applications" class="container-fluid">
-  <p class="titulo">Applications</p>
+  <p class="titulo">Submissions</p>
   <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
       <figure class="text-center"><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
@@ -539,14 +547,14 @@
 </section>
 
 <section id="alternatingProgram" class="container-fluid">
-  <p class="text-right title">Alternating<br><span class="mayores">>></span> Program</p>
+  <p class="text-right title">Campus<br><span class="mayores">>></span> visits</p>
 
   <div class="row visitUniBox">
     <div class="col-12 col-sm-4 col-md-6 col-lg-4">
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
     <div class="col-12 col-sm-8 col-md-6 col-lg-8">
-      <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to see the main tourist attractions of the state.</p>
+      <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
       <p>Those activities have an additional charge for transportation and accommodation.</p>
 
     </div>
@@ -561,7 +569,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Cancun.pdf">
+          <a href="descargables/IALU_VISIT_Cancun.pdf" target="_blank">
           <figure class="text-center">
             <figcaption>Cancún</figcaption>
             <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -569,7 +577,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Cuernavaca.pdf">
+          <a href="descargables/IALU_VISIT_Cuernavaca.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Cuernavaca</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -577,7 +585,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Laguna.pdf">
+          <a href="descargables/IALU_VISIT_Laguna.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Laguna</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -585,7 +593,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Noroeste.pdf">
+          <a href="descargables/IALU_VISIT_Noroeste.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Noroeste</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -593,7 +601,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Oaxaca.pdf">
+          <a href="descargables/IALU_VISIT_Oaxaca.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Oaxaca</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -601,7 +609,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Pachuca.pdf">
+          <a href="descargables/IALU_VISIT_Pachuca.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Pachuca</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -609,7 +617,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Puebla.pdf">
+          <a href="descargables/IALU_VISIT_Puebla.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Puebla</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -617,7 +625,7 @@
           </a>
         </div>
         <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Saltillo.pdf">
+          <a href="descargables/IALU_VISIT_Saltillo.pdf" target="_blank">
             <figure class="text-center">
               <figcaption>Saltillo</figcaption>
               <img src="images/home/flecha.png" alt="" class="img-fluid">
@@ -712,6 +720,9 @@
             <option>S</option>
             <option>M</option>
             <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>XXXL</option>
           </select>
         </div>
       </div>
