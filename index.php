@@ -12,22 +12,20 @@
 
 
     <!--Facebook -->
-    <!--
-    <meta property="og:url" content="http://informerector.lasalle.mx"/>
+
+    <meta property="og:url" content="http://www.lasalle.mx/ialu"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="http://informerector.lasalle.mx/images/FACEBOOK_PREVIEW.png" />
-    <meta property="og:title" content="Comunicado de Gestión 2014-2017" />
-    <meta property="og:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
-    -->
+    <meta property="og:image" content="http://www.lasalle.mx/ialu/images/home/IALULanding_Strength.png" />
+    <meta property="og:title" content="Encuetro IALU 2018 | La Salle" />
+    <meta property="og:description" content="Strength in Diversity">
+
     <!-- Twitter-->
-    <!--
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@RectorLaSalle">
+    <meta name="twitter:site" content="@LaSalle_MX">
     <meta name="twitter:creator" content="@LaSalle_MX">
-    <meta name="twitter:title" content="Comunicado de Gestión 2014-2017">
-    <meta name="twitter:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
-    <meta name="twitter:image" content="http://informerector.lasalle.mx/images/TWITTER_CARD.png">
-     -->
+    <meta name="twitter:title" content="Encuetro IALU 2018 | La Salle">
+    <meta name="twitter:description" content="Strength in Diversity">
+    <meta name="twitter:image" content="http://www.lasalle.mx/ialu/images/home/IALULanding_Strength.png">
 
     <title>Encuetro IALU 2018 | La Salle</title>
 
