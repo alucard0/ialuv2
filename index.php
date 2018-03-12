@@ -780,7 +780,10 @@
       </div>
     </div>
     <div class="form-row">
-      <div class="col-12 col-sm-12 col-md-3">
+      <div class="col-2 col-sm-2 col-md-1">
+        <figure class="text-right"><img src="images/home/country.png" alt=""></figure>
+      </div>
+      <div class="col-10 col-sm-10 col-md-3">
          <div class="form-group">
               <select class="js-example-basic-single form-control" id="inputCountry" name="inputCountry" onchange="getval(this);" >
               <option value="" selected disabled>Country*</option>
@@ -798,7 +801,7 @@
             <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province*" maxlength="140">
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-3">
+      <div class="col-12 col-sm-12 col-md-2">
         <div class="form-group">
             <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code*" maxlength="10">
         </div>
@@ -837,7 +840,7 @@
       <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-10.png" alt=""></figure>
       </div>
-      <div class="col-10 col-sm-10 col-md-4">
+      <div class="col-10 col-sm-10 col-md-5">
           <div class="form-group">
            <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*" maxlength="140">
         </div>
@@ -850,7 +853,7 @@
             <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code" maxlength="8">
         </div>
       </div>
-      <div class="col-6 col-sm-6 col-md-4">
+      <div class="col-6 col-sm-6 col-md-3">
         <div class="form-group">
             <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency*" maxlength="15">
         </div>
@@ -945,7 +948,10 @@
           </div>
         </div>
         <div class="form-row">
-          <div class="col-12 col-sm-12 col-md-3">
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/country.png" alt=""></figure>
+          </div>
+          <div class="col-10 col-sm-10 col-md-3">
              <div class="form-group">
                   <select class="js-example-basic-single form-control" id="inputCountryCompanion" name="inputCountryCompanion" onchange="getvalCompanion(this);" >
                   <option value="" selected disabled>Country*</option>
@@ -963,7 +969,7 @@
                 <input type="text" class="form-control" id="inputStateCompanion" name="inputStateCompanion" placeholder="State/Province*" maxlength="140">
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-3">
+          <div class="col-12 col-sm-12 col-md-2">
             <div class="form-group">
                 <input type="text" class="form-control" id="inputZipCompanion" name="inputZipCompanion" placeholder="Postal Code*" maxlength="10">
             </div>
@@ -1002,7 +1008,7 @@
           <div class="col-2 col-sm-2 col-md-1">
             <figure class="text-right"><img src="images/home/LandingPage-10.png" alt=""></figure>
           </div>
-          <div class="col-10 col-sm-10 col-md-4">
+          <div class="col-10 col-sm-10 col-md-5">
               <div class="form-group">
                <input type="text" class="form-control" id="inputEmergencyContactCompanion" name="inputEmergencyContactCompanion" placeholder="Contact in case of emergency*" maxlength="140">
             </div>
@@ -1015,7 +1021,7 @@
                 <input type="tel" class="form-control" id="inputEmergencyPhoneCCCompanion" name="inputEmergencyPhoneCCCompanion" placeholder="Country code" maxlength="8">
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-4">
+          <div class="col-6 col-sm-6 col-md-3">
             <div class="form-group">
                 <input type="tel" class="form-control" id="inputEmergencyPhoneCompanion" name="inputEmergencyPhoneCompanion" placeholder="Telephone in case of emergency*" maxlength="15">
             </div>
