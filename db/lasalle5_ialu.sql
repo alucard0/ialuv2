@@ -1,12 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.7
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 06, 2018 at 06:56 PM
--- Server version: 10.1.26-MariaDB
--- PHP Version: 7.1.9
+-- Servidor: localhost:3306
+-- Tiempo de generación: 12-03-2018 a las 10:54:08
+-- Versión del servidor: 5.6.38
+-- Versión de PHP: 5.6.30
 
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -18,25 +19,35 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ialu`
+-- Base de datos: `lasalle5_ialu`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pais`
+-- Estructura de tabla para la tabla `acompanante`
 --
 
-CREATE TABLE IF NOT EXISTS `pais` (
-  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+CREATE TABLE `acompanante` (
+  `id_persona` int(10) UNSIGNED NOT NULL,
+  `id_participante` int(10) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `pais`
+--
+
+CREATE TABLE `pais` (
+  `id` int(10) UNSIGNED NOT NULL,
   `nombre` varchar(300) NOT NULL,
   `codigo` varchar(5) DEFAULT NULL,
-  `lada` varchar(10) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=247 DEFAULT CHARSET=latin1;
+  `lada` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `pais`
+-- Volcado de datos para la tabla `pais`
 --
 
 INSERT INTO `pais` (`id`, `nombre`, `codigo`, `lada`) VALUES
@@ -289,60 +300,174 @@ INSERT INTO `pais` (`id`, `nombre`, `codigo`, `lada`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `participante`
+-- Estructura de tabla para la tabla `participante`
 --
 
-CREATE TABLE IF NOT EXISTS `participante` (
-  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-  `prefijo` varchar(10) DEFAULT NULL,
-  `nombre` varchar(140) NOT NULL,
-  `apellido` varchar(140) NOT NULL,
-  `telefono_fk` int(10) UNSIGNED NOT NULL,
+CREATE TABLE `participante` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `id_persona` int(10) UNSIGNED NOT NULL,
   `institucion` varchar(140) NOT NULL,
-  `celular_fk` int(10) UNSIGNED NOT NULL,
-  `email` varchar(140) NOT NULL,
-  `contacto_emergencia` varchar(140) NOT NULL,
-  `sexo` char(1) DEFAULT NULL,
-  `talla` char(1) DEFAULT NULL,
-  `telefono_emergencia_fk` int(10) UNSIGNED DEFAULT NULL,
-  `ciudad` varchar(140) DEFAULT NULL,
-  `estado` varchar(140) NOT NULL,
-  `CP` varchar(10) NOT NULL,
-  `direccion1` varchar(200) NOT NULL,
-  `direccion2` varchar(200) DEFAULT NULL,
+  `talla` char(1) NOT NULL,
   `twitter` varchar(100) DEFAULT NULL,
-  `linkedIn` varchar(100) DEFAULT NULL,
-  `pais_fk` int(10) UNSIGNED DEFAULT NULL,
-  `commentario` varchar(300) DEFAULT NULL,
-  `Posicion` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `pais_fk` (`pais_fk`),
-  KEY `telefono_fk` (`telefono_fk`),
-  KEY `telefono_emergencia_fk` (`telefono_emergencia_fk`),
-  KEY `celular_fk` (`celular_fk`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+  `linkedin` varchar(100) DEFAULT NULL,
+  `posicion` varchar(100) NOT NULL,
+  `prefijo` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `participante`
+--
+
+INSERT INTO `participante` (`id`, `id_persona`, `institucion`, `talla`, `twitter`, `linkedin`, `posicion`, `prefijo`) VALUES
+(14, 23, 'La Salle CDMX', 'L', 'meluani', 'meluani ', 'Dircom', 'PhD');
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `telefono`
+-- Estructura de tabla para la tabla `persona`
 --
 
-CREATE TABLE IF NOT EXISTS `telefono` (
-  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+CREATE TABLE `persona` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `nombre` varchar(140) NOT NULL,
+  `apellido` varchar(140) NOT NULL,
+  `email` varchar(254) NOT NULL,
+  `contacto_emergencia` varchar(140) NOT NULL,
+  `sexo` char(1) NOT NULL,
+  `direccion1` varchar(200) NOT NULL,
+  `direccion2` varchar(200) DEFAULT NULL,
+  `ciudad` varchar(140) DEFAULT NULL,
+  `estado` varchar(140) NOT NULL,
+  `cp` varchar(10) NOT NULL,
+  `pais_fk` int(10) UNSIGNED NOT NULL,
+  `comentario` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `persona`
+--
+
+INSERT INTO `persona` (`id`, `nombre`, `apellido`, `email`, `contacto_emergencia`, `sexo`, `direccion1`, `direccion2`, `ciudad`, `estado`, `cp`, `pais_fk`, `comentario`) VALUES
+(23, 'Mijail ', 'Eluani ', 'maep@ulsa.mx', 'Tony ', 'M', 'Benjamin Franklin ', '45', 'CDMX', 'CDMX', '06140', 141, 'No me gusta el huevo, ni las verduras. \n');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `telefono`
+--
+
+CREATE TABLE `telefono` (
+  `id` int(10) UNSIGNED NOT NULL,
   `lada` varchar(8) DEFAULT NULL,
-  `numero` varchar(15) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
-
+  `numero` varchar(15) NOT NULL,
+  `id_persona` int(10) UNSIGNED NOT NULL,
+  `tipo` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Constraints for table `participante`
+-- Volcado de datos para la tabla `telefono`
+--
+
+INSERT INTO `telefono` (`id`, `lada`, `numero`, `id_persona`, `tipo`) VALUES
+(43, '+52', '5552789500', 23, 'Casa'),
+(44, '+52', '5540214822', 23, 'Celular'),
+(45, '+52', '55284818', 23, 'Emergencia');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `acompanante`
+--
+ALTER TABLE `acompanante`
+  ADD PRIMARY KEY (`id_persona`,`id_participante`),
+  ADD KEY `id_persona` (`id_persona`),
+  ADD KEY `id_participante` (`id_participante`);
+
+--
+-- Indices de la tabla `pais`
+--
+ALTER TABLE `pais`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `participante`
 --
 ALTER TABLE `participante`
-  ADD CONSTRAINT `participante_ibfk_1` FOREIGN KEY (`pais_fk`) REFERENCES `pais` (`id`),
-  ADD CONSTRAINT `participante_ibfk_2` FOREIGN KEY (`telefono_fk`) REFERENCES `telefono` (`id`),
-  ADD CONSTRAINT `participante_ibfk_3` FOREIGN KEY (`telefono_emergencia_fk`) REFERENCES `telefono` (`id`),
-  ADD CONSTRAINT `participante_ibfk_4` FOREIGN KEY (`celular_fk`) REFERENCES `telefono` (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_persona` (`id_persona`);
+
+--
+-- Indices de la tabla `persona`
+--
+ALTER TABLE `persona`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `pais_fk` (`pais_fk`);
+
+--
+-- Indices de la tabla `telefono`
+--
+ALTER TABLE `telefono`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_persona` (`id_persona`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `pais`
+--
+ALTER TABLE `pais`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=247;
+
+--
+-- AUTO_INCREMENT de la tabla `participante`
+--
+ALTER TABLE `participante`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT de la tabla `persona`
+--
+ALTER TABLE `persona`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+
+--
+-- AUTO_INCREMENT de la tabla `telefono`
+--
+ALTER TABLE `telefono`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `acompanante`
+--
+ALTER TABLE `acompanante`
+  ADD CONSTRAINT `fk_Participante` FOREIGN KEY (`id_participante`) REFERENCES `participante` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `fk_Persona1` FOREIGN KEY (`id_persona`) REFERENCES `persona` (`id`) ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `participante`
+--
+ALTER TABLE `participante`
+  ADD CONSTRAINT `fk_Persona0` FOREIGN KEY (`id_persona`) REFERENCES `persona` (`id`) ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `persona`
+--
+ALTER TABLE `persona`
+  ADD CONSTRAINT `fk_Pais` FOREIGN KEY (`pais_fk`) REFERENCES `pais` (`id`) ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `telefono`
+--
+ALTER TABLE `telefono`
+  ADD CONSTRAINT `fk_Persona2` FOREIGN KEY (`id_persona`) REFERENCES `persona` (`id`) ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
