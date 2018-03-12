@@ -458,15 +458,15 @@
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">Room Type<br>$USD</th>
+                <th scope="col">Room Type</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Single $88.59</td>
+                <td>Single $1,650.00</td>
               </tr>
               <tr>
-                <td>Double $99.33</td>
+                <td>Double $1,850.00</td>
               </tr>
             </tbody>
           </table>
