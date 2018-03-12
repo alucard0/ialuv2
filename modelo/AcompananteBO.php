@@ -13,6 +13,16 @@ include_once '../modelo/ConectaBD.php';
 			
 		}
 		//Metodos
+		public function insertarAcompanante($acompanante_datos){
+			$bdconectada = new ConectaBD();
+			$bdconectada->conectar();
+
+			$query='INSERT INTO acompanante (id_persona, id_participante) VALUES('.$acompanante_datos->idPersona.','.$acompanante_datos->idParticipante.')';
+
+			$bdconectada->escribir($query);
+
+			$bdconectada->desconectar();
+		}
 	}
 
 

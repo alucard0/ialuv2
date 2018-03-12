@@ -23,7 +23,7 @@
 		private $extras;
 
 		//Constructor
-		public function __construct($post)
+		public function __construct1($post)
 		{
 			$this->name = $post['name'];
 			$this->surname = $post['surname'];
@@ -38,6 +38,13 @@
 			$this->address2 = $post['address2'];
 			$this->extras = $post['extras'];
 			
+		}
+		public function __construct(){
+			$a = func_get_args(); 
+	        $i = func_num_args(); 
+	        if (method_exists($this,$f='__construct'.$i)) { 
+	            call_user_func_array(array($this,$f),$a); 
+	        } 
 		}
 		//Metodos
 		public function __set($name,$value){
