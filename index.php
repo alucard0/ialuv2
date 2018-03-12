@@ -12,22 +12,20 @@
 
 
     <!--Facebook -->
-    <!--
-    <meta property="og:url" content="http://informerector.lasalle.mx"/>
+
+    <meta property="og:url" content="http://www.lasalle.mx/ialu"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="http://informerector.lasalle.mx/images/FACEBOOK_PREVIEW.png" />
-    <meta property="og:title" content="Comunicado de Gestión 2014-2017" />
-    <meta property="og:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
-    -->
+    <meta property="og:image" content="http://www.lasalle.mx/ialu/images/home/IALULanding_Strength.png" />
+    <meta property="og:title" content="Encuetro IALU 2018 | La Salle" />
+    <meta property="og:description" content="Strength in Diversity">
+
     <!-- Twitter-->
-    <!--
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@RectorLaSalle">
+    <meta name="twitter:site" content="@LaSalle_MX">
     <meta name="twitter:creator" content="@LaSalle_MX">
-    <meta name="twitter:title" content="Comunicado de Gestión 2014-2017">
-    <meta name="twitter:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
-    <meta name="twitter:image" content="http://informerector.lasalle.mx/images/TWITTER_CARD.png">
-     -->
+    <meta name="twitter:title" content="Encuetro IALU 2018 | La Salle">
+    <meta name="twitter:description" content="Strength in Diversity">
+    <meta name="twitter:image" content="http://www.lasalle.mx/ialu/images/home/IALULanding_Strength.png">
 
     <title>Encuetro IALU 2018 | La Salle</title>
 
@@ -170,11 +168,9 @@
         <p class="orangeBG col-sm-4 col-md-6">Monday, June 18</p>
         <hr class="orange">
           <div class="row content">
-            <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
-            <div class="col-7 col-sm-9 col-md-7">Meetings by region</div>
-            <div class="col-5 col-sm-3 col-md-5">16:00 18:00</div>
-            <div class="col-7 col-sm-9 col-md-7">Registration for participants</div>
-            <div class="col-5 col-sm-3 col-md-5">19:00</div>
+            <div class="col-5 col-sm-3 col-md-5">16:00 20:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Check in at Hotel</div>
+            <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
             <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail - Camino Real Hotel</div>
           </div>
       </div>
@@ -190,23 +186,30 @@
         <p class="date">Tuesday, June 19</p>
         <hr class="orange">
         <div class="row content">
-          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
+          <div class="col-5 col-sm-3 col-md-5">08:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
           <div class="col-7 col-sm-9 col-md-7">Opening ceremony</div>
-          <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Keynote speech</div>
+          <div class="col-5 col-sm-3 col-md-5">09:30 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Brother Superior's presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 11:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Free Time</div>
+
           <div class="col-5 col-sm-3 col-md-5">11:00 12:00</div>
-          <div class="col-7 col-sm-9 col-md-7">IALU: Celebrating 20 years</div>
+          <div class="col-7 col-sm-9 col-md-7">Hans de Wit presentation</div>
           <div class="col-5 col-sm-3 col-md-5">12:00 13:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Free time</div>
+          <div class="col-7 col-sm-9 col-md-7">IALU: Celebrating 20 years</div>
           <div class="col-5 col-sm-3 col-md-5">13:00 14:30</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
           <div class="col-5 col-sm-3 col-md-5">14:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Official photo</div>
-          <div class="col-5 col-sm-3 col-md-5">15:00 16:30</div>
-          <div class="col-7 col-sm-9 col-md-7">UN Confernence</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 15:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Best Practices</div>
+          <div class="col-5 col-sm-3 col-md-5">15:45 16:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Poster Fair</div>
           <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
           <div class="col-7 col-sm-9 col-md-7">Coffee between experts</div>
-          <div class="col-5 col-sm-3 col-md-5">18:30 20:00</div>
+          <div class="col-5 col-sm-3 col-md-5">19:00 20:30</div>
           <div class="col-7 col-sm-9 col-md-7">Wellness Center Opneing</div>
         </div>
       </div>
@@ -215,19 +218,31 @@
         <p class="date">Wednesday, June 20</p>
         <hr class="orange">
         <div class="row content">
-          <div class="col-5 col-sm-3 col-md-5">09:00 10:30</div>
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
+          <div class="col-5 col-sm-3 col-md-5">09:30 10:00</div>
           <div class="col-7 col-sm-9 col-md-7">Case: La Salle Nezahualcóyotl</div>
-          <div class="col-5 col-sm-3 col-md-5">10:30 11:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Brother Superior's presentation</div>
-          <div class="col-5 col-sm-3 col-md-5">11:30 13:00</div>
-          <div class="col-7 col-sm-9 col-md-7">The border: successful cases</div>
-          <div class="col-5 col-sm-3 col-md-5">13:00 14:30</div>
+          <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Google Conference</div>
+          <div class="col-5 col-sm-3 col-md-5">11:00 11:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Free Time</div>
+          <div class="col-5 col-sm-3 col-md-5">11:15 12:00</div>
+          <div class="col-7 col-sm-9 col-md-7">#LaSalle300</div>
+          <div class="col-5 col-sm-3 col-md-5">12:00 13:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Bilateral Networking IALU </div>
+          <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
-          <div class="col-5 col-sm-3 col-md-5">15:00 16:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 16:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Cultural Exhibition La Salle Oaxaca</div>
+          <div class="col-5 col-sm-3 col-md-5">16:00 17:00</div>
+          <div class="col-7 col-sm-9 col-md-7">On our way to Basílica of Guadalupe</div>
           <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
           <div class="col-7 col-sm-9 col-md-7">Mass held in the Basílica of Guadalupe</div>
-          <div class="col-5 col-sm-3 col-md-5">19:00 </div>
+          <div class="col-5 col-sm-3 col-md-5">18:00 19:00</div>
+          <div class="col-7 col-sm-9 col-md-7">On our way to the National Museum of Anthropology</div>
+          <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
           <div class="col-7 col-sm-9 col-md-7">Dinner at the National Museum of Anthropology</div>
         </div>
       </div>
@@ -236,20 +251,22 @@
         <p class="date">Thursday, June 21</p>
         <hr class="orange">
         <div class="row content">
-          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Presentation</div>
-          <div class="col-5 col-sm-3 col-md-5">10:00 11:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by commission</div>
-          <div class="col-5 col-sm-3 col-md-5">11:30 12:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Free time</div>
-          <div class="col-5 col-sm-3 col-md-5">12:00 13:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Summary</div>
-          <div class="col-5 col-sm-3 col-md-5">14:00 15:30</div>
+          <div class="col-5 col-sm-3 col-md-5">08:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
+          <div class="col-5 col-sm-3 col-md-5">9:00 09:45</div>
+          <div class="col-7 col-sm-9 col-md-7">President's Address</div>
+          <div class="col-5 col-sm-3 col-md-5">09:45 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Executive Director Address</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 10:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Free Time</div>
+          <div class="col-5 col-sm-3 col-md-5">10:45 12:45</div>
+          <div class="col-7 col-sm-9 col-md-7">General Assembly</div>
+          <div class="col-5 col-sm-3 col-md-5">12:45 13:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Election - Board of Directors</div>
+          <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
-          <div class="col-5 col-sm-3 col-md-5">15:30 16:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Assembly</div>
-          <div class="col-5 col-sm-3 col-md-5">16:30 17:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Closing ceremony</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 18:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Work by commission</div>
         </div>
       </div>
     </div>
@@ -259,9 +276,7 @@
           <hr class="orange">
           <div class="row content">
             <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
-            <div class="col-7 col-sm-9 col-md-7">IALU Board</div>
-            <div class="col-5 col-sm-3 col-md-5">12:00</div>
-            <div class="col-7 col-sm-9 col-md-7">Visit to universities</div>
+            <div class="col-7 col-sm-9 col-md-7">IALU Board Meeting</div>
           </div>
         </div>
         <div class="col-sm-7">
