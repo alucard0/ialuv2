@@ -62,12 +62,12 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#program">Program</a>
-        <a class="nav-item nav-link" href="#registration">Registration</a>
+        <a class="nav-item nav-link" href="#program">Program</a> 
         <a class="nav-item nav-link" href="#accomodation">Accommodation</a>
         <a class="nav-item nav-link" href="#applications">Submissions</a>
         <a class="nav-item nav-link" href="#alternatingProgram">Campus visits</a>
-        <a class="nav-item nav-link" href="#registrationForm">Registration Form</a>
+        <a class="nav-item nav-link" href="#registration">Registration</a>
+        <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
       </div>
     </div>
   </nav>
@@ -246,9 +246,9 @@
           <div class="col-5 col-sm-3 col-md-5">15:00 16:00</div>
           <div class="col-7 col-sm-9 col-md-7">Cultural Exhibition La Salle Oaxaca</div>
           <div class="col-5 col-sm-3 col-md-5">16:00 17:00</div>
-          <div class="col-7 col-sm-9 col-md-7">On our way to Basílica of Guadalupe</div>
+          <div class="col-7 col-sm-9 col-md-7">On our way to Basilica of Guadalupe</div>
           <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Mass held in the Basílica of Guadalupe</div>
+          <div class="col-7 col-sm-9 col-md-7">Mass held in the Basilica of Guadalupe</div>
           <div class="col-5 col-sm-3 col-md-5">18:00 19:00</div>
           <div class="col-7 col-sm-9 col-md-7">On our way to the National Museum of Anthropology</div>
           <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
@@ -296,83 +296,8 @@
     </div>
 </section>
 
-<section id="registration" class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-sm-6">
-        <p class="text-left title"> Registration</p>
-        <hr class="green">
-    </div>
-  </div>
- 
-  <div class="row">
-    <div class="col-sm-6">
-      <p class="instruccion">Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
-      <ol class="instruccion">
-        <li>Fill in the registration form here</li>
-        <li>Registration fee</li>
-        <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
-      </ol>
-      <div class="bgAzul feeInfo">
-        <p class="title">Registration fee information:</p>
-        <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
-      </div>
-      <div class="moreInfo">
-        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
-        
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="row">
-        <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75 float-right"></figure>
-        </div>
-        <div class="col-sm-8">
-          <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
-          <ul class="list-unstyled infoPay">
-            <li>Bank: Banamex</li>
-            <li>Account 11 digits: 0141 9085 533</li>
-            <li>Account 18 digits: 002180650383152558</li>
-            <li>Account name: SEDES</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row boxCurrency">
-        <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75 float-right"></figure>
-        </div>
-        <div class="col-sm-8">
-          <p class="orangeBG col-sm-3 col-md-5 currency">USD</p>
-          <ul class="list-unstyled infoPay">
-            <li>Bank: Banamex</li>
-            <li>Account 11 digits: 0141 9085 533</li>
-            <li>Account 18 digits: 002 180 0141 9085 533 8</li>
-            <li>SWIFT code: BNMXMXMM</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row boxCurrency">
-        <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75 float-right"></figure>
-        </div>
-        <div class="col-sm-8">
-          <p class="orangeBG col-sm-3 col-md-5 currency">EUROS</p>
-          <ul class="list-unstyled infoPay">
-            <li>Beneficiary Bank: Bank Santander México S.A.</li>
-            <li>SWIFT code: BMSXMXMM</li>
-            <li>Final Beneficiary: Universidad La Salle A.C.</li>
-            <li>Account 11 digits: 519-081-20039</li>
-            <li>Account 18 digits: 014180519081200394</li>
-            <li>Correspondent Bank: Banco Santander</li>
-            <br>
-            <li>City: Madrid España</li>
-            <li>SWIFT code: BSCHESMM</li>
-            <li>Account: BMSXMXMM</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+
 <section class="container-fluid" id="accomodation">
   <p class="titulo">Accommodation</p>
   <p>Hotel reservations shall be directly arranged with the hotel.</p>
@@ -451,6 +376,7 @@
         <div class="col">
           <p class="direccion">Hamburgo 195, Col. Juárez, CDMX, 06600,<br>Phone: +52 (55) 52 30 1717</p>
           <a href="https://www.galeriaplazahotels.com.mx/en/reforma/" target="_blank" rel="noopener">www.galeriaplazahotels.com.mx</a>
+          <p class="groupCode">Group Code: La Salle</p>
         </div>
       </div>
       <div class="row justify-content-end">
@@ -647,7 +573,83 @@
     </div>
   </div>
 </section>
-
+<section id="registration" class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-6">
+        <p class="text-left title"> Registration</p>
+        <hr class="green">
+    </div>
+  </div>
+ 
+  <div class="row">
+    <div class="col-sm-6">
+      <p class="instruccion">Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
+      <ol class="instruccion">
+        <li>Fill in the registration form</li>
+        <li>Registration fee</li>
+        <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
+      </ol>
+      <div class="bgAzul feeInfo">
+        <p class="title">Registration fee information:</p>
+        <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
+      </div>
+      <div class="moreInfo">
+        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+        
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75 float-right"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
+          <ul class="list-unstyled infoPay">
+            <li>Bank: Banamex</li>
+            <li>Account 11 digits: 0141 9085 533</li>
+            <li>Account 18 digits: 002180650383152558</li>
+            <li>Account name: SEDES</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row boxCurrency">
+        <div class="col-sm-4">
+          <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75 float-right"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="orangeBG col-sm-3 col-md-5 currency">USD</p>
+          <ul class="list-unstyled infoPay">
+            <li>Bank: Banamex</li>
+            <li>Account 11 digits: 0141 9085 533</li>
+            <li>Account 18 digits: 002 180 0141 9085 533 8</li>
+            <li>SWIFT code: BNMXMXMM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row boxCurrency">
+        <div class="col-sm-4">
+          <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75 float-right"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="orangeBG col-sm-3 col-md-5 currency">EUROS</p>
+          <ul class="list-unstyled infoPay">
+            <li>Beneficiary Bank: Bank Santander México S.A.</li>
+            <li>SWIFT code: BMSXMXMM</li>
+            <li>Final Beneficiary: Universidad La Salle A.C.</li>
+            <li>Account 11 digits: 519-081-20039</li>
+            <li>Account 18 digits: 014180519081200394</li>
+            <li>Correspondent Bank: Banco Santander</li>
+            <br>
+            <li>City: Madrid España</li>
+            <li>SWIFT code: BSCHESMM</li>
+            <li>Account: BMSXMXMM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section id="registrationForm" class="container-fluid">
   <p class="text-left title">Registration<br><span class="guion">-</span> Form <span class="mayores">>>>></span></p>
   <p class="text-right subtitle">To complete your registration to XII Encuentro IALU,<br>please fill in the following form. 
