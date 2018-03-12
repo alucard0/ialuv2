@@ -19,7 +19,7 @@ include_once '../modelo/ConectaBD.php';
 			foreach ($telefonos as $tel) {
 			    
 				$query='INSERT INTO telefono (id,lada,numero,id_persona,tipo) VALUES(null,"'.$tel->lada.'","'.$tel->numero.'",'.$tel->idPersona.',"'.$tel->tipo.'")';
-				echo $query;
+				//echo $query;
 				$bdconectada->escribir($query);
 			}
 			$bdconectada->desconectar();

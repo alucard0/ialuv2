@@ -18,6 +18,7 @@ include_once '../modelo/ConectaBD.php';
 		{
 			$bdconectada = new ConectaBD();
 			$bdconectada->conectar();
+			$idParticipante=0;
 			
 			$datos_participante->prefix = $bdconectada->escapar_datos ($datos_participante->prefix);
 			$datos_participante->institucion = $bdconectada->escapar_datos ($datos_participante->institucion);
@@ -29,7 +30,20 @@ include_once '../modelo/ConectaBD.php';
 			$query='INSERT INTO participante (id,id_persona,institucion,talla,twitter,linkedin,posicion,prefijo) VALUES(null,'.$datos_participante->idPersona.',"'.$datos_participante->institucion.'","'.$datos_participante->size.'","'.$datos_participante->twitter.'","'.$datos_participante->linkedin.'","'.$datos_participante->position.'","'.$datos_participante->prefix.'");';
 			$bdconectada->escribir($query);
 			
+			//obtenemos el ID del usuario que se agrego
+			$query="SELECT last_insert_id() as last_id from participante";
+			$result=$bdconectada->escribir($query);
+			
+			if ($result->num_rows > 0) {
+	   			$row = $result->fetch_assoc();
+				$idParticipante=$row["last_id"];
+			}
+
+
+
 			$bdconectada->desconectar();
+
+			return $idParticipante;
 		}
 		//Guardar registro de aspirante
 

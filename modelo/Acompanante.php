@@ -12,9 +12,10 @@
 		private $idParticipante;
 
 		//Constructor
-		public function __construct()
+		public function __construct($idPersona,$idParticipante)
 		{
-
+			$this->idPersona=$idPersona;
+			$this->idParticipante=$idParticipante;
 			
 		}
 		//Metodos

@@ -241,7 +241,8 @@ section#registrationForm p.title span.mayores
 section#welcome p.dear,
 section#registration p.title,
 section#accomodation p.titulo,
-section#applications p.titulo{
+section#applications p.titulo,
+section#registrationForm div.companionForm p.titulo{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -378,7 +379,9 @@ section#alternatingProgram hr.green,
 section#registration hr.green {
     border-top: 4px solid #D7F63F; 
 }
-
+section#registrationForm hr.green {
+   border-top: 2px solid #D7F63F;
+}
 p.orangeBG{
   background: #F89527;
   color: #fff;
@@ -645,7 +648,10 @@ section#registrationForm div.switch-field label:first-of-type {
 section#registrationForm div.switch-field label:last-of-type {
   border-radius: 0 4px 4px 0;
 }
-
+section#registrationForm div.companionForm p.titulo{
+  font-size: 35px;
+  margin-top: 30px;
+}
 
 button.btn{
   border-radius: 0;

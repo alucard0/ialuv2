@@ -75,3 +75,16 @@ $('a[href*="#"]')
       }
     }
   });
+
+jQuery(function($){
+$("section#registrationForm div.companionForm").hide();
+$('input[type=radio][name=switch_2]').change(function() {
+		 if (this.value == 'yes') {
+		 	$("section#registrationForm div.companionForm").show(1000);
+		 }
+		 else{//No
+		 	$("section#registrationForm div.companionForm").hide(1000);
+		 }
+
+	});
+});

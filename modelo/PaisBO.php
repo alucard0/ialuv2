@@ -28,7 +28,7 @@
 			$bd->conectar();		
 			$query = 'SELECT lada, codigo FROM pais';
 			$tipos = $bd->escribir($query);
-			$bd->desconectar();
+			
 			echo "<script>\n";
 			//echo "document.getElementById(\"inputCountry\").onchange = function() {myFunction()};\n";
 			echo "function getval(sel) {\n";
@@ -44,6 +44,24 @@
 			echo "}\n";
 			echo "}\n";
 			echo "</script>\n";
+
+			//Companion
+			$tipos = $bd->escribir($query);
+			echo "<script>\n";
+			echo "function getvalCompanion(sel) {\n";
+			echo "switch (sel.value) {\n";
+			while ($fila = mysqli_fetch_row($tipos)){
+				echo 'case "'.$fila[1]."\":\n";
+				echo 'inputLandLineCCCompanion.value = "'.$fila[0]."\";\n";
+				echo 'inputCellphoneCCCompanion.value = "'.$fila[0]."\";\n"; 
+				echo 'inputEmergencyPhoneCCCompanion.value = "'.$fila[0]."\";\n";
+				echo "break;\n";
+			}
+			echo "}\n";
+			echo "}\n";
+			echo "</script>\n";
+
+			$bd->desconectar();
 		}
 	}
 ?>

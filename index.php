@@ -649,17 +649,17 @@
         </div>
       <div class="col-3 col-sm-3 col-md-2">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix (i.e., PhD)">
+            <input type="text" class="form-control" id="inputPrefix" name="inputPrefix" placeholder="Prefix (i.e., PhD)" maxlength="30">
         </div>
       </div>
       <div class="col-7 col-sm-7 col-md-5">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name*">
+            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Name*" maxlength="140">
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-4">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last names*">
+            <input type="text" class="form-control" id="inputLastName" name="inputLastName" placeholder="Last names*" maxlength="140">
         </div>
       </div>
 
@@ -670,12 +670,12 @@
       </div>
       <div class="col-10 col-sm-10 col-md-4">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputInstitution" name="inputInstitution" placeholder="Institution/Organization*">
+            <input type="text" class="form-control" id="inputInstitution" name="inputInstitution" placeholder="Institution/Organization*" maxlength="140">
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-2">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputPosition" name="inputPosition" placeholder="Position*">
+            <input type="text" class="form-control" id="inputPosition" name="inputPosition" placeholder="Position*" maxlength="100">
         </div>
       </div>
       <div class="col-2 col-sm-2 col-md-1">
@@ -709,7 +709,7 @@
       </div>
       <div class="col-10 col-sm-10 col-md-3">
         <div class="form-group">
-          <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email*">
+          <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email*" maxlength="254">
         </div>
       </div>
 
@@ -718,7 +718,7 @@
       </div>
       <div class="col-10 col-sm-10 col-md-3">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputTwitter" name="inputTwitter" placeholder="Twitter">
+            <input type="text" class="form-control" id="inputTwitter" name="inputTwitter" placeholder="Twitter" maxlength="100">
         </div>
       </div>
       <div class="col-2 col-sm-2 col-md-1">
@@ -726,7 +726,7 @@
       </div>
       <div class="col-10 col-sm-10 col-md-3">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputLinkedIn" name="inputLinkedIn" placeholder="LinkedIn">
+            <input type="text" class="form-control" id="inputLinkedIn" name="inputLinkedIn" placeholder="LinkedIn" maxlength="100">
         </div>
       </div>
     </div>
@@ -742,12 +742,12 @@
       </div>
       <div class="col-10 col-sm-10 col-md-6">
         <div class="form-group">
-              <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Address*">
+              <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Address*" maxlength="200">
           </div>
         </div>
       <div class="col-12 col-sm-12 col-md-5">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2">
+            <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Address 2" maxlength="200">
         </div>
       </div>
     </div>
@@ -762,17 +762,17 @@
       </div>
       <div class="col-12 col-sm-12 col-md-3">
           <div class="form-group">
-            <input type="text" class="form-control" id="inputCity" name="inputCity" placeholder="City">
+            <input type="text" class="form-control" id="inputCity" name="inputCity" placeholder="City" maxlength="140">
           </div>
       </div>
       <div class="col-12 col-sm-12 col-md-3">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province*">
+            <input type="text" class="form-control" id="inputState" name="inputState" placeholder="State/Province*" maxlength="140">
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-3">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code*">
+            <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code*" maxlength="10">
         </div>
       </div>
     </div>
@@ -782,12 +782,12 @@
       </div>
       <div class="col-4 col-sm-4 col-md-2">
       <div class="form-group">
-            <input type="tel" class="form-control" id="inputLandLineCC" name="inputLandLineCC" placeholder="Country code">
+            <input type="tel" class="form-control" id="inputLandLineCC" name="inputLandLineCC" placeholder="Country code" maxlength="8">
         </div>
       </div>
       <div class="col-6 col-sm-6 col-md-3">
           <div class="form-group">
-            <input type="tel" class="form-control" id="inputLandLine" name="inputLandLine" placeholder="Telephone*">
+            <input type="tel" class="form-control" id="inputLandLine" name="inputLandLine" placeholder="Telephone*" maxlength="15">
           </div>
       </div>
       <div class="col-2 col-sm-2 col-md-1">
@@ -795,12 +795,12 @@
       </div>
       <div class="col-4 col-sm-4 col-md-2">
         <div class="form-group">
-            <input type="tel" class="form-control" id="inputCellphoneCC" name="inputCellphoneCC" placeholder="Country code">
+            <input type="tel" class="form-control" id="inputCellphoneCC" name="inputCellphoneCC" placeholder="Country code" maxlength="8">
         </div> 
       </div>
       <div class="col-6 col-sm-6 col-md-3">
         <div class="form-group">
-            <input type="tel" class="form-control" id="inputCellphone" name="inputCellphone" placeholder="Mobile Telephone*">
+            <input type="tel" class="form-control" id="inputCellphone" name="inputCellphone" placeholder="Mobile Telephone*" maxlength="15">
         </div>
       </div>
       
@@ -811,7 +811,7 @@
       </div>
       <div class="col-10 col-sm-10 col-md-4">
           <div class="form-group">
-           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*">
+           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*" maxlength="140">
         </div>
       </div>
       <div class="col-2 col-sm-2 col-md-1">
@@ -819,12 +819,12 @@
       </div>
       <div class="col-4 col-sm-4 col-md-2">
         <div class="form-group">
-            <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code">
+            <input type="tel" class="form-control" id="inputEmergencyPhoneCC" name="inputEmergencyPhoneCC" placeholder="Country code" maxlength="8">
         </div>
       </div>
       <div class="col-6 col-sm-6 col-md-4">
         <div class="form-group">
-            <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency*">
+            <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency*" maxlength="15">
         </div>
       </div>
     </div>
@@ -833,7 +833,7 @@
         <div class="form-group">
           <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,<br>
           vegetarian diet, vegan diet, etc.; or if you need<br>access assistance please write it down.</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="exampleFormControlTextarea1" rows="3" maxlength="500"></textarea>
         </div>
       </div>
     </div>
@@ -846,6 +846,166 @@
         <label for="switch_no">No</label>
       </div>
     </div>
+    <!--Companion Info-->
+    <div class="companionForm">
+      <hr class="green">
+      <p class="titulo">Companion Form</p>
+        <!--Personal Info-->
+        <div class="form-row personalInfo">
+          <div class="col-12">
+            <p class="seccionForm">Personal</p>
+            <hr>
+          </div>
+          
+          <div class="col-2 col-sm-2 col-md-1">
+            <div class="form-group">
+                <figure class="text-right"><img src="images/home/LandingPage-01.png" alt=""></figure>
+              </div>
+            </div>
+          <div class="col-7 col-sm-7 col-md-6">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputNameCompanion" name="inputNameCompanion" placeholder="Name*" maxlength="140">
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-5">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputLastNameCompanion" name="inputLastNameCompanion" placeholder="Last names*" maxlength="140">
+            </div>
+          </div>
+
+        </div>
+        <div class="form-row">
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-09.png" alt=""></figure>
+          </div>
+          <div class="col-10 col-sm-10 col-md-2">
+            <div class="form-group">
+                <select id="inputGenderCompanion" name="inputGenderCompanion" class="form-control">
+                  <option selected value="" selected disabled>Gender*</option>
+                  <option value="F">Female</option>
+                  <option value="M">Male</option>
+                </select>
+              </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-03.png" alt=""></figure>
+          </div>
+          <div class="col-10 col-sm-10 col-md-3">
+            <div class="form-group">
+              <input type="email" class="form-control" id="inputEmailCompanion" name="inputEmailCompanion" placeholder="Email*" maxlength="254">
+            </div>
+          </div>
+        </div>
+            <!--Contact Info-->
+        <div class="form-row contactInfo">
+          <div class="col-12">
+            <p class="seccionForm">Contact</p>
+            <hr>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-04.png" alt=""></figure>
+          </div>
+          <div class="col-10 col-sm-10 col-md-6">
+            <div class="form-group">
+                  <input type="text" class="form-control" id="inputAddressCompanion" name="inputAddressCompanion" placeholder="Address*" maxlength="200">
+              </div>
+            </div>
+          <div class="col-12 col-sm-12 col-md-5">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputAddress2Companion" name="inputAddress2Companion" placeholder="Address 2" maxlength="200">
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-12 col-sm-12 col-md-3">
+             <div class="form-group">
+                  <select class="js-example-basic-single form-control" id="inputCountryCompanion" name="inputCountryCompanion" onchange="getvalCompanion(this);" >
+                  <option value="" selected disabled>Country*</option>
+                  <?php include 'controlador/ControladorPaises.php'; ?>
+                </select>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3">
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputCityCompanion" name="inputCityCompanion" placeholder="City" maxlength="140">
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputStateCompanion" name="inputStateCompanion" placeholder="State/Province*" maxlength="140">
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3">
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputZipCompanion" name="inputZipCompanion" placeholder="Postal Code*" maxlength="10">
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-05.png" alt=""></figure>
+          </div>
+          <div class="col-4 col-sm-4 col-md-2">
+          <div class="form-group">
+                <input type="tel" class="form-control" id="inputLandLineCCCompanion" name="inputLandLineCCCompanion" placeholder="Country code" maxlength="8">
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+              <div class="form-group">
+                <input type="tel" class="form-control" id="inputLandLineCompanion" name="inputLandLineCompanion" placeholder="Telephone*" maxlength="15">
+              </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-06.png" alt=""></figure>
+          </div>
+          <div class="col-4 col-sm-4 col-md-2">
+            <div class="form-group">
+                <input type="tel" class="form-control" id="inputCellphoneCCCompanion" name="inputCellphoneCCCompanion" placeholder="Country code" maxlength="8">
+            </div> 
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <div class="form-group">
+                <input type="tel" class="form-control" id="inputCellphoneCompanion" name="inputCellphoneCompanion" placeholder="Mobile Telephone*" maxlength="15">
+            </div>
+          </div>
+          
+        </div>
+        <div class="form-row">
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-10.png" alt=""></figure>
+          </div>
+          <div class="col-10 col-sm-10 col-md-4">
+              <div class="form-group">
+               <input type="text" class="form-control" id="inputEmergencyContactCompanion" name="inputEmergencyContactCompanion" placeholder="Contact in case of emergency*" maxlength="140">
+            </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-1">
+            <figure class="text-right"><img src="images/home/LandingPage-11.png" alt=""></figure>
+          </div>
+          <div class="col-4 col-sm-4 col-md-2">
+            <div class="form-group">
+                <input type="tel" class="form-control" id="inputEmergencyPhoneCCCompanion" name="inputEmergencyPhoneCCCompanion" placeholder="Country code" maxlength="8">
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+            <div class="form-group">
+                <input type="tel" class="form-control" id="inputEmergencyPhoneCompanion" name="inputEmergencyPhoneCompanion" placeholder="Telephone in case of emergency*" maxlength="15">
+            </div>
+          </div>
+        </div>
+        <div class="form-row extraInfo">
+          <div class="col">
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,<br>
+              vegetarian diet, vegan diet, etc.; or if you need<br>access assistance please write it down.</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1Companion" name="exampleFormControlTextarea1Companion" rows="3" maxlength="500"></textarea>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
     <button type="button" class="btn btn-primary btn-lg" id="btnSend">Submit</button>
   </form>
 	<?php include 'controlador/ControladorTelefonos.php'; ?>
