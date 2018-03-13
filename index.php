@@ -76,7 +76,9 @@
 <!-- Slider -->
 <section id="home" class="container-fluid">
   <div class="row justify-content-center">
-    <figure><img src="images/home/IALULanding_Strength.png" alt="Strength Diversity" class="img-fluid"></figure>
+    <div class="col-12">
+      <figure><img src="images/home/IALULanding_Strength.png" alt="Strength Diversity" class="img-fluid"></figure>
+    </div>
   </div>
   <div class="row justify-content-end">
     <div class="col-sm-4"><figure><img src="images/home/IALULanding_EncuentroIALU.png" alt="Encuentro IALU XII" class="img-fluid"></figure></div>

@@ -375,7 +375,7 @@ section#applications p.infoReq{
 
 section#globalChallenges figure figcaption{
   text-transform: uppercase;
-  font-weight: bold;
+  font-size: 16px;
 }
 section#globalChallenges h1.globalTitle{
   font-size: 70px;
