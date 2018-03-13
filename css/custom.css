@@ -3,12 +3,22 @@
 /*Sans*/
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-Black.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Black-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Sans-Black-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Black-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Black-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Black-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Sans-Black-Web.svg") format('svg');
   font-weight: 900;
 }
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-BlackItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Black_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Sans-Black_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Black_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Black_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Black_Italic-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Sans-Black_Italic-Web.svg") format('svg');
   font-weight: 900;
   font-style: italic;
 }
@@ -20,13 +30,23 @@
 }
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-Bold.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Bold-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Sans-Bold-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Bold-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Bold-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Bold-Web.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Sans-Black_Italic-Web.svg") format('svg')*/
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-BoldItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Bold_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Sans-Bold_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Bold_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Bold_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Bold_Italic-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Sans-Bold_Italic-Web.svg") format('svg');
   font-weight: 700;
   font-style: italic;
 }
@@ -41,13 +61,23 @@
 
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-Light.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Light-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Light-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Light-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Light-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Light-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Sans-Light-Web.svg") format('svg');
   font-weight: 300;
 }
 
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-LightItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Light_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Sans-Light_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Light_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Light_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Light_Italic-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Sans-Light_Italic-Web.svg") format('svg');
   font-weight: 300;
   font-style: italic;
 }
@@ -58,14 +88,24 @@
 }
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-Regular.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Regular-Web.otf");
+    src: url("fonts/eot/Indivisa_Text_Sans-Regular-Web.eot"),
+         url("fonts/woff2/Indivisa_Text_Sans-Regular-Web.woff2") format('woff2'),
+         url("fonts/woff/Indivisa_Text_Sans-Regular-Web.woff") format('woff'),
+         url("fonts/ttf/Indivisa_Text_Sans-Regular-Web.ttf") format('truetype');
+         /*url("fonts/svg/Indivisa_Text_Serif-Light_Italic-Web.svg") format('svg')*/
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IndivisaTextSans";
-  src: url("fonts/IndivisaTextSans-RegularItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Sans-Regular_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Sans-Regular_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Sans-Regular_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Sans-Regular_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Sans-Regular_Italic-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Sans-Regular_Italic-Web.svg") format('svg');
   font-weight: 500;
   font-style: italic;
 }
@@ -79,12 +119,22 @@
 /*Serif*/
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-Black.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Black-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Black-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Black-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Black-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Black-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Serif-Black-Web.svg") format('svg');
   font-weight: 900;
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-BlackItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Black_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Black_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Black_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Black_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Black_Italic-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Serif-Black_Italic-Web.svg") format('svg');
   font-weight: 900;
   font-style: italic;
 }
@@ -95,12 +145,23 @@
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-Bold.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Bold-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Bold-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Bold-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Bold-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Bold-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Serif-Bold-Web.svg") format('svg');
   font-weight: 700;
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-BoldItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Bold_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Bold_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Bold_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Bold_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Bold_Italic-Web.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Serif-Bold-Web.svg") format('svg');*/
+
   font-weight: 700;
   font-style: italic;
 }
@@ -111,12 +172,22 @@
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-Light.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Light-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Light-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Light-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Light-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Light-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Serif-Light-Web.svg") format('svg');
   font-weight: 300;
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-LightItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Light_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Light_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Light_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Light_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Light_Italic-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Serif-Light_Italic-Web.svg") format('svg');
   font-weight: 300;
   font-style: italic;
 }
@@ -127,12 +198,22 @@
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-Regular.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Regular-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Regular-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Regular-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Regular-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Regular-Web.ttf") format('truetype'),
+       url("fonts/svg/Indivisa_Text_Serif-Regular-Web.svg") format('svg');
   font-weight: 500;
 }
 @font-face {
   font-family: "IndivisaTextSerif";
-  src: url("fonts/IndivisaTextSerif-RegularItalic.otf");
+  src: url("fonts/otf/Indivisa_Text_Serif-Regular_Italic-Web.otf");
+  src: url("fonts/eot/Indivisa_Text_Serif-Regular_Italic-Web.eot"),
+       url("fonts/woff2/Indivisa_Text_Serif-Regular_Italic-Web.woff2") format('woff2'),
+       url("fonts/woff/Indivisa_Text_Serif-Regular_Italic-Web.woff") format('woff'),
+       url("fonts/ttf/Indivisa_Text_Serif-Regular_Italic-Web.ttf") format('truetype');
+       /*url("fonts/svg/Indivisa_Text_Serif-Regular-Web.svg") format('svg');*/
   font-weight: 500;
   font-style: italic;
 }
