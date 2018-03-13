@@ -61,7 +61,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#home">Home</a>
         <a class="nav-item nav-link" href="#program">Program</a> 
         <a class="nav-item nav-link" href="#accomodation">Accommodation</a>
         <a class="nav-item nav-link" href="#applications">Submissions</a>
