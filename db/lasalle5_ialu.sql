@@ -307,7 +307,7 @@ CREATE TABLE `participante` (
   `id` int(10) UNSIGNED NOT NULL,
   `id_persona` int(10) UNSIGNED NOT NULL,
   `institucion` varchar(140) NOT NULL,
-  `talla` char(1) NOT NULL,
+  `talla` char(5) NOT NULL,
   `twitter` varchar(100) DEFAULT NULL,
   `linkedin` varchar(100) DEFAULT NULL,
   `posicion` varchar(100) NOT NULL,
