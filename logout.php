@@ -51,25 +51,25 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
 
 </head>
-<?php include_once 'modelo/ChecaLogin.php';?>
-<body>
-<section class="container">
-	<div class="align: center">
-		<br>
-		<h1>¡Bienvenido!</h1>
-		
-		<br>
-		<div class="row">
-			
-			<form action = "" method = "post">
-				<input type="button" class="btn-primary btn-lg" value="Descargar Base de Datos" id = "Descargar" />		
-				<input type="button" class="btn-primary btn-lg" value="Cerrar Sesion" id = "Cerrar" />
-			</form>
-		</div>		
-	</div>
-	<br>
-</section>
-</body>
-</html>
+<?php 
+include_once 'modelo/ConectaBD.php';
 
-<?php include 'footer.php';?>
+date_default_timezone_set('America/Monterrey');
+?>
+
+
+<section class="container">
+	<div class="introduccion">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="titulo_introduccion2">Sesión cerrada</p><br>
+				
+
+<?php include_once "controlador/controladorLogout.php";?>
+				<a href="login.php">Para vover a entrar, presione aquí.</a> 
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php include 'footer.php'; ?>

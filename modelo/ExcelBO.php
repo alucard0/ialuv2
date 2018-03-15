@@ -10,12 +10,19 @@
 		//Metodos
 		public function generarExcel($ArcivoExcel)
 		{	
+			//Abrir Cookie de sesion
+			session_start();
+			
 			//Conectar a la BD
 			$bdconectada = new ConectaBD();
 			$bdconectada->conectar();
 			
+			//Guardar en vitacora
+			$usr = $bdconectada->escapar_datos($_SESSION['id']);
+			$query = 'INSERT INTO action_log (Accion, User_ID) VALUES ("Descargar BD", "'.$usr.'")';
+			$bdconectada->escribir($query);
+			
 			//Mandar a traer la base de datos
-			//$query = 'SELECT aspirante.nombre, aspirante.celular, aspirante.correo, aspirante.registro, aspirante.periodo, oferta_educativa.nombre FROM aspirante, oferta_educativa WHERE oferta_educativa.id = aspirante.oferta_educativa ORDER BY aspirante.oferta_educativa ASC, aspirante.periodo DESC, aspirante.registro ASC';
 			$query = 'SELECT persona.id, participante.prefijo, persona.nombre, persona.apellido, participante.institucion, participante.posicion, persona.sexo, participante.talla, pais.nombre, persona.estado, persona.ciudad, persona.CP, persona.direccion1, persona.direccion2, persona.email, participante.twitter, participante.linkedIn, persona.contacto_emergencia, persona.comentario FROM participante, persona, pais WHERE pais.id = persona.pais_fk AND participante.id_persona = persona.id';
 			$query = $bdconectada->escribir($query);
 			
