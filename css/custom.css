@@ -323,7 +323,8 @@ section#welcome p.dear,
 section#registration p.title,
 section#accomodation p.titulo,
 section#applications p.titulo,
-section#registrationForm div.companionForm p.titulo{
+section#registrationForm div.companionForm p.titulo,
+section#accomodation p.nota{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 700;
   font-style: italic;

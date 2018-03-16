@@ -330,37 +330,35 @@
 	          <thead>
 	            <tr>
 	              <th scope="col">Room Type</th>
-	              <th scope="col">Deluxe Room<br>$USD</th>
-	              <th scope="col">Pool View <br>$USD</th>
-	              <th scope="col">Camino Real Club<br>$USD</th>
+	              <th scope="col">Deluxe Room<br>$MXN</th>
 	            </tr>
 	          </thead>
 	          <tbody>
 	            <tr>
 	              <td>Special Rate Single Occupancy</td>
-	              <td>$183.86</td>
-	              <td>$207.66</td>
-	              <td>$255.26</td>
+	              <td>$3,395.25</td>
 	            </tr>
 	            <tr>
 	              <td>Special Rate Double Occupancy</td>
-	              <td>$207.08</td>
-	              <td>$230.88</td>
-	              <td>$278.48</td>
+	              <td>$3,395.25</td>
 	            </tr>
 	          </tbody>
 	        </table>
     	</div>
       </div>
       <div class="row">
-      	<div class="col">
+      	<div class="col-12">
 	        <ul class="infoHotel">
+            <li>Rates in national currency</li>
 	          <li>Single / double occupancy</li>
 	          <li>Package Rate (buffet breakfast included)</li>
 	          <li>All rates include current Federal Taxes (VAT) and lodging tax.</li>
 	          <li>Additional person $55 USD plus tax. Space subject to availability.</li>
 	          <li>The exchange rate will be determined by the length of stay.</li>
 	        </ul>
+        </div>
+        <div class="col-12">
+          <p class="nota">The hotel will consider the exchange rate on the payment/departure day.</p>
         </div>
       </div>
     </div>
@@ -386,32 +384,34 @@
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">Room Type</th>
+                <th scope="col">Room Type<br>$MXN</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Single $1,650.00</td>
+                <td>Single $1,963.50</td>
               </tr>
               <tr>
-                <td>Double $1,850.00</td>
+                <td>Double $2,201.50</td>
               </tr>
             </tbody>
           </table>
         </div>
-
       </div>
       <div class="row justify-content-end">
-      	<div class="col">
+      	<div class="col-12">
       		<ul class="infoHotel">
 	          <li>Rates in national currency.</li>
-	          <li>Rates per night, double occupancy.</li>
-	          <li>Buffett breakfast and Wi Fi are included within the rates.</li>
-	          <li>Additional 16% VAT and 3% lodging tax.</li>
+            <li>Package Rate (buffet breakfast included)</li>
+	          <li>All rates include current Federal Taxes (VAT) and lodging tax.</li>
 	        </ul>
       	</div>
+        <div class="col-12">
+          <p class="nota">The hotel will consider the exchange rate on the payment/departure day.</p>
+        </div>
       </div>
     </div>
+
   </div>
 </section>
 
