@@ -319,7 +319,7 @@
       <div class="row">
         <div class="col">
           <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590,<br>Phone: +52 (55) 52 63 8888 </p>
-          <a clas="linkCamino" href="https://www.caminoreal.com/Hotels/Details/CR/MEX" target="_blank" rel="noopener">www.caminoreal.com</a>
+          <a clas="linkCamino" href="https://goo.gl/7YzZ29" target="_blank" rel="noopener">www.caminoreal.com</a>
           <p class="groupCode">Group Code: La Salle</p>
         </div>
       </div>
@@ -375,7 +375,7 @@
       <div class="row">
         <div class="col">
           <p class="direccion">Hamburgo 195, Col. Juárez, CDMX, 06600,<br>Phone: +52 (55) 52 30 1717</p>
-          <a href="https://www.galeriaplazahotels.com.mx/en/reforma/" target="_blank" rel="noopener">www.galeriaplazahotels.com.mx</a>
+          <a href="https://reserve.brisas.com.mx/reserve/?code=LASALLE&h=2" target="_blank" rel="noopener">www.galeriaplazahotels.com.mx</a>
           <p class="groupCode">Group Code: La Salle</p>
         </div>
       </div>
@@ -441,7 +441,7 @@
       </ol>
       <p>The participating projects will be announced on May 30 and included in the Official Agenda of the Encuentro.</p>
       <p>All of these projects will be published in the XII Encuentro’s website.</p>
-      <p>For more information: <a href="mailto:ialu@ulsa.mx ">ialu@ulsa.mx</a></p>
+      <p>For more information: <a href="mailto:ialu@lasalle.org ">ialu@lasalle.org</a></p>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
       <figure class="text-center"><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
@@ -589,14 +589,14 @@
       <ol class="instruccion">
         <li>Fill in the registration form</li>
         <li>Registration fee</li>
-        <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
+        <li>Send your payment receipt to <a href="mailto:ialu@lasalle.org">ialu@lasalle.org</a></li>
       </ol>
       <div class="bgAzul feeInfo">
         <p class="title">Registration fee information:</p>
         <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
       </div>
       <div class="moreInfo">
-        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@lasalle.org">ialu@lasalle.org</a></p>
         
       </div>
     </div>
