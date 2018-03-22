@@ -320,7 +320,7 @@
         <div class="col">
           <p class="direccion">Mariano Escobedo 700, Col. Anzures, CDMX, 11590,<br>Phone: +52 (55) 52 63 8888 </p>
           <a clas="linkCamino" href="https://goo.gl/7YzZ29" target="_blank" rel="noopener">www.caminoreal.com</a>
-          <p class="groupCode">Group Code: La Salle</p>
+          <p class="groupCode">Group Code: 1606LASALLE</p>
         </div>
       </div>
       
