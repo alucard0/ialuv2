@@ -102,9 +102,9 @@
 
         <p>We encourage each President to be present. We also encourage Presidents to bring up to three people who might play an important role in one of the themes of IALU Committees (Mission, Internationalization and Research) or are representatives of other sectors of the institution’s leadership.</p>
 
-        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on <a href="http://www.ialu.org/XII" class="linkCarta" target="_blak" rel="noopener">www.ialu.org/XII</a> not later than May 30, 2018. At the program website, participants will have the choice of two hotels and transportations to and from the hotel to the program activities will be included.</p>
+        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on the form below not later than May 30, 2018. At the program website, participants will have the choice of two hotels and transportations to and from the hotel to the program activities will be included.</p>
 
-        <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, a presentation of selected success stories and the photo exhibition. Please visit <a href="http://www.ialu.org/XII" class="linkCarta" target="_blak" rel="noopener">www.ialu.org/XII</a> to learn more about the full program and the Encuentro.</p>
+        <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, a presentation of selected success stories and the photo exhibition. Please check this website to learn more about the full program and the Encuentro.</p>
 
         <p>Finally, we note that while we will have sessions in two universities, the opportunity exists to develop stronger ties with our Mexican institutions both prior and after the Encuentro. We strongly encourage participants to take advantage of this opportunity to learn and interact with our Mexican counterparts. The details for these institutional visits are also provided in the Encuentro website.</p>
 
@@ -294,6 +294,7 @@
           <p class="text-right orangeText">We highly recommend participants to <span>arrive to Mexico City on June 18.</span></p>
           <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the hotel.</p>
           <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
+          <p class="text-right orangeText">We offer an alternative program for companions.<br>Further information <a href="href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
         </div>
     </div>
 </section>
@@ -441,14 +442,20 @@
       </ol>
       <p>The participating projects will be announced on May 30 and included in the Official Agenda of the Encuentro.</p>
       <p>All of these projects will be published in the XII Encuentro’s website.</p>
-      <p>For more information: <a href="mailto:ialu@lasalle.org ">ialu@lasalle.org</a></p>
+      <p>For more information: <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
       <figure class="text-center"><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Poster Fair</p>
       <p>As part of being aware of each of our universities endeavors, a Poster exhibition with general information and representative statistics will be displayed.</p>
       <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
-      <p>All posters must be printed and displayed by each team. You should upload the file to the following link XXXXXXXXXXXXXX before May 30, 2018.</p>
+      <p>All posters must be printed and displayed by each team.</p>
+
+      <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
+
+
+      <p>You should upload the <a href="https://lasallemx-my.sharepoint.com/:f:/g/personal/exhibition_ulsa_mx/Ev1m2E0-KF1DqE_QNl7f12oBkns7Qmkl1t7zNO1OGZDopw?e=eIWfLN" target="_blank">file here</a> before May 30, 2018.</p>
+       <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
         <li>Measures: 90 X 60 cm</li>
@@ -459,7 +466,12 @@
       <p class="appTitle">Photo Exhibition</p>
       <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
-      <p>The pictures will be printed and displayed by each team. You should upload the file to the following link XXXXXXXXXXXXXX before May 30, 2018. </p>
+      <p>The pictures will be printed and displayed by each team.</p>
+
+      <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
+      
+      <p>You should upload the <a href="https://lasallemx-my.sharepoint.com/:f:/g/personal/exhibition_ulsa_mx/EiGs2IMpTjxNnSi2rXPTwRQBjUTFJT10Z9cm_61TXiZSrw?e=XUSiQG" target="_blank">file here</a> before May 30, 2018.</p>
+       <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
         <li>Measures: 90 X 60 cm</li>

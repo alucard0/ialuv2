@@ -648,7 +648,9 @@ section#registrationForm button,
 section#registrationForm select option,
 section#registrationForm textarea,
 section#registrationForm div.switch-field label,
-section#registrationForm div.switch-field input{
+section#registrationForm div.switch-field input,
+form#lgin input,
+form#lgin button{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 500;
   font-style: normal;
