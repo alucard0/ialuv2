@@ -100,12 +100,12 @@
     <!-- Theme JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-    <script src="js/home.js"></script>
+    <script src="js/home.min.js"></script>
 
 	<!-- JS validator -->
 	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/validation.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="js/validation.min.js"></script>
 
 		<!--Droplist -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
