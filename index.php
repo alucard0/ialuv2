@@ -449,7 +449,7 @@
       <p class="appTitle">Poster Fair</p>
       <p>As part of being aware of each of our universities endeavors, a Poster exhibition with general information and representative statistics will be displayed.</p>
       <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
-      <p>All posters must be printed and displayed by each team.</p>
+      <p>All posters will be printed by La Salle CDMX.</p>
 
       <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
 
@@ -466,7 +466,7 @@
       <p class="appTitle">Photo Exhibition</p>
       <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
-      <p>The pictures will be printed and displayed by each team.</p>
+      <p>The pictures will be printed by La Salle CDMX.</p>
 
       <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
       
