@@ -624,8 +624,8 @@
             <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
             <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002180650383152558</li>
             <li><strong>Account name:</strong><span class="d-block d-sm-none"></span> SEDES</li>
-			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
-			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
+      			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
+      			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
           </ul>
         </div>
       </div>
@@ -640,8 +640,8 @@
             <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
             <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002 180 0141 9085 533 8</li>
             <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BNMXMXMM</li>
-			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
-			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
+      			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
+      			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
           </ul>
         </div>
       </div>
@@ -662,6 +662,8 @@
             <li><strong>City:</strong><span class="d-block d-sm-none"></span> Madrid España</li>
             <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BSCHESMM</li>
             <li><strong>Account:</strong><span class="d-block d-sm-none"></span> BMSXMXMM</li>
+            <li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 5781 Tacubaya, Calle Pedro A de los Santos N. 98 Col. San Miguel Chapultepec  CP 11850, Delegación Miguel Hidalgo, CDMX</li>
+            <li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
           </ul>
         </div>
       </div>
