@@ -619,11 +619,13 @@
         </div>
         <div class="col-sm-8">
           <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
-          <ul class="list-unstyled infoPay">
-            <li>Bank: Banamex</li>
-            <li>Account 11 digits: 0141 9085 533</li>
-            <li>Account 18 digits: 002180650383152558</li>
-            <li>Account name: SEDES</li>
+          <ul class="infoPay">
+            <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Banamex</li>
+            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
+            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002180650383152558</li>
+            <li><strong>Account name:</strong><span class="d-block d-sm-none"></span> SEDES</li>
+			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
+			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
           </ul>
         </div>
       </div>
@@ -633,11 +635,13 @@
         </div>
         <div class="col-sm-8">
           <p class="orangeBG col-sm-3 col-md-5 currency">USD</p>
-          <ul class="list-unstyled infoPay">
-            <li>Bank: Banamex</li>
-            <li>Account 11 digits: 0141 9085 533</li>
-            <li>Account 18 digits: 002 180 0141 9085 533 8</li>
-            <li>SWIFT code: BNMXMXMM</li>
+          <ul class="infoPay">
+            <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Banamex</li>
+            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
+            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002 180 0141 9085 533 8</li>
+            <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BNMXMXMM</li>
+			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
+			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
           </ul>
         </div>
       </div>
@@ -647,17 +651,17 @@
         </div>
         <div class="col-sm-8">
           <p class="orangeBG col-sm-3 col-md-5 currency">EUROS</p>
-          <ul class="list-unstyled infoPay">
-            <li>Beneficiary Bank: Bank Santander México S.A.</li>
-            <li>SWIFT code: BMSXMXMM</li>
-            <li>Final Beneficiary: Universidad La Salle A.C.</li>
-            <li>Account 11 digits: 519-081-20039</li>
-            <li>Account 18 digits: 014180519081200394</li>
-            <li>Correspondent Bank: Banco Santander</li>
+          <ul class="infoPay">
+            <li><strong>Beneficiary Bank:</strong><span class="d-block d-sm-none"></span> Bank Santander México S.A.</li>
+            <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BMSXMXMM</li>
+            <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
+            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 519-081-20039</li>
+            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 014180519081200394</li>
+            <li><strong>Correspondent Bank:</strong><span class="d-block d-sm-none"></span> Banco Santander</li>
             <br>
-            <li>City: Madrid España</li>
-            <li>SWIFT code: BSCHESMM</li>
-            <li>Account: BMSXMXMM</li>
+            <li><strong>City:</strong><span class="d-block d-sm-none"></span> Madrid España</li>
+            <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BSCHESMM</li>
+            <li><strong>Account:</strong><span class="d-block d-sm-none"></span> BMSXMXMM</li>
           </ul>
         </div>
       </div>
