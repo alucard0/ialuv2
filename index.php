@@ -621,6 +621,7 @@
           <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
           <ul class="infoPay">
             <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Banamex</li>
+            <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
             <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
             <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002180650383152558</li>
             <li><strong>Account name:</strong><span class="d-block d-sm-none"></span> SEDES</li>
@@ -637,6 +638,7 @@
           <p class="orangeBG col-sm-3 col-md-5 currency">USD</p>
           <ul class="infoPay">
             <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Banamex</li>
+            <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
             <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
             <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002 180 0141 9085 533 8</li>
             <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BNMXMXMM</li>
