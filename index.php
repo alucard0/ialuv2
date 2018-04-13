@@ -221,7 +221,7 @@
           <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
           <div class="col-7 col-sm-9 col-md-7">Coffee between experts</div>
           <div class="col-5 col-sm-3 col-md-5">19:00 20:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Wellness Center Opneing</div>
+          <div class="col-7 col-sm-9 col-md-7">Wellness Center Opening</div>
         </div>
       </div>
       <div class="col-sm-4">
