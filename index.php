@@ -601,14 +601,14 @@
       <ol class="instruccion">
         <li>Fill in the registration form</li>
         <li>Registration fee</li>
-        <li>Send your payment receipt to <a href="mailto:ialu@lasalle.org">ialu@lasalle.org</a></li>
+        <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
       </ol>
       <div class="bgAzul feeInfo">
         <p class="title">Registration fee information:</p>
         <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
       </div>
       <div class="moreInfo">
-        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@lasalle.org">ialu@lasalle.org</a></p>
+        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
         
       </div>
     </div>
