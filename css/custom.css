@@ -768,16 +768,18 @@ button.btn{
 
 /*Footer*/
 
+/*Footer*/
 footer {
   text-align: center;
+  padding-top: 10px;
 }
 footer a{
-  color: #101d61;
+	color: #101d61;
   font-weight: bold;
 }
 footer a:hover{
-  text-decoration: none;
-  color: #c30824;
+	text-decoration: none;
+	color: #c30824;
 
 }
 footer div ul {
@@ -795,6 +797,11 @@ footer div ul li a {
     text-decoration: none;
 }
 
+p.direccionFooter {
+  color: #fff;
+  text-align: left;
+}
+
 p.aviso, p.terminos{
   cursor: pointer;
   padding: 1% 0;
@@ -809,36 +816,104 @@ div.resumenAviso p, div.resumenTerminos p{
   text-align: left;
 }
 
+.bgBlack {
+	background: #000;
+	text-align: center!important;
+}
+.bgBlack > p {
+	width: 100%;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
 .bgGray{
-  background: gray;
-  padding-top: 1%;
+	background: #232323;
+	padding-top: 20px;
+}
+.redesSociales {
+	vertical-align: middle;
 }
 div.redesSociales figure
 {
-  display: inline-block;
-  padding: 2.2%;
+	display: inline-block;
+	padding: 0%;
 }
 div.redesSociales p
 {
-  color: #fff;
+	color: #fff;
+	text-align: left;
+}
+.img-responsive {
   text-align: left;
 }
-span.textoValor{
-  font-size: 1.5em;
-  color: gray;
-  font-weight: 800;
+.logos img{
+  margin: auto auto 15px 0;
+  text-align: right;
+  /* position: absolute; */
+  /* margin: 0 30px 20px 30%; */
 }
 
-ul.listaEscuelas a
-{
-  color:#fff;
-  font-size: 0.8em;
+/* redes sociales */
+#siguenos_ {
+	width: 128px;
+	height: 75px;
+	background: url("../images/footer/Siguenos_Flat.png") -6px -10px;
 }
-footer div ul.listaEscuelas {
-    list-style-image: url('../images/footer/icon_whiteArrow.png');
+#_facebook {/*1*/
+	width: 32px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -133px -23px;
 }
-footer div ul.listaEscuelas li {
-    margin-left: 25px
+#_twitter {/*2*/
+	width: 31px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -164px -23px;
+}
+#_instagram {/*3*/
+	width: 30px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -195px -23px;
+}
+#_linkedin {/*4*/
+	width: 32px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -225px -23px;
+}
+#_foursquare { /*5*/
+	width: 32px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -133px -55px;
+}
+#_swarm { /*6*/
+	width: 31px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -164px -55px;
+}
+#_snapchat { /*7*/
+	width: 32px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -194px -55px;
+}
+#_youtube { /*8*/
+	width: 32px;
+	height: 32px;
+	background: url("../images/footer/Siguenos_Flat.png") -226px -55px;
+}
+.siguenos{
+	padding-bottom: 20px;
+}
+.siguenos > img {
+	display: block;
+	max-width:100%;
+	max-height:100%;
+	width: 117px;
+ 	height: 77px;
+}
+
+.footer-col {
+	padding: 0px 0px 0px 0px;
 }
 
 /*Fin Footer*/
@@ -931,7 +1006,7 @@ footer div ul.listaEscuelas li {
   }
 
   section#registration p.title {
-    font-size: 50px;s
+    font-size: 50px;
   }
   section#registration figure img{
     float: none !important;
@@ -1027,6 +1102,41 @@ footer div ul.listaEscuelas li {
 }
 
 /* Extra large devices (large desktops, 1200px and up*/
-@media (min-width: 1200px) {
+@media (max-width: 360px) {
+  footer {
+		align-self: center;
+		background: transparent;
+	}
+	.redesSociales {
+		padding: 0 15px 0 0
+	}
+	#siguenos_ {
+		width: 125px;
+		height: 62px;
+		background: url("../images/footer/Sprite5.png") 0px 0px;
+		margin-left: 15px;
+	}
+	.bloque-social {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+}
+@media (max-width: 768px) {
+	/* #siguenos_ {
+		background-size: 200%;
+	} */
+}
+@media (min-width: 768px) {
+  
+}
 
+@media (min-width: 970px) {
+ 
+}
+@media (min-width: 1200px) {
+	.redesSociales {
+		padding-left: 7%;
+		padding-right: 7%;
+	}
 }
