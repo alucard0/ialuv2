@@ -15,6 +15,7 @@
 		private $size;
 		private $twitter;
 		private $linkedin;
+		private $hospedaje;
 
 		//Constructor
 		public function __construct($post,$idPersona)
@@ -26,6 +27,7 @@
 			$this->twitter = $post['twitter'];
 			$this->linkedin = $post['LinkedIn'];
 			$this->idPersona = $idPersona;
+			$this->hospedaje = $post['accommodation'];
 		}
 		//Metodos
 		public function __set($name,$value){

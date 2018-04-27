@@ -63,7 +63,9 @@ $( "#Registration" ).validate({
 	inputSize:  {
 		required: true
 	},
-
+	inputAccommodation: {
+		required: true
+	},
 	inputNameCompanion: {
 		required: true,
 		lettersonly: false
@@ -198,6 +200,9 @@ $( "#Registration" ).validate({
 		},
 		inputSizeCompanion:  {
 			required: "Required Field"
+		},
+		inputAccommodation: {
+			required: "Required Field"
 		}
 	}
 });
@@ -266,11 +271,18 @@ jQuery(function($){
 	var LinkedIn=$("#inputLinkedIn").val();
 	//console.log(LinkedIn);
 	
+	var accommodation=$("#inputAccommodation").val();
+	var otherAccommodation=$("#inputOtherAcomodation").val();
+	
 	var extras=$("#exampleFormControlTextarea1").val();
 	//console.log(extras);
 	var companion = $("input[type='radio'][name='switch_2']:checked").val();
 	//console.log(companion);
 
+	
+	if (accommodation = "other") {
+		accommodation = otherAccommodation;
+	}
 	
 	if(companion == 'no')
 	{
@@ -304,6 +316,7 @@ jQuery(function($){
 	        "address2":address2,
 	        "twitter":twitter,
 	        "LinkedIn":LinkedIn,
+			"accommodation":accommodation,
 	        "extras":extras,
 	        "companion":companion
 	    },
@@ -364,9 +377,11 @@ jQuery(function($){
 		//console.log(address); 
 		var address2Companion=$("#inputAddress2Companion").val();
 		//console.log(address2);
+
 		
 		var extrasCompanion=$("#exampleFormControlTextarea1Companion").val();
 
+		
 		if($('#Registration').valid())
 	    {
 		  $('#btnSend').disabled = true;
@@ -398,6 +413,7 @@ jQuery(function($){
 	        "twitter":twitter,
 	        "LinkedIn":LinkedIn,
 	        "extras":extras,
+			"accommodation":accommodation,
 	        "companion":companion,
 
 	        "nameCompanion":nameCompanion,
@@ -439,6 +455,7 @@ jQuery(function($){
 	
   });
 });
+
 
 //Funcion Descargar BD
 jQuery(function($){

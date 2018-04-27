@@ -26,8 +26,9 @@ include_once '../modelo/ConectaBD.php';
 			$datos_participante->size = $bdconectada->escapar_datos ($datos_participante->size);
 			$datos_participante->twitter = $bdconectada->escapar_datos ($datos_participante->twitter);
 			$datos_participante->linkedin = $bdconectada->escapar_datos ($datos_participante->linkedin);
+			$datos_participante->hospedaje  = $bdconectada->escapar_datos ($datos_participante->hospedaje);
 
-			$query='INSERT INTO participante (id,id_persona,institucion,talla,twitter,linkedin,posicion,prefijo) VALUES(null,'.$datos_participante->idPersona.',"'.$datos_participante->institucion.'","'.$datos_participante->size.'","'.$datos_participante->twitter.'","'.$datos_participante->linkedin.'","'.$datos_participante->position.'","'.$datos_participante->prefix.'");';
+			$query='INSERT INTO participante (id,id_persona,institucion,talla,twitter,linkedin,posicion,prefijo,hospedaje) VALUES(null,'.$datos_participante->idPersona.',"'.$datos_participante->institucion.'","'.$datos_participante->size.'","'.$datos_participante->twitter.'","'.$datos_participante->linkedin.'","'.$datos_participante->position.'","'.$datos_participante->prefix.'","'.$datos_participante->hospedaje.'");';
 			$bdconectada->escribir($query);
 			
 			//obtenemos el ID del usuario que se agrego
