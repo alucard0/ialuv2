@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+pos<!DOCTYPE html>
 <html lang="es-419">
 
 <head>
@@ -294,7 +294,7 @@
           <p class="text-right orangeText">We highly recommend participants to <span>arrive to Mexico City on June 18.</span></p>
           <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the hotel.</p>
           <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
-          <p class="text-right orangeText">We offer an alternative program for companions.<br>Further information <a href="href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+          <p class="text-right orangeText">We offer an alternative program for companions. <strong>Extra fee required.</strong><br>Further information <a href="href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
         </div>
     </div>
 </section>
@@ -447,7 +447,7 @@
     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
       <figure class="text-center"><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Poster Fair</p>
-      <p>As part of being aware of each of our universities endeavors, a Poster exhibition with general information and representative statistics will be displayed.</p>
+      <p>As part of being aware of each of our universities endeavors, a Poster exhibition will be displayed. The posters should show through a infographic design general information about the institution, representative statistics or projects.</p>
       <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
       <p>All posters will be printed by La Salle CDMX.</p>
 
@@ -466,6 +466,7 @@
       <p class="appTitle">Photo Exhibition</p>
       <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
+      <p>The pictures should capture the student life diversity at the Campus or show the facilities in a flattering way. Please name the picture and upload a Word file with the photo description and the author information.</p>
       <p>The pictures will be printed by La Salle CDMX.</p>
 
       <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
@@ -605,7 +606,7 @@
       </ol>
       <div class="bgAzul feeInfo">
         <p class="title">Registration fee information:</p>
-        <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550</strong></span> or its equivalent in national currency at the time of registration.</p>
+        <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550,</strong></span> to Companions is <span class="font-italic"><strong>USD $100,</strong></span> or its equivalent in national currency at the time of registration.</p>
       </div>
       <div class="moreInfo">
         <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
