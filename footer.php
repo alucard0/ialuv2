@@ -150,7 +150,22 @@
 	</script>
 	<!--js-->
 	<script type="text/javascript" charset="utf-8"  src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/home.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Plugin JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8"  src="js/home.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="js/validation.min.js"></script>
+	<script type="text/javascript">
+    	$('#menu div.navbar-collapse > div.navbar-nav a.nav-item').click(function(e) {
+		    var $this = $(this);
+		    $this.siblings().removeClass('active').end().addClass('active');
+		    e.preventDefault();
+		});
+    </script>
+
 </body>
 </html>
