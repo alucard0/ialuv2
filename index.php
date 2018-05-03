@@ -896,7 +896,7 @@ pos<!DOCTYPE html>
       </div>
 	  <div class="col-4 col-sm-4 col-md-2">
         <div class="form-group">
-            <select id="inputAccommodation" name="inputAccommodation" onchange="hospedaje.call(this, event) getval(this);" class="js-example-basic-single form-control">
+            <select id="inputAccommodation" name="inputAccommodation" onchange="hospedaje.call(this, event); getval(this);" class="js-example-basic-single form-control">
 				<option selected value="" selected disabled>Where are you staying?*</option>
 				<option value="Camino Real">Camino Real</option>
 				<option value="Grand Plaza">Grand Plaza</option>
