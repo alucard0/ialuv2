@@ -1,6 +1,8 @@
 jQuery.validator.setDefaults({
 	debug: true,
-	success: "valid"
+	success: "valid",
+	ignore: ':hidden',
+	excluded: [':disabled', ':hidden', ':not(:visible)']
 });
 
 //Validador de solo letras (Incluye caracteres especiales de otros idiomas)
@@ -107,6 +109,11 @@ $( "#Registration" ).validate({
 	},
 	inputSizeCompanion:  {
 		required: true
+	},
+	inputOtherAcomodation: {
+		ignore: ':hidden',
+		required: true
+		
 	}
   },
 	messages: {
@@ -158,7 +165,9 @@ $( "#Registration" ).validate({
 		inputSize:  {
 			required: "Required Field"
 		},
-
+		inputAccommodation: {
+			required: "Required Field"
+		},
 		inputNameCompanion:{
 			required: "Required Field",
 			lettersonly: "Invalid character"
@@ -201,7 +210,7 @@ $( "#Registration" ).validate({
 		inputSizeCompanion:  {
 			required: "Required Field"
 		},
-		inputAccommodation: {
+		inputOtherAcomodation: {
 			required: "Required Field"
 		}
 	}
@@ -455,6 +464,7 @@ jQuery(function($){
 	
   });
 });
+
 
 
 //Funcion Descargar BD

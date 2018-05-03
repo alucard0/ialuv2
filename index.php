@@ -829,6 +829,26 @@ pos<!DOCTYPE html>
             <input type="text" class="form-control" id="inputZip" name="inputZip" placeholder="Postal Code*" maxlength="10">
         </div>
       </div>
+	  
+	  	  <div class="col-2 col-sm-2 col-md-1">
+        <figure class="text-right"><img src="images/home/HOTEL.png" alt=""></figure>
+      </div>
+	  <div class="col-10 col-sm-10 col-md-3">
+        <div class="form-group">
+            <select id="inputAccommodation" name="inputAccommodation"  class="form-control" onchange="getval(this); hospedaje.call(this, event);">
+				<option selected="" value="" disabled="disabled">Where are you staying?*</option>
+				<option value="Camino Real">Camino Real</option>
+				<option value="Grand Plaza">Grand Plaza</option>
+				<option value="other">Other (Specify)</option>
+			</select>
+        </div>
+      </div>
+	  <div class="col-12 col-sm-12 col-md-3">
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputOtherAcomodation" name="inputOtherAcomodation" placeholder="Specify" maxlength="40" style="visibility:hidden">
+        </div>
+      </div>
+	  
     </div>
     <div class="form-row">
       <div class="col-2 col-sm-2 col-md-1">
@@ -881,37 +901,9 @@ pos<!DOCTYPE html>
             <input type="tel" class="form-control" id="inputEmergencyPhone" name="inputEmergencyPhone" placeholder="Telephone in case of emergency*" maxlength="15">
         </div>
       </div>
-	  <script>
-		function hospedaje(event) {
-			if (this.options[this.selectedIndex].value == "other"){
-				document.getElementById("inputOtherAcomodation").style.visibility = "visible";
-			}
-			else {
-				document.getElementById("inputOtherAcomodation").style.visibility = "hidden";
-			}
-		}
-	  </script>
-	  <div class="col-2 col-sm-2 col-md-1">
-        <figure class="text-right"><img src="images/home/HOTEL.png" alt=""></figure>
-      </div>
-	  <div class="col-4 col-sm-4 col-md-2">
-        <div class="form-group">
-            <select id="inputAccommodation" name="inputAccommodation" onchange="hospedaje.call(this, event); getval(this);" class="js-example-basic-single form-control">
-				<option selected value="" selected disabled>Where are you staying?*</option>
-				<option value="Camino Real">Camino Real</option>
-				<option value="Grand Plaza">Grand Plaza</option>
-				<option value="other">Other (Specify)</option>
-			</select>
-        </div>
-      </div>
-
-	  <div class="col-6 col-sm-6 col-md-3">
-        <div class="form-group">
-            <input type="text" class="form-control" id="inputOtherAcomodation" name="inputOtherAcomodation" placeholder="Specify" maxlength="40" style="visibility:hidden">
-        </div>
-      </div>
 	  
     </div>
+	
     <div class="form-row extraInfo">
       <div class="col">
         <div class="form-group">
@@ -1119,3 +1111,14 @@ pos<!DOCTYPE html>
   </div>
 
 <?php include 'footer.php';?>
+
+<script>
+		function hospedaje(event) {
+			if (this.options[this.selectedIndex].value == "other"){
+				document.getElementById("inputOtherAcomodation").style.visibility = "visible";
+			}
+			else {
+				document.getElementById("inputOtherAcomodation").style.visibility = "hidden";
+			}
+		}
+</script>
