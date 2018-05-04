@@ -845,7 +845,7 @@ pos<!DOCTYPE html>
       </div>
 	  <div class="col-12 col-sm-12 col-md-3">
         <div class="form-group">
-            <input type="text" class="form-control" id="inputOtherAcomodation" name="inputOtherAcomodation" placeholder="Specify" maxlength="40" style="visibility:hidden">
+            <input type="text" class="form-control" id="inputOtherAcomodation" name="inputOtherAcomodation" placeholder="Specify" maxlength="40" style="display:none">
         </div>
       </div>
 	  
@@ -1115,10 +1115,10 @@ pos<!DOCTYPE html>
 <script>
 		function hospedaje(event) {
 			if (this.options[this.selectedIndex].value == "other"){
-				document.getElementById("inputOtherAcomodation").style.visibility = "visible";
+				document.getElementById("inputOtherAcomodation").style.display = "";
 			}
 			else {
-				document.getElementById("inputOtherAcomodation").style.visibility = "hidden";
+				document.getElementById("inputOtherAcomodation").style.display = "none";
 			}
 		}
 </script>

@@ -1,9 +1,10 @@
 jQuery.validator.setDefaults({
 	debug: true,
 	success: "valid",
-	ignore: ':hidden',
-	excluded: [':disabled', ':hidden', ':not(:visible)']
+	ignore: ":hidden"
 });
+
+
 
 //Validador de solo letras (Incluye caracteres especiales de otros idiomas)
 $.validator.addMethod( "lettersonly", function( value, element ) {
@@ -111,7 +112,6 @@ $( "#Registration" ).validate({
 		required: true
 	},
 	inputOtherAcomodation: {
-		ignore: ':hidden',
 		required: true
 		
 	}

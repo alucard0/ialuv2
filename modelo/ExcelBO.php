@@ -23,7 +23,7 @@
 			$bdconectada->escribir($query);
 			
 			//Mandar a traer la base de datos
-			$query = 'SELECT persona.id, participante.prefijo, persona.nombre, persona.apellido, participante.institucion, participante.posicion, persona.sexo, participante.talla, pais.nombre, persona.estado, persona.ciudad, persona.CP, persona.direccion1, persona.direccion2, persona.email, participante.twitter, participante.linkedIn, persona.contacto_emergencia, persona.comentario FROM participante, persona, pais WHERE pais.id = persona.pais_fk AND participante.id_persona = persona.id';
+			$query = 'SELECT persona.id, participante.prefijo, persona.nombre, persona.apellido, participante.institucion, participante.posicion, persona.sexo, participante.talla, pais.nombre, persona.estado, persona.ciudad, persona.CP, persona.direccion1, persona.direccion2, persona.email, participante.twitter, participante.linkedIn, persona.contacto_emergencia, persona.comentario, participante.hospedaje FROM participante, persona, pais WHERE pais.id = persona.pais_fk AND participante.id_persona = persona.id';
 			$query = $bdconectada->escribir($query);
 			
 			$ArcivoExcel->crear_hoja (1,'Acompañantes');
@@ -48,12 +48,13 @@
 			$ArcivoExcel->escribir_dato('P1', 'LADA');
 			$ArcivoExcel->escribir_dato('Q1', 'Télefono');
 			$ArcivoExcel->escribir_dato('R1', 'E-mail');
-			$ArcivoExcel->escribir_dato('S1', 'Twitter');
-			$ArcivoExcel->escribir_dato('T1', 'LinkedIn');
-			$ArcivoExcel->escribir_dato('U1', 'LADA');
-			$ArcivoExcel->escribir_dato('V1', 'Télefono de emergencia');
-			$ArcivoExcel->escribir_dato('W1', 'Contacto de emergencia');
-			$ArcivoExcel->escribir_dato('X1', 'Comentarios');
+			$ArcivoExcel->escribir_dato('S1', 'Hospedaje');
+			$ArcivoExcel->escribir_dato('T1', 'Twitter');
+			$ArcivoExcel->escribir_dato('U1', 'LinkedIn');
+			$ArcivoExcel->escribir_dato('V1', 'LADA');
+			$ArcivoExcel->escribir_dato('W1', 'Télefono de emergencia');
+			$ArcivoExcel->escribir_dato('X1', 'Contacto de emergencia');
+			$ArcivoExcel->escribir_dato('Y1', 'Comentarios');
 			
 			$ArcivoExcel->seleccionar_hoja (1);
 			$ArcivoExcel->escribir_dato('A1', 'Nombre');
@@ -109,15 +110,16 @@
 				$ArcivoExcel->escribir_dato('O'.$i, "(".$phones[1].")");
 				
 				$ArcivoExcel->escribir_dato('R'.$i, $fila[14]);
-				$ArcivoExcel->escribir_dato('S'.$i, $fila[15]);
-				$ArcivoExcel->escribir_dato('T'.$i, $fila[16]);
+				$ArcivoExcel->escribir_dato('S'.$i, $fila[19]);
+				$ArcivoExcel->escribir_dato('T'.$i, $fila[15]);
+				$ArcivoExcel->escribir_dato('U'.$i, $fila[16]);
 				
 				$phones = mysqli_fetch_row($phoneQuery);
-				$ArcivoExcel->escribir_dato('U'.$i, "(".$phones[0].")");
-				$ArcivoExcel->escribir_dato('V'.$i, "(".$phones[1].")");
+				$ArcivoExcel->escribir_dato('V'.$i, "(".$phones[0].")");
+				$ArcivoExcel->escribir_dato('W'.$i, "(".$phones[1].")");
 				
-				$ArcivoExcel->escribir_dato('W'.$i, $fila[17]);
-				$ArcivoExcel->escribir_dato('X'.$i, $fila[18]);
+				$ArcivoExcel->escribir_dato('X'.$i, $fila[17]);
+				$ArcivoExcel->escribir_dato('Y'.$i, $fila[18]);
 				
 				$i ++;
 			}
