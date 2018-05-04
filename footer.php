@@ -158,7 +158,7 @@
 	<script type="text/javascript" charset="utf-8"  src="js/home.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-	<script type="text/javascript" charset="utf-8"  src="js/validation.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="js/validation.min.js"></script>
 	<script type="text/javascript">
     	$('#menu div.navbar-collapse > div.navbar-nav a.nav-item').click(function(e) {
 		    var $this = $(this);
