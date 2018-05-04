@@ -1,4 +1,4 @@
-pos<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es-419">
 
 <head>
@@ -838,7 +838,7 @@ pos<!DOCTYPE html>
             <select id="inputAccommodation" name="inputAccommodation"  class="form-control" onchange="getval(this); hospedaje.call(this, event);">
 				<option selected="" value="" disabled="disabled">Where are you staying?*</option>
 				<option value="Camino Real">Camino Real</option>
-				<option value="Grand Plaza">Grand Plaza</option>
+				<option value="Galería Plaza">Galería Plaza</option>
 				<option value="other">Other (Specify)</option>
 			</select>
         </div>
