@@ -1,3 +1,14 @@
+
+<?php 
+
+include_once 'modelo/ConectaBD.php';
+    //Abrir Sesion
+    session_start();
+    ini_set('$_SESSION.cookie_httponly', 1);
+
+date_default_timezone_set('America/Monterrey');
+$ldate = time();
+?>
 <!doctype html>
 <html>
 
@@ -52,12 +63,7 @@
 
 </head>
 
-<?php 
-include_once 'modelo/ConectaBD.php';
 
-date_default_timezone_set('America/Monterrey');
-$ldate = time();
-?>
 
 
 <section class="container">

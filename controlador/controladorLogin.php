@@ -1,7 +1,5 @@
 <?php
-	//Abrir Secion
-	session_start();
-	ini_set('$_SESSION.cookie_httponly', 1);
+
 		
 	//Conectar a la BD
 	$bdconectada = new ConectaBD();
@@ -20,7 +18,7 @@
 			
 		//Escribir querry
 		$query = 'SELECT id FROM logins WHERE username = "'.$usr.'" AND password = "'.$pass.'"';
-		echo "<script>console.log( 'Debug Objects: " . $query . "' );</script>";
+		//echo "<script>console.log( 'Debug Objects: " . $query . "' );</script>";
 			
 		//Enviar querry a la BD;
 		$id = $bdconectada->escribir($query);
