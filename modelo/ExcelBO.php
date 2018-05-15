@@ -10,9 +10,7 @@
 		//Metodos
 		public function generarExcel($ArcivoExcel)
 		{	
-			//Abrir Cookie de sesion
-			session_start();
-			
+						
 			//Conectar a la BD
 			$bdconectada = new ConectaBD();
 			$bdconectada->conectar();

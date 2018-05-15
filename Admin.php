@@ -1,5 +1,4 @@
-<?php include_once 'modelo/ChecaLogin.php';?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>

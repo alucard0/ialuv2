@@ -1,15 +1,4 @@
-
-<?php 
-
-include_once 'modelo/ConectaBD.php';
-    //Abrir Sesion
-    session_start();
-    ini_set('$_SESSION.cookie_httponly', 1);
-
-date_default_timezone_set('America/Monterrey');
-$ldate = time();
-?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -78,7 +67,7 @@ $ldate = time();
 </section>
 
 <div class="container">
-	<form id="lgin" action = "" method = "post" >
+	<form id="lgin" action = "controlador/controladorLogin.php" method = "post" >
 		<div class="row">
 			<div class="col-sm-6">
 				<p class="instrucciones">Usuario: </p>
@@ -100,10 +89,6 @@ $ldate = time();
 		</div>
 	</form>
 </div>
-
-<?php
-	include_once 'controlador/controladorLogin.php';
-?>
 
 
 <?php include 'footer.php'; ?>
