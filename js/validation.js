@@ -289,7 +289,7 @@ jQuery(function($){
 	//console.log(companion);
 
 	
-	if (accommodation = "other") {
+	if (accommodation == "other") {
 		accommodation = otherAccommodation;
 	}
 	
