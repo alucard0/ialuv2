@@ -495,7 +495,7 @@
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
     <div class="col-12 col-sm-8 col-md-6 col-lg-8">
-      <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
+      <p>From June 15-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
       <p>Those activities have an additional charge for transportation and accommodation.</p>
 
     </div>
