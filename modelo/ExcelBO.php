@@ -11,14 +11,14 @@
 		public function generarExcel($ArcivoExcel)
 		{	
 			//Abrir Cookie de sesion
-			session_start();
+			//session_start();
 			
 			//Conectar a la BD
 			$bdconectada = new ConectaBD();
 			$bdconectada->conectar();
 			
 			//Guardar en vitacora
-			$usr = $bdconectada->escapar_datos($_SESSION['id']);
+			$usr = $bdconectada->escapar_datos('1');
 			$query = 'INSERT INTO action_log (Accion, User_ID) VALUES ("Descargar BD", "'.$usr.'")';
 			$bdconectada->escribir($query);
 			
