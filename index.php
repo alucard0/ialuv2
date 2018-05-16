@@ -51,7 +51,7 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
 </head>
 
-<body id="page-top">
+<body id="page-top" onLoad="resetHotel()">
 
 <header class="container">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light ">

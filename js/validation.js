@@ -333,6 +333,8 @@ jQuery(function($){
 	          /*Mostrar mensaje de enviado*/
 				//console.log('Success');
 				document.getElementById("Registration").reset();
+				document.getElementById('inputAccommodation').value = '';
+				
 				$("#Ventana_Exito").modal('toggle');
 				$('#btnSend').disabled = false;
 				
@@ -449,6 +451,7 @@ jQuery(function($){
 	          /*Mostrar mensaje de enviado*/
 				//console.log('Success');
 				document.getElementById("Registration").reset();
+				document.getElementById('inputAccommodation').value = '';
 				$("#Ventana_Exito").modal('toggle');
 				$('#btnSend').disabled = false;
 				$("section#registrationForm div.companionForm").hide();
@@ -465,7 +468,10 @@ jQuery(function($){
   });
 });
 
-
+//Reset Hotel
+function resetHotel() {
+	document.getElementById('inputAccommodation').value = '';
+}
 
 //Funcion Descargar BD
 jQuery(function($){
