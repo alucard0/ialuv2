@@ -1,4 +1,4 @@
-<?php include_once 'modelo/ChecaLogin.php';?>
+
 <!doctype html>
 <html>
 
@@ -64,7 +64,6 @@
 			
 			<form action = "" method = "post">
 				<input type="button" class="btn-primary btn-lg" value="Descargar Base de Datos" id = "Descargar" />		
-				<input type="button" class="btn-primary btn-lg" value="Cerrar Sesion" id = "Cerrar" />
 			</form>
 		</div>		
 	</div>
