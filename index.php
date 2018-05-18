@@ -885,7 +885,7 @@
       </div>
       <div class="col-10 col-sm-10 col-md-5">
           <div class="form-group">
-           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*" maxlength="140">
+           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact name in case of emergency*" maxlength="140">
         </div>
       </div>
       <div class="col-2 col-sm-2 col-md-1">
