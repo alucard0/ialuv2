@@ -218,7 +218,7 @@
 			$ArcivoExcel->seleccionar_hoja (0);
 			
 			//Guardar Archivo de Excel
-			$ArcivoExcel->guardar_archivo('../index.xlsx');
+			$ArcivoExcel->guardar_archivo('../ialu.xlsx');
 			
 			/* liberar el conjunto de resultados */
 			mysqli_free_result($query);
