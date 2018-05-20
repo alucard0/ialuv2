@@ -51,7 +51,7 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
 </head>
 
-<body id="page-top">
+<body id="page-top" onLoad="resetHotel()">
 
 <header class="container">
     <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
@@ -143,14 +143,14 @@
             <img src="images/home/IALULanding_Sharing.png" alt="Experiences" class="img-fluid">
             <figcaption>Experiences</figcaption>
           </figure>
-          <p class="description">Borderline experiences of Lasallian institutions.</p>
+          <p class="description">Experiences of Lasallian institutions beyond frontiers.</p>
         </div>
         <div class="col">
           <figure>
             <img src="images/home/IALULanding_SuscessStories.png" alt="Success stories" class="img-fluid">
             <figcaption>Success stories</figcaption>
           </figure>
-          <p class="description">Find out about borderline cases implemented in the world.</p>
+          <p class="description">Find out about success stories going beyond frontiers.</p>
         </div>
         <div class="col ">
           <figure>
@@ -180,9 +180,9 @@
         <hr class="orange">
           <div class="row content no-gutters">
             <div class="col-5 col-sm-3 col-md-5">16:00 20:00</div>
-            <div class="col-7 col-sm-9 col-md-7">Check in at Hotel</div>
+            <div class="col-7 col-sm-9 col-md-7">Check in  and Encuentro registration at hotels</div>
             <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
-            <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail</div>
+            <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail Hotel Galeria Plaza Reforma</div>
           </div>
       </div>
       <div class="col-12 col-sm-6 d-none d-sm-block">
@@ -194,11 +194,14 @@
     <div class="row no-gutters">
       <div class="col-12 col-sm-4">
         <p class="day">Day 1</p>
-        <p class="date">Tuesday, June 19</p>
+        <p class="date">Tuesday, June 19, <br>La Salle Mexico City</p>
         <hr class="orange">
         <div class="row content no-gutters">
+          <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Encuentro registration on campus</div>
           <div class="col-5 col-sm-3 col-md-5">08:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
+          <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
+          
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
           <div class="col-7 col-sm-9 col-md-7">Opening ceremony</div>
           <div class="col-5 col-sm-3 col-md-5">09:30 10:30</div>
@@ -226,11 +229,11 @@
       </div>
       <div class="col-sm-4">
         <p class="day">Day 2</p>
-        <p class="date">Wednesday, June 20</p>
+        <p class="date">Wednesday, June 20, <br>La Salle Nezahualcóyotl</p>
         <hr class="orange">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
+          <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
           <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
           <div class="col-5 col-sm-3 col-md-5">09:30 10:00</div>
@@ -259,12 +262,12 @@
       </div>
       <div class="col-sm-4">
         <p class="day">Day 3</p>
-        <p class="date">Thursday, June 21</p>
+        <p class="date">Thursday, June 21, <br>La Salle Mexico City</p>
         <hr class="orange">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Leaving the Hotel</div>
-          <div class="col-5 col-sm-3 col-md-5">9:00 09:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 09:45</div>
           <div class="col-7 col-sm-9 col-md-7">President's Address</div>
           <div class="col-5 col-sm-3 col-md-5">09:45 10:30</div>
           <div class="col-7 col-sm-9 col-md-7">Executive Director Address</div>
@@ -292,7 +295,8 @@
         </div>
         <div class="col-sm-7">
           <p class="text-right orangeText">We highly recommend participants to <span>arrive to Mexico City on June 18.</span></p>
-          <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the hotel.</p>
+          <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the Hotel Galeria Plaza Reforma.</p>
+          <p class="text-right orangeText">Transportation will be provided from Hotel Camino Real and La Salle</p>
           <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
           <p class="text-right orangeText">We offer an alternative program for companions. <strong>Extra fee required.</strong><br>Further information <a href="href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
         </div>
@@ -302,7 +306,7 @@
 
 
 <section class="container-fluid" id="accomodation">
-  <p class="titulo">Accommodation</p>
+  <p class="titulo">Accommodations</p>
   <p>Hotel reservations shall be directly arranged with the hotel.</p>
 
   <div class="row">
@@ -366,7 +370,7 @@
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
       <div class="row no-gutters">
         <div class="col-12 col-sm-12 col-md-6">
-          <p class="nombreHotel">Hotel Galería Plaza Reforma</p>
+          <p class="nombreHotel">Hotel Galeria Plaza Reforma</p>
           <figure class="text-center"><img src="images/home/IALULanding_GaleriaPlaza.png" alt="" class="img-fluid"></figure>
         </div>
         <div class="col-12 col-sm-12 col-md-6">
@@ -428,7 +432,7 @@
         <li>Research projects and use of knowledge </li>
         <li>Spreading knowledge Program</li>
       </ul>
-      <p>Every university can present their testimonials and be part of the Encuentro, in the section - On the border: success stories.</p>
+      <p>Every university can present their testimonials and be part of the Encuentro, in the section - Beyond Frontiers: success stories.</p>
       <p>The chosen projects will have 20 minutes to present.</p>
       <p>The organizing committee will choose the most emblematic projects.</p>
       <p>If you want to participate please send us an email not later than May 15, 2018. The document must be in English and should contain the following information:</p>
@@ -438,17 +442,34 @@
         <li>Description of the program / project / initiative and its main purpose in relation to the institutional goals.</li>
         <li>¿What were you results?</li>
         <li>Sharing any additional information to explain and support the main purpose or the results.</li>
-        <li>If necessary, make a brief description of the proporcione una breve descripción de los annexes.</li>
+        <li>If necessary, make a brief description of the attachments.</li>
       </ol>
-      <p>The participating projects will be announced on May 30 and included in the Official Agenda of the Encuentro.</p>
-      <p>All of these projects will be published in the XII Encuentro’s website.</p>
+      <p>The participating projects will be announced on May 30 and included in the Final Program of the Encuentro.</p>
+      <p>All of these projects will be published on the XII Encuentro website.</p>
       <p>For more information: <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
       <figure class="text-center"><img src="images/home/IALU-Landing_ico2.png" alt="" class="img-fluid"></figure>
-      <p class="appTitle">Poster Fair</p>
+      <p class="appTitle">Poster Exhibition</p>
+      <p>Help us get to know one another. What do you want to share with the IALU family?</p>
+
       <p>As part of being aware of each of our universities endeavors, a Poster exhibition will be displayed. The posters should show through a infographic design general information about the institution, representative statistics or projects.</p>
-      <p>The fair will remain in #CampusLaSalle during the XII Encuentro.</p>
+
+      <p>Sugested content</p>
+      <ul>
+        <li>Founding date</li>
+        <li>Location / Campus</li>
+        <li>Student / Faculty population</li>
+        <li>Academic programs</li>
+        <li>Publications, library, collections, museum</li>
+        <li>Special programs</li>
+        <li>Research</li>
+        <li>Social impact</li>
+        <li>Beyond Frontiers</li>
+        <li>Strength in Diversity </li>
+      </ul>
+
+      <p>The exhibition will be available for all participants during the XII Encuentro.</p>
       <p>All posters will be printed by La Salle CDMX.</p>
 
       <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
@@ -458,16 +479,17 @@
        <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
-        <li>Measures: 90 X 60 cm</li>
+        <li>Dimensions: 90 X 60 cm</li>
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
       <figure class="photoExInfo text-center"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Photo Exhibition</p>
-      <p>Coordenada Azul is the outdoors gallery of Universidad La Salle México, located in #CampusLaSalle.</p>
+      <p>The Coordenada Azul is La Salle’s urban art gallery. We share visual art with our university community, our neighborhood and the general public.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
-      <p>The pictures should capture the student life diversity at the Campus or show the facilities in a flattering way. Please name the picture and upload a Word file with the photo description and the author information.</p>
-      <p>The pictures will be printed by La Salle CDMX.</p>
+      <p>Please contribute a photograph which is emblematic of your institution representing <strong>Lasallians Without Limits.</strong> Include the title the author or artist and a short description of the photograph</p>
+      <p>Upload the Word file, according to the instructions below.</p>
+      <p>The photographs will be printed by La Salle CDMX.</p>
 
       <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
       
@@ -475,7 +497,7 @@
        <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
-        <li>Measures: 90 X 60 cm</li>
+        <li>Dimensions: 90 X 60 cm</li>
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
@@ -495,7 +517,7 @@
       <p class="subtitle">Visits to<br>Universities</p>
     </div>
     <div class="col-12 col-sm-8 col-md-6 col-lg-8">
-      <p>From June 22-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
+      <p>From June 15-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
       <p>Those activities have an additional charge for transportation and accommodation.</p>
 
     </div>
@@ -584,7 +606,7 @@
       <p class="subtitle">During<br>the Encuentro</p>
     </div>
     <div class="col-12 col-sm-7 col-md-6 col-lg-7">
-      <p>The rectors guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
+      <p>The rector's guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
     </div>
   </div>
 </section>
@@ -601,15 +623,15 @@
       <p class="instruccion">Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
       <ol class="instruccion">
         <li>Fill in the registration form</li>
-        <li>Registration fee</li>
+        <li>Pay the registration fee</li>
         <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
       </ol>
       <div class="bgAzul feeInfo">
         <p class="title">Registration fee information:</p>
-        <p class="content">The recovery rate to participate in the Encuentro is <span class="font-italic"><strong>USD $550,</strong></span> to Companions is <span class="font-italic"><strong>USD $100,</strong></span> or its equivalent in national currency at the time of registration.</p>
+        <p class="content">Registration fee for Encuentro XII is <span class="font-italic"><strong>USD $550*.</strong></span> <br>Companions program is <span class="font-italic"><strong>USD $100*.</strong></span><br><br>*Equivalent to exchange rate at the time of registration.</p>
       </div>
       <div class="moreInfo">
-        <p class="orangeText text-right">Bank fees must be considered for international transfers.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+        <p class="orangeText text-right">Bank transfer fees should be added. Consult with your bank.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
         
       </div>
     </div>
@@ -885,7 +907,7 @@
       </div>
       <div class="col-10 col-sm-10 col-md-5">
           <div class="form-group">
-           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact in case of emergency*" maxlength="140">
+           <input type="text" class="form-control" id="inputEmergencyContact" name="inputEmergencyContact" placeholder="Contact name in case of emergency*" maxlength="140">
         </div>
       </div>
       <div class="col-2 col-sm-2 col-md-1">

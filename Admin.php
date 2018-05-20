@@ -1,3 +1,4 @@
+<?php include_once 'modelo/ChecaLogin.php';?>
 <!doctype html>
 <html>
 
@@ -51,7 +52,7 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
 
 </head>
-<?php include_once 'modelo/ChecaLogin.php';?>
+
 <body>
 <section class="container">
 	<div class="align: center">

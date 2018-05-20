@@ -1,7 +1,5 @@
 <?php
-	//Abrir Secion
-	session_start();
-	ini_set('$_SESSION.cookie_httponly', 1);
+
 		
 	//Conectar a la BD
 	$bdconectada = new ConectaBD();
