@@ -63,7 +63,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="#home">Home</a>
         <a class="nav-item nav-link" href="#program">Program</a> 
-        <a class="nav-item nav-link" href="#accomodation">Accommodation</a>
+        <a class="nav-item nav-link" href="#accomodation">Accommodations</a>
         <a class="nav-item nav-link" href="#applications">Submissions</a>
         <a class="nav-item nav-link" href="#alternatingProgram">Campus visits</a>
         <a class="nav-item nav-link" href="#registration">Registration</a>
@@ -483,7 +483,10 @@
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
-      <figure class="photoExInfo text-center"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
+      
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+       <figure class="photoExInfo text-center"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Photo Exhibition</p>
       <p>The Coordenada Azul is La Salle’s urban art gallery. We share visual art with our university community, our neighborhood and the general public.</p>
       <p>On the occasion of the XII Encuentro IALU, representative pictures of Lasallian universities in the world will be displayed.</p>
@@ -501,9 +504,8 @@
         <li>File: jpg / psd / pdf</li>
         <li>High resolution, min. 300 dpi</li>
       </ul>
-    </div>
-    <div class="col-12 col-sm-4 d-none d-lg-block d-xl-none d-xl-block">
-       <figure><img src="images/home/IALU-Landing_foto1.png" alt="" class="img-fluid"></figure>
+
+
     </div>
      
   </div>
