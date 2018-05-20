@@ -99,6 +99,8 @@ ServerSignature Off
 Options -Indexes
 DirectoryIndex index.php
 
+
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php56” package as the default “PHP” programming language.
 <IfModule mime_module>

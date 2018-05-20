@@ -20,7 +20,7 @@
 			
 		//Escribir querry
 		$query = 'SELECT id FROM logins WHERE username = "'.$usr.'" AND password = "'.$pass.'"';
-		echo "<script>console.log( 'Debug Objects: " . $query . "' );</script>";
+		//echo "<script>console.log( 'Debug Objects: " . $query . "' );</script>";
 			
 		//Enviar querry a la BD;
 		$id = $bdconectada->escribir($query);
