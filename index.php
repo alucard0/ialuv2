@@ -298,7 +298,7 @@
           <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the Hotel Galeria Plaza Reforma.</p>
           <p class="text-right orangeText">Transportation will be provided from Hotel Camino Real and La Salle</p>
           <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
-          <p class="text-right orangeText">We offer an alternative program for companions. <strong>Extra fee required.</strong><br>Further information <a href="href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+          <p class="text-right orangeText">We offer an alternative program for companions. <strong>Extra fee required.</strong><br>Further information <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
         </div>
     </div>
 </section>
@@ -645,13 +645,13 @@
         <div class="col-sm-8">
           <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
           <ul class="infoPay">
-            <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Banamex</li>
+            <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Bank Santander México S.A.</li>
             <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
-            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
-            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002180650383152558</li>
+            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 519-081-20039</li>
+            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 014180519081200394</li>
             <li><strong>Account name:</strong><span class="d-block d-sm-none"></span> SEDES</li>
-      			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
-      			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
+      			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 5781 Tacubaya, Calle Pedro A de los Santos N.98 Col. San Miguel Chapultepec CP 11850 Delegación Miguel Hidalgo CDMX</li>
+      			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamin Franklin 45 Colonia Condesa Delegación Cuauhtemoc CP 06140 CDMX</li>
           </ul>
         </div>
       </div>
