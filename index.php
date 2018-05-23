@@ -279,8 +279,6 @@
           <div class="col-7 col-sm-9 col-md-7">Election - Board of Directors</div>
           <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
-          <div class="col-5 col-sm-3 col-md-5">15:00 18:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by commission</div>
         </div>
       </div>
     </div>
