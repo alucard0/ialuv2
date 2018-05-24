@@ -25,13 +25,13 @@
 			$result= $bdconectada->consulta($query);
 			if ($result->num_rows > 0) 
 			{
-				$row = $result->fetch_assoc()
+				$row = $result->fetch_assoc();
 				$estatus=1;//Login correcto
 				$query = 'INSERT INTO action_log (Accion, User_ID) VALUES ("Login", "'.$row["id"].'")';
 				$bdconectada->consulta($query);
 
 				/* liberar el conjunto de resultados */
-				mysqli_free_result($query);
+				mysqli_free_result($result);
 			}
 			else
 			{
@@ -42,6 +42,9 @@
 			//Cerrar BD
 			$bdconectada->desconectar();
 			return $estatus;
+		}
+		public function logout{
+
 		}
 	}
 

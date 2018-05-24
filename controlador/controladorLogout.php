@@ -1,6 +1,5 @@
 <?php
-	//Abrir Secion
-	session_start();
+
 	
 	//Conectar a la BD
 	$bdconectada = new ConectaBD();

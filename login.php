@@ -67,7 +67,7 @@
 </section>
 
 <div class="container">
-	<form id="lgin" action = "controlador/controladorLogin.php" method = "post" >
+	<form id="lgin" method = "post" >
 		<div class="row">
 			<div class="col-sm-6">
 				<p class="instrucciones">Usuario: </p>

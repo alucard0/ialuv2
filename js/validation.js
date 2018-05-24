@@ -470,7 +470,7 @@ jQuery(function($){
 //Funcion Descargar BD
 jQuery(function($){
 	$('#Descargar').on('click' , function (ev){
-		console.log("Doing Stuff....");
+		//console.log("Doing Stuff....");
 		
 		$('#Descargar').disabled = true;
 		$.ajax({
@@ -481,6 +481,24 @@ jQuery(function($){
 				$('#Descargar').disabled = false;
 				console.log('Success');
 				window.location.href = "index.xlsx"; 
+			},	
+		});
+	});
+ });
+
+jQuery(function($){
+	$('#send').on('click' , function (ev){
+		var usr=$('#user').val();
+		var pwd=$('#passwd').val();
+		console.log('Click');
+		$('#send').disabled = true;
+		$.ajax({
+			url: "controlador/controladorLogin.php",
+			type: "POST",
+			data: {"user":usr,"passwd":pwd},
+			success: function (data) {
+				$('#send').disabled =  false;
+				console.log('Success');
 			},	
 		});
 	});
