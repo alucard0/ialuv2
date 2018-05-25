@@ -43,7 +43,7 @@
 			$bdconectada->desconectar();
 			return $estatus;
 		}
-		public function logout{
+		public function logout(){
 
 		}
 	}

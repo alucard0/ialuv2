@@ -67,7 +67,7 @@
 </section>
 
 <div class="container">
-	<form id="lgin" method = "post" >
+	<form id="lgin" action = "" method = "post" >
 		<div class="row">
 			<div class="col-sm-6">
 				<p class="instrucciones">Usuario: </p>
@@ -85,7 +85,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<input type="submit" class="botonAzul btnEnviar" value="Enviar" id = "send" />
+			<input type="button" class="botonAzul btnEnviar" value="Enviar" id = "send" />
 		</div>
 	</form>
 </div>

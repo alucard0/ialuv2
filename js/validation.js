@@ -488,22 +488,23 @@ jQuery(function($){
 
 jQuery(function($){
 	$('#send').on('click' , function (ev){
-		var usr=$('#user').val();
-		var pwd=$('#passwd').val();
-		console.log('Click');
+		var usr = $('#user').val();
+		var pwd = $('#passwd').val();
 		$('#send').disabled = true;
 		$.ajax({
 			url: "controlador/controladorLogin.php",
 			type: "POST",
-			data: {"user":usr,"passwd":pwd},
+			data: {user:usr,passwd:pwd},
 			success: function (data) {
 				$('#send').disabled =  false;
-				console.log('Success');
+				console.log(usr);
+				console.log(pwd);
+
 			},	
 		});
 	});
  });
- 
+
  //Funcion Cerrar Sesion
 jQuery(function($){
 	$('#Cerrar').on('click', function (ev) {
