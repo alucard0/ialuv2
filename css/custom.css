@@ -267,16 +267,20 @@ a.linkCarta:hover,a.linkCarta:focus{
 /*Fin General*/
 /*Menu*/
 nav.navbar.navbar-light{
-  background: #2bc4ed;
-background: -moz-linear-gradient(-45deg, #2bc4ed 16%, #d7f63f 100%);
-background: -webkit-linear-gradient(-45deg, #2bc4ed 16%,#d7f63f 100%);
-background: linear-gradient(135deg, #2bc4ed 16%,#d7f63f 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ed', endColorstr='#d7f63f',GradientType=1 );
-  text-transform: uppercase;
+  font-family: IndivisaTextSans, sans-serif;
   font-weight: 700;
+  font-variant: small-caps;
+}
+nav.navbar.navbar-light{
+  background: #2bc4ed;
+  background: -moz-linear-gradient(-45deg, #2bc4ed 16%, #d7f63f 100%);
+  background: -webkit-linear-gradient(-45deg, #2bc4ed 16%,#d7f63f 100%);
+  background: linear-gradient(135deg, #2bc4ed 16%,#d7f63f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ed', endColorstr='#d7f63f',GradientType=1 );
+  border-bottom: 5px #F89527 solid;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link{
-  color: #fff;
+  color: #0a1b73;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
   text-decoration: underline;
@@ -590,7 +594,25 @@ section#accomodation p.groupCode{
   margin-top:  50px;
 }
 /*Application*/
+section#applications a#example.btn-primary:hover,
+section#applications a#example.btn-primary:focus{
+  background-color: #da8322;
+  border-color: #da8322;
+}
 
+section#applications a#example.btn-primary{
+  background-color: #f89527;
+  border-color: #f89527;
+}
+
+.bgWhite{
+  padding-top: 20px;
+  background: #f5f8ff;
+}
+
+section#applications a#example.btn-primary.btn-lg{
+  border-radius: 0;
+}
 
 section#alternatingProgram{
   background-image: url('../images/home/IALULanding_Back04.png');
@@ -648,7 +670,8 @@ section#registrationForm textarea,
 section#registrationForm div.switch-field label,
 section#registrationForm div.switch-field input,
 form#lgin input,
-form#lgin button{
+form#lgin button,
+section#applications a#example.btn-primary{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 500;
   font-style: normal;

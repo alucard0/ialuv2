@@ -59,7 +59,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="#home">Home</a>
         <a class="nav-item nav-link" href="#program">Program</a> 
@@ -421,7 +421,7 @@
 <section id="applications" class="container-fluid">
   <p class="titulo">Submissions</p>
   <div class="row">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 bgWhite">
       <figure class="text-center"><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
       <p class="appTitle">Mini-lectures success stories</p>
       <p>We would like to know about the Lasallian universities’ success in the borders through the following categories:</p>
@@ -474,6 +474,9 @@
 
 
       <p>You should upload the <a href="https://lasallemx-my.sharepoint.com/:f:/g/personal/exhibition_ulsa_mx/Ev1m2E0-KF1DqE_QNl7f12oBkns7Qmkl1t7zNO1OGZDopw?e=eIWfLN" target="_blank">file here</a> before May 30, 2018.</p>
+      <a href="descargables/CartelRoma_Web.pdf" target="_blank" id="example" class="btn btn-primary btn-lg">See example here</a>
+      <br>
+
        <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
@@ -483,7 +486,7 @@
       </ul>
       
     </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4 bgWhite">
        <figure class="photoExInfo text-center"><img src="images/home/IALU-Landing_ico3.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Photo Exhibition</p>
       <p>The Coordenada Azul is La Salle’s urban art gallery. We share visual art with our university community, our neighborhood and the general public.</p>
