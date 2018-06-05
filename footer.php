@@ -17,7 +17,7 @@
 					<div class="row">
 						<div class="col-12">
 							<p class="direccionFooter">Benjamín Franklin 45, Col. Condesa, C.P. 06140, <br>México, Ciudad de México
-							<br>Tel. +52 1 5278-9500</p>
+							<br>Tel. +52 55 5278-9500</p>
 						</div>
 					</div>
 					<div class="row">
