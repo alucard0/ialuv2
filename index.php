@@ -223,7 +223,7 @@
           <div class="col-7 col-sm-9 col-md-7">Poster Fair</div>
           <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
           <div class="col-7 col-sm-9 col-md-7">Coffee between experts</div>
-          <div class="col-5 col-sm-3 col-md-5">19:00 20:30</div>
+          <div class="col-5 col-sm-3 col-md-5">19:00 21:30</div>
           <div class="col-7 col-sm-9 col-md-7">Wellness Center Opening</div>
         </div>
       </div>
@@ -232,12 +232,10 @@
         <p class="date">Wednesday, June 20, <br>La Salle Nezahualcóyotl</p>
         <hr class="orange">
         <div class="row content no-gutters">
-          <div class="col-5 col-sm-3 col-md-5">08:00</div>
+          <div class="col-5 col-sm-3 col-md-5">07:30</div>
           <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
-          <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
           <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
-          <div class="col-5 col-sm-3 col-md-5">09:30 10:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Case: La Salle Nezahualcóyotl</div>
           <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
           <div class="col-7 col-sm-9 col-md-7">Google Conference</div>
           <div class="col-5 col-sm-3 col-md-5">11:00 11:15</div>
@@ -249,15 +247,15 @@
           <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
           <div class="col-5 col-sm-3 col-md-5">15:00 16:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Cultural Exhibition La Salle Oaxaca</div>
-          <div class="col-5 col-sm-3 col-md-5">16:00 17:00</div>
           <div class="col-7 col-sm-9 col-md-7">On our way to Basilica of Guadalupe</div>
-          <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
+          <div class="col-5 col-sm-3 col-md-5">16:00 17:00</div>
           <div class="col-7 col-sm-9 col-md-7">Mass held in the Basilica of Guadalupe</div>
+          <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Tour Basilica of Guadalupe</div>
           <div class="col-5 col-sm-3 col-md-5">18:00 19:00</div>
-          <div class="col-7 col-sm-9 col-md-7">On our way to the National Museum of Anthropology</div>
+          <div class="col-7 col-sm-9 col-md-7">On our way to Casa del Lago Chapultepec</div>
           <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Dinner at the National Museum of Anthropology</div>
+          <div class="col-7 col-sm-9 col-md-7">Dinner at Casa del Lago Chapultepec</div>
         </div>
       </div>
       <div class="col-sm-4">
@@ -265,7 +263,7 @@
         <p class="date">Thursday, June 21, <br>La Salle Mexico City</p>
         <hr class="orange">
         <div class="row content no-gutters">
-          <div class="col-5 col-sm-3 col-md-5">08:30</div>
+          <div class="col-5 col-sm-3 col-md-5">08:15</div>
           <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:45</div>
           <div class="col-7 col-sm-9 col-md-7">President's Address</div>
@@ -275,8 +273,16 @@
           <div class="col-7 col-sm-9 col-md-7">Free Time</div>
           <div class="col-5 col-sm-3 col-md-5">10:45 12:45</div>
           <div class="col-7 col-sm-9 col-md-7">General Assembly</div>
-          <div class="col-5 col-sm-3 col-md-5">12:45 13:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Election - Board of Directors</div>
+          <div class="col-5 col-sm-3 col-md-5">10:45 11:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-5 col-sm-3 col-md-5">11:15 11:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-5 col-sm-3 col-md-5">11:45 12:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-5 col-sm-3 col-md-5">12:15 12:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-5 col-sm-3 col-md-5">13:00 13:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Closure</div>
           <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
         </div>
@@ -422,7 +428,7 @@
   <p class="titulo">Submissions</p>
   <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 bgWhite">
-      <figure class="text-center"><img src="images/home/IALU-Landing_ico1.png" alt="" class="ing-fluid"></figure>
+      <figure class="text-center"><img src="images/home/IALU-Landing_ico1.png" alt="" class="img-fluid"></figure>
       <p class="appTitle">Mini-lectures success stories</p>
       <p>We would like to know about the Lasallian universities’ success in the borders through the following categories:</p>
       <ul>
