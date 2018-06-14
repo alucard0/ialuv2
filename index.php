@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Strength in Diversity">
     <meta name="author" content="La Salle México">
-
+    <meta http-equiv=”Refresh” content=”3; url=http://www.ialu.lasalle.mx”>
 
     <!--Facebook -->
 
