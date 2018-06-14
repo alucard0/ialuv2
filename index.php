@@ -63,10 +63,10 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="#home">Home</a>
         <a class="nav-item nav-link" href="#program">Program</a> 
-        <a class="nav-item nav-link" href="#accomodation">Accommodations</a>
-        <a class="nav-item nav-link" href="#applications">Submissions</a>
+        <!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
+        <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <a class="nav-item nav-link" href="#alternatingProgram">Campus visits</a>
-        <a class="nav-item nav-link" href="#registration">Registration</a>
+        <!--<a class="nav-item nav-link" href="#registration">Registration</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
       </div>
     </div>
@@ -218,7 +218,7 @@
           <div class="col-5 col-sm-3 col-md-5">14:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Official photo</div>
           <div class="col-5 col-sm-3 col-md-5">15:00 15:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Best Practices</div>
+          <div class="col-7 col-sm-9 col-md-7">Panel: Transformation Agents, opportunity for the future</div>
           <div class="col-5 col-sm-3 col-md-5">15:45 16:30</div>
           <div class="col-7 col-sm-9 col-md-7">Poster Fair</div>
           <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
@@ -237,7 +237,7 @@
           <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
           <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
           <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Google Conference</div>
+          <div class="col-7 col-sm-9 col-md-7">Conference: Technology for collaboration of Eleazar Ortiz (Google Mexico CEO of Google for Education)</div>
           <div class="col-5 col-sm-3 col-md-5">11:00 11:15</div>
           <div class="col-7 col-sm-9 col-md-7">Free Time</div>
           <div class="col-5 col-sm-3 col-md-5">11:15 12:00</div>
@@ -308,7 +308,7 @@
 </section>
 
 
-
+<!--
 <section class="container-fluid" id="accomodation">
   <p class="titulo">Accommodations</p>
   <p>Hotel reservations shall be directly arranged with the hotel.</p>
@@ -483,7 +483,6 @@
       <a href="descargables/CartelRoma_Web.pdf" target="_blank" id="example" class="btn btn-primary btn-lg">See example here</a>
       <br>
 
-       <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
         <li>Dimensions: 90 X 60 cm</li>
@@ -504,7 +503,6 @@
       <figure><img src="images/home/upload.gif" alt="" class="img-fluid"></figure> 
       
       <p>You should upload the <a href="https://lasallemx-my.sharepoint.com/:f:/g/personal/exhibition_ulsa_mx/EiGs2IMpTjxNnSi2rXPTwRQBjUTFJT10Z9cm_61TXiZSrw?e=XUSiQG" target="_blank">file here</a> before May 30, 2018.</p>
-       <!--<p>All posters must be printed and displayed by each team. Please send a download link with your file to exhibition@ulsa.mx before May 30, 2018.</p>-->
       <p class="infoReq">Requirements:</p>
       <ul>
         <li>Dimensions: 90 X 60 cm</li>
@@ -517,7 +515,7 @@
      
   </div>
 </section>
-
+-->
 <section id="alternatingProgram" class="container-fluid">
   <p class="text-right title">Campus<br><span class="mayores">>></span> visits</p>
 
@@ -619,6 +617,7 @@
     </div>
   </div>
 </section>
+<!--
 <section id="registration" class="container-fluid">
   <div class="row">
     <div class="col-12 col-sm-6">
@@ -704,6 +703,8 @@
     </div>
   </div>
 </section>
+-->
+<!--
 <section id="registrationForm" class="container-fluid">
   <p class="text-left title">Registration<br><span class="guion">-</span> Form <span class="mayores">>>>></span></p>
   <p class="text-right subtitle">To complete your registration to XII Encuentro IALU,<br>please fill in the following form. 
@@ -713,8 +714,9 @@
   <p class="textletf instructions">*Mandatory fields to fill in</p>
 
   <form id="Registration">
-
+-->
     <!--Personal Info-->
+    <!--
     <div class="form-row personalInfo">
       <div class="col-12">
         <p class="seccionForm">Personal</p>
@@ -783,8 +785,9 @@
         </div>
       </div>
     </div>
-    
+    -->
     <!-- Digital Info -->
+    <!--
     <div class="form-row">
       <div class="col-2 col-sm-2 col-md-1">
         <figure class="text-right"><img src="images/home/LandingPage-03.png" alt=""></figure>
@@ -812,8 +815,9 @@
         </div>
       </div>
     </div>
-
+-->
     <!--Contact Info-->
+    <!--
     <div class="form-row contactInfo">
       <div class="col-12">
         <p class="seccionForm">Contact</p>
@@ -841,7 +845,7 @@
          <div class="form-group">
               <select class="js-example-basic-single form-control" id="inputCountry" name="inputCountry" onchange="getval(this);" >
               <option value="" selected disabled>Country*</option>
-              <?php include 'controlador/ControladorPaises.php'; ?>
+              <?php //include 'controlador/ControladorPaises.php'; ?>
             </select>
           </div>
       </div>
@@ -953,11 +957,15 @@
         <label for="switch_no">No</label>
       </div>
     </div>
+  -->
     <!--Companion Info-->
+    <!--
     <div class="companionForm">
       <hr class="green">
       <p class="titulo">Companion Form</p>
+    -->
         <!--Personal Info-->
+        <!--
         <div class="form-row personalInfo">
           <div class="col-12">
             <p class="seccionForm">Personal</p>
@@ -1003,7 +1011,9 @@
             </div>
           </div>
         </div>
+      -->
             <!--Contact Info-->
+            <!--
         <div class="form-row contactInfo">
           <div class="col-12">
             <p class="seccionForm">Contact</p>
@@ -1031,7 +1041,7 @@
              <div class="form-group">
                   <select class="js-example-basic-single form-control" id="inputCountryCompanion" name="inputCountryCompanion" onchange="getvalCompanion(this);" >
                   <option value="" selected disabled>Country*</option>
-                  <?php include 'controlador/ControladorPaises.php'; ?>
+                  <?php //include 'controlador/ControladorPaises.php'; ?>
                 </select>
               </div>
           </div>
@@ -1118,14 +1128,15 @@
 
     <button type="button" class="btn btn-primary btn-lg" id="btnSend">Submit</button>
   </form>
-	<?php include 'controlador/ControladorTelefonos.php'; ?>
+	<?php //include 'controlador/ControladorTelefonos.php'; ?>
 </section>
-
+-->
 <!-- Ventana Exito -->
+<!--
 <div class="modal fade" id="Ventana_Exito" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
     
-      <!-- Contenido Ventana -->
+
       <div class="modal-content">
         <div class="modal-header">
 			<div class="modal-title">
@@ -1140,6 +1151,7 @@
       
     </div>
   </div>
+-->
 
 <?php include 'footer.php';?>
 
