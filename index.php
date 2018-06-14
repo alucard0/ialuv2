@@ -199,7 +199,7 @@
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
           <div class="col-7 col-sm-9 col-md-7">Encuentro registration on campus</div>
-          <div class="col-5 col-sm-3 col-md-5">08:15</div>
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
           <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
           
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
@@ -232,7 +232,7 @@
         <p class="date">Wednesday, June 20, <br>La Salle Nezahualcóyotl</p>
         <hr class="orange">
         <div class="row content no-gutters">
-          <div class="col-5 col-sm-3 col-md-5">07:30</div>
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
           <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
           <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
@@ -244,7 +244,7 @@
           <div class="col-7 col-sm-9 col-md-7">#LaSalle300</div>
           <div class="col-5 col-sm-3 col-md-5">12:00 13:30</div>
           <div class="col-7 col-sm-9 col-md-7">Bilateral Networking IALU </div>
-          <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
+          <div class="col-5 col-sm-3 col-md-5">13:30 14:30</div>
           <div class="col-7 col-sm-9 col-md-7">Lunch</div>
           <div class="col-5 col-sm-3 col-md-5">15:00 16:00</div>
           <div class="col-7 col-sm-9 col-md-7">On our way to Basilica of Guadalupe</div>
@@ -263,7 +263,7 @@
         <p class="date">Thursday, June 21, <br>La Salle Mexico City</p>
         <hr class="orange">
         <div class="row content no-gutters">
-          <div class="col-5 col-sm-3 col-md-5">08:15</div>
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
           <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:45</div>
           <div class="col-7 col-sm-9 col-md-7">President's Address</div>
@@ -615,7 +615,7 @@
       <p class="subtitle">During<br>the Encuentro</p>
     </div>
     <div class="col-12 col-sm-7 col-md-6 col-lg-7">
-      <p>The rector's guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the National Museum of Anthropology.</p>
+      <p>The rector's guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the Casa del Lago Chapultepec.</p>
     </div>
   </div>
 </section>
