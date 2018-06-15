@@ -218,7 +218,7 @@
           <div class="col-5 col-sm-3 col-md-5">14:30 15:00</div>
           <div class="col-7 col-sm-9 col-md-7">Official photo</div>
           <div class="col-5 col-sm-3 col-md-5">15:00 15:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Best Practices</div>
+          <div class="col-7 col-sm-9 col-md-7">Panel: Transformation Agents, opportunity for the future</div>
           <div class="col-5 col-sm-3 col-md-5">15:45 16:30</div>
           <div class="col-7 col-sm-9 col-md-7">Poster Fair</div>
           <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
@@ -237,7 +237,7 @@
           <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
           <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
           <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Google Conference</div>
+          <div class="col-7 col-sm-9 col-md-7">Conference: Technology for collaboration of Eleazar Ortiz (Google Mexico CEO of Google for Education)</div>
           <div class="col-5 col-sm-3 col-md-5">11:00 11:15</div>
           <div class="col-7 col-sm-9 col-md-7">Free Time</div>
           <div class="col-5 col-sm-3 col-md-5">11:15 12:00</div>
