@@ -66,7 +66,7 @@
         <!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <a class="nav-item nav-link" href="#alternatingProgram">Campus visits</a>
-        <!--<a class="nav-item nav-link" href="#registration">Registration</a>-->
+        <a class="nav-item nav-link" href="#registration">Registration</a>
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
       </div>
     </div>
@@ -617,7 +617,7 @@
     </div>
   </div>
 </section>
-<!--
+
 <section id="registration" class="container-fluid">
   <div class="row">
     <div class="col-12 col-sm-6">
@@ -703,7 +703,7 @@
     </div>
   </div>
 </section>
--->
+
 <!--
 <section id="registrationForm" class="container-fluid">
   <p class="text-left title">Registration<br><span class="guion">-</span> Form <span class="mayores">>>>></span></p>
