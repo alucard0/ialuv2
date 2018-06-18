@@ -274,13 +274,13 @@
           <div class="col-5 col-sm-3 col-md-5">10:45 12:45</div>
           <div class="col-7 col-sm-9 col-md-7">General Assembly</div>
           <div class="col-5 col-sm-3 col-md-5">10:45 11:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
           <div class="col-5 col-sm-3 col-md-5">11:15 11:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
           <div class="col-5 col-sm-3 col-md-5">11:45 12:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
           <div class="col-5 col-sm-3 col-md-5">12:15 12:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by comissions</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
           <div class="col-5 col-sm-3 col-md-5">13:00 13:30</div>
           <div class="col-7 col-sm-9 col-md-7">Closure</div>
           <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
