@@ -618,88 +618,104 @@
   </div>
 </section>
 
-<section id="registration" class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-sm-6">
-        <p class="text-left title"> Registration</p>
-        <hr class="green">
+<section id="alternatingProgram" class="container-fluid">
+  <p class="text-right title">Downloads<br><span class="mayores">>></span> Presentations</p>
+
+  <div class="row visitUniBox">
+    <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+      <p class="subtitle">Downloads</p>
+    </div>
+    <div class="col-12 col-sm-8 col-md-6 col-lg-8">
+      <p>From June 15-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
+      <p>Those activities have an additional charge for transportation and accommodation.</p>
+
     </div>
   </div>
- 
+  <div class="row justify-content-center">
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Bajio.pdf" target="_blank">
+          <figure class="text-center">
+            <figcaption>Bajío</figcaption>
+            <img src="images/home/flecha.png" alt="" class="img-fluid">
+          </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Cancun.pdf" target="_blank">
+          <figure class="text-center">
+            <figcaption>Cancún</figcaption>
+            <img src="images/home/flecha.png" alt="" class="img-fluid">
+          </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Cuernavaca.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Cuernavaca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Laguna.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Laguna</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Noroeste.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Noroeste</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Oaxaca.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Oaxaca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Pachuca.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Pachuca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Puebla.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Puebla</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Saltillo.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Saltillo</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+      </div>
   <div class="row">
-    <div class="col-sm-6">
-      <p class="instruccion">Registration for the XII Encuentro IALU is simple, just follow the following steps:</p>
-      <ol class="instruccion">
-        <li>Fill in the registration form</li>
-        <li>Pay the registration fee</li>
-        <li>Send your payment receipt to <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></li>
-      </ol>
-      <div class="bgAzul feeInfo">
-        <p class="title">Registration fee information:</p>
-        <p class="content">Registration fee for Encuentro XII is <span class="font-italic"><strong>USD $550*.</strong></span> <br>Companions program is <span class="font-italic"><strong>USD $100*.</strong></span><br><br>*Equivalent to exchange rate at the time of registration.</p>
-      </div>
-      <div class="moreInfo">
-        <p class="orangeText text-right">Bank transfer fees should be added. Consult with your bank.<br>For more information, please contact us <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
-        
-      </div>
+  	<div class="col">
+    	<hr class="green">
     </div>
-    <div class="col-sm-6">
-      <div class="row">
-        <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_PesosMex.png" alt="" class="img-fluid w-75 float-right"></figure>
-        </div>
-        <div class="col-sm-8">
-          <p class="orangeBG col-sm-6 col-md-10 currency">MEXICAN PESOS</p>
-          <ul class="infoPay">
-            <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Bank Santander México S.A.</li>
-            <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
-            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 519-081-20039</li>
-            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 014180519081200394</li>
-            <li><strong>Account name:</strong><span class="d-block d-sm-none"></span> SEDES</li>
-      			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 5781 Tacubaya, Calle Pedro A de los Santos N.98 Col. San Miguel Chapultepec CP 11850 Delegación Miguel Hidalgo CDMX</li>
-      			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamin Franklin 45 Colonia Condesa Delegación Cuauhtemoc CP 06140 CDMX</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row boxCurrency">
-        <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_UsdDollar.png" alt="" class="img-fluid w-75 float-right"></figure>
-        </div>
-        <div class="col-sm-8">
-          <p class="orangeBG col-sm-3 col-md-5 currency">USD</p>
-          <ul class="infoPay">
-            <li><strong>Bank:</strong><span class="d-block d-sm-none"></span> Banamex</li>
-            <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
-            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 0141 9085 533</li>
-            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 002 180 0141 9085 533 8</li>
-            <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BNMXMXMM</li>
-      			<li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 141 Tacubaya, CDMX Ave. Jalisco 160 Tacubaya</li>
-      			<li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row boxCurrency">
-        <div class="col-sm-4">
-          <figure><img src="images/home/IALULanding_Euros.png" alt="" class="img-fluid w-75 float-right"></figure>
-        </div>
-        <div class="col-sm-8">
-          <p class="orangeBG col-sm-3 col-md-5 currency">EUROS</p>
-          <ul class="infoPay">
-            <li><strong>Beneficiary Bank:</strong><span class="d-block d-sm-none"></span> Bank Santander México S.A.</li>
-            <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BMSXMXMM</li>
-            <li><strong>Final Beneficiary:</strong><span class="d-block d-sm-none"></span> Universidad La Salle A.C.</li>
-            <li><strong>Account 11 digits:</strong><span class="d-block d-sm-none"></span> 519-081-20039</li>
-            <li><strong>Account 18 digits:</strong><span class="d-block d-sm-none"></span> 014180519081200394</li>
-            <li><strong>Correspondent Bank:</strong><span class="d-block d-sm-none"></span> Banco Santander</li>
-            <br>
-            <li><strong>City:</strong><span class="d-block d-sm-none"></span> Madrid España</li>
-            <li><strong>SWIFT code:</strong><span class="d-block d-sm-none"></span> BSCHESMM</li>
-            <li><strong>Account:</strong><span class="d-block d-sm-none"></span> BMSXMXMM</li>
-            <li><strong>Bank address:</strong><span class="d-block d-sm-none"></span> Sucursal 5781 Tacubaya, Calle Pedro A de los Santos N. 98 Col. San Miguel Chapultepec  CP 11850, Delegación Miguel Hidalgo, CDMX</li>
-            <li><strong>Beneficiary's address:</strong><span class="d-block d-sm-none"></span> Benjamín Franklin 45 Colonia Condesa, Delegación Cuauhtemoc CP 06140 CDMX</li>
-          </ul>
-        </div>
-      </div>
+  </div>
+  <div class="row duringBox">
+    <div class="col-12 col-sm-5 col-md-6 col-lg-5">
+      <p class="subtitle">During<br>the Encuentro</p>
+    </div>
+    <div class="col-12 col-sm-7 col-md-6 col-lg-7">
+      <p>The rector's guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the Casa del Lago Chapultepec.</p>
     </div>
   </div>
 </section>
