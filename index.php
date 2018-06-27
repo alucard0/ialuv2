@@ -62,11 +62,12 @@
     <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="#home">Home</a>
-        <a class="nav-item nav-link" href="#program">Program</a> 
-        <!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
+        <a class="nav-item nav-link" href="#program">Program</a>
+		<a class="nav-item nav-link" href="#media">Media</a> 
+        <a class="nav-item nav-link" href="#director">Director</a>
+		<a class="nav-item nav-link" href="#download">Download</a> 		
+		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
-        <a class="nav-item nav-link" href="#alternatingProgram">Campus visits</a>
-        <a class="nav-item nav-link" href="#registration">Registration</a>
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
       </div>
     </div>
@@ -83,89 +84,6 @@
   <div class="row justify-content-end">
     <div class="col-sm-4"><figure><img src="images/home/IALULanding_EncuentroIALU.png" alt="Encuentro IALU XII" class="img-fluid"></figure></div>
     
-  </div>
-</section>
-<section id="welcome" class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-sm-4 col-xl-4">
-      <p class="text-right dear">Dear<br>Lasallians<br>Colleagues</p>
-    </div>
-    <div class="col-12  col-sm-8 col-xl-8">
-      <div class="welcomeText">
-        <p>On behalf of the International Association of La Salle Universities, it is my pleasure to write you to invite you to <strong>Encuentro XII - Strength in Diversity: confronting global challenges through higher education.</strong></p>
-
-        <p>The Encuentro will be held at Universidad La Salle, Mexico City, Mexico on June 19-21, 2018. It will be hosted by the La Salle Mexico network of universities constituted by fifteen campuses around the country. This will be an opportunity for us to reflect about the role that universities play in providing answers to the difficult questions that are posed before us in everyday life.</p>
-
-        <p>As IALU celebrates its 20<sup>th</sup> Anniversary, this will also be a forum for us to engage on how far we have traveled as a network and identify the necessary actions for us to ensure sustainable progress in the next two decades.</p>
-
-        <p>Br. Robert Schieler, Superior General of the Brothers of the Christian Schools will be participating on the event, as well as keynote speakers which will bring light to the topics of internationalization and also innovation.</p>
-
-        <p>We encourage each President to be present. We also encourage Presidents to bring up to three people who might play an important role in one of the themes of IALU Committees (Mission, Internationalization and Research) or are representatives of other sectors of the institution’s leadership.</p>
-
-        <p>The registration fee for the XII Encuentro is of US $550 per participant. It covers activities, meals and transportation during the working agenda. Participants shall register on the form below not later than May 30, 2018. At the program website, participants will have the choice of two hotels and transportations to and from the hotel to the program activities will be included.</p>
-
-        <p>During our XII Encuentro, universities will be able to participate in the Poster Fair, a presentation of selected success stories and the photo exhibition. Please check this website to learn more about the full program and the Encuentro.</p>
-
-        <p>Finally, we note that while we will have sessions in two universities, the opportunity exists to develop stronger ties with our Mexican institutions both prior and after the Encuentro. We strongly encourage participants to take advantage of this opportunity to learn and interact with our Mexican counterparts. The details for these institutional visits are also provided in the Encuentro website.</p>
-
-        <p>We look forward to seeing you at the XII Encuentro IALU.</p>
-        <p>Indivisa Manent</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="globalChallenges" class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-sm-6 d-block d-sm-none">
-      <h1 class="text-right globalTitle">Confronting<br>global challenges</h1>
-      <p class="text-right globalSubtitle">through education</p>
-      <figure><img src="images/home/IALULanding_grass.png" alt="Chicos recostados en el cesped" class="img-fluid mx-auto d-block"></figure>
-    </div>
-    <div class="col-12 col-sm-6">
-      <div class="row">
-        <div class="col">
-          <figure>
-            <img src="images/home/IALULanding_Conferences.png" alt="Conferences" class="img-fluid">
-            <figcaption>Conferences</figcaption>
-          </figure>
-          <p class="description">Distinguished speakers to: inspire, contextualize, pose challenges, forward looking vision.</p>
-        </div>
-        <div class="col">
-          <figure>
-            <img src="images/home/IALULanding_Cocreate.png" alt="Co-Create" class="img-fluid">
-            <figcaption>Co-Create</figcaption>
-          </figure>
-          <p class="description">Solutions and contribution from a Lasallian perspective.</p>
-        </div>
-        <div class="col">
-          <figure>
-            <img src="images/home/IALULanding_Sharing.png" alt="Experiences" class="img-fluid">
-            <figcaption>Experiences</figcaption>
-          </figure>
-          <p class="description">Experiences of Lasallian institutions beyond frontiers.</p>
-        </div>
-        <div class="col">
-          <figure>
-            <img src="images/home/IALULanding_SuscessStories.png" alt="Success stories" class="img-fluid">
-            <figcaption>Success stories</figcaption>
-          </figure>
-          <p class="description">Find out about success stories going beyond frontiers.</p>
-        </div>
-        <div class="col ">
-          <figure>
-            <img src="images/home/IALULanding_cultural.png" alt="Cultural activities" class="img-fluid">
-            <figcaption>Cultural activities</figcaption>
-          </figure>
-          <p class="topic">Integration activities and intercultural dialogue.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-sm-6 d-none d-sm-block">
-      <h1 class="text-right globalTitle">Confronting<br>global challenges</h1>
-      <p class="text-right globalSubtitle">through education</p>
-      <figure><img src="images/home/IALULanding_grass.png" alt="Chicos recostados en el cesped" class="img-fluid mx-auto d-block"></figure>
-    </div>
   </div>
 </section>
 
@@ -516,107 +434,6 @@
   </div>
 </section>
 -->
-<section id="alternatingProgram" class="container-fluid">
-  <p class="text-right title">Campus<br><span class="mayores">>></span> visits</p>
-
-  <div class="row visitUniBox">
-    <div class="col-12 col-sm-4 col-md-6 col-lg-4">
-      <p class="subtitle">Visits to<br>Universities</p>
-    </div>
-    <div class="col-12 col-sm-8 col-md-6 col-lg-8">
-      <p>From June 15-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
-      <p>Those activities have an additional charge for transportation and accommodation.</p>
-
-    </div>
-  </div>
-  <div class="row justify-content-center">
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Bajio.pdf" target="_blank">
-          <figure class="text-center">
-            <figcaption>Bajío</figcaption>
-            <img src="images/home/flecha.png" alt="" class="img-fluid">
-          </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Cancun.pdf" target="_blank">
-          <figure class="text-center">
-            <figcaption>Cancún</figcaption>
-            <img src="images/home/flecha.png" alt="" class="img-fluid">
-          </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Cuernavaca.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Cuernavaca</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Laguna.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Laguna</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Noroeste.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Noroeste</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Oaxaca.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Oaxaca</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Pachuca.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Pachuca</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Puebla.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Puebla</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-        <div class="col-4 col-md-auto">
-          <a href="descargables/IALU_VISIT_Saltillo.pdf" target="_blank">
-            <figure class="text-center">
-              <figcaption>Saltillo</figcaption>
-              <img src="images/home/flecha.png" alt="" class="img-fluid">
-            </figure>
-          </a>
-        </div>
-      </div>
-  <div class="row">
-  	<div class="col">
-    	<hr class="green">
-    </div>
-  </div>
-  <div class="row duringBox">
-    <div class="col-12 col-sm-5 col-md-6 col-lg-5">
-      <p class="subtitle">During<br>the Encuentro</p>
-    </div>
-    <div class="col-12 col-sm-7 col-md-6 col-lg-7">
-      <p>The rector's guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the Casa del Lago Chapultepec.</p>
-    </div>
-  </div>
-</section>
 
 <section id="alternatingProgram" class="container-fluid">
   <p class="text-right title">Downloads<br><span class="mayores">>></span> Presentations</p>
