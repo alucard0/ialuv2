@@ -12,6 +12,7 @@
 
 	<!--JS-->
 	<script type="text/javascript" src="js/afterglow.min.js"></script>
+	<!--<script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>-->
 
     <!--Facebook -->
     <meta property="og:url" content="http://www.lasalle.mx/ialu"/>
@@ -63,11 +64,10 @@
     <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.php">Home</a>
-        <a class="nav-item nav-link" href="index.php">Program</a>
-		<a class="nav-item nav-link" href="conference.php">Conference</a>
+        <a class="nav-item nav-link" href="program.php">Program</a>
+		<a class="nav-item nav-link" href="conference.php">Speakers</a>
 		<a class="nav-item nav-link" href="#">Media</a> 
-        <a class="nav-item nav-link" href="directorio.php">Directory</a>
-		<a class="nav-item nav-link" href="#download">Download</a> 				
+        <a class="nav-item nav-link" href="directorio.php">Directory</a>			
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
@@ -77,6 +77,7 @@
 </header>
 
 <!-- Slider -->
+<!--
 <section id="home" class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12">
@@ -88,26 +89,27 @@
     
   </div>
 </section>
-
-<section id="photoGallery" class="container-fluid">
+-->
+<br><br>
+<section id="home" class="container-fluid">
 	<div class="row">
 	  <div class="col-md-4">
 		<div class="thumbnail">
-		  <a href="images/gallery/Dia1.png">
+		  <a href=" https://www.facebook.com/media/set/?set=a.10156382724399593.1073742035.54587964592&type=1&l=b16236cc28" target="_blanc">
 			<img src="images/gallery/Dia1.png" alt="Day1" style="width:100%">
 		  </a>
 		</div>
 	  </div>
 	  <div class="col-md-4">
 		<div class="thumbnail">
-		  <a href="images/gallery/Dia2.png">
+		  <a href="https://www.facebook.com/media/set/?set=a.10156382752044593.1073742036.54587964592&type=1&l=cd702caa5a" target="_blanc">
 			<img src="images/gallery/Dia2.png" alt="Day2" style="width:100%">
 		  </a>
 		</div>
 	  </div>
 	  <div class="col-md-4">
 		<div class="thumbnail">
-		  <a href="images/gallery/Dia3.png">
+		  <a href="https://www.facebook.com/media/set/?set=a.10156382761944593.1073742037.54587964592&type=1&l=b032bd0134" target="_blanc">
 			<img src="images/gallery/Dia3.png" alt="Day3" style="width:100%">
 			<!--<div class="caption">
 			  <p>Lorem ipsum...</p>
@@ -124,12 +126,12 @@
     <div class="col-md-4">
 		<!--<iframe width="360" height="202" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>-->
 		<br>
-		<video class="afterglow" id="Video4" width="360" height="202" data-youtube-id="ErjgrlMKiBA" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video1" width="360" height="202" data-youtube-id="ErjgrlMKiBA" data-autoresize="fit" data-skin="dark"></video>
 		<h3>Confronting Global Challenges Through Higher Education</h3>
     </div>
     <div class="col-md-4">
 		<br>
-		<video class="afterglow" id="Video1" width="360" height="202" data-youtube-id="x6iZx32csw8" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video2" width="360" height="202" data-youtube-id="x6iZx32csw8" data-autoresize="fit" data-skin="dark"></video>
 		<h3>Welcome  to the Encuentro IALU</h3>
     </div>
     <div class="col-md-4">
@@ -144,7 +146,7 @@
   <div class="row">
     <div class="col-md-4">
 		<br>
-		<video class="afterglow" id="Video2" width="360" height="202" data-youtube-id="y29lmjlMUyY" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video4" width="360" height="202" data-youtube-id="y29lmjlMUyY" data-autoresize="fit" data-skin="dark"></video>
 		<h3>Opening ceremony Encuentro IALU XII</h3>
     </div>
     <div class="col-md-4">
@@ -164,17 +166,17 @@
   <div class="row">
     <div class="col-md-4">
 		<br>
-		<video class="afterglow" id="Video2" width="360" height="202" data-youtube-id="Ns49e__5eX8" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video7" width="360" height="202" data-youtube-id="Ns49e__5eX8" data-autoresize="fit" data-skin="dark"></video>
 		<h3>IALU 20 Years</h3>
     </div>
     <div class="col-md-4">
 		<br>
-		<video class="afterglow" id="Video5" width="360" height="202" data-youtube-id="ySr5uMeRp2c" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video8" width="360" height="202" data-youtube-id="ySr5uMeRp2c" data-autoresize="fit" data-skin="dark"></video>
 		<h3>#LaSalle300</h3>
     </div>
     <div class="col-md-4">
 		<br>
-		<video class="afterglow" id="Video6" width="360" height="202" data-youtube-id="WaGuD2lZ9TQ" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video9" width="360" height="202" data-youtube-id="WaGuD2lZ9TQ" data-autoresize="fit" data-skin="dark"></video>
 		<h3>Technology for collaboration</h3>
     </div>
   </div>
@@ -186,7 +188,7 @@
     </div>
     <div class="col-md-4">
 		<br>
-		<video class="afterglow" id="Video5" width="360" height="202" data-youtube-id="mkRMrSZFUqI" data-autoresize="fit" data-skin="dark"></video>
+		<video class="afterglow" id="Video10" width="360" height="202" data-youtube-id="mkRMrSZFUqI" data-autoresize="fit" data-skin="dark"></video>
 		<h3>Closing ceremony</h3>
     </div>
     <div class="col-md-4">

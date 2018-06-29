@@ -63,11 +63,10 @@
     <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.php">Home</a>
-        <a class="nav-item nav-link" href="index.php">Program</a>
-		<a class="nav-item nav-link" href="conference.php">Conference</a>
+        <a class="nav-item nav-link" href="program.php">Program</a>
+		<a class="nav-item nav-link" href="conference.php">Speakers</a>
 		<a class="nav-item nav-link" href="media.php">Media</a> 
-        <a class="nav-item nav-link" href="#">Directory</a>
-		<a class="nav-item nav-link" href="#download">Download</a> 				
+        <a class="nav-item nav-link" href="#">Directory</a>		
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
@@ -77,6 +76,7 @@
 </header>
 
 <!-- Slider -->
+<!--
 <section id="home" class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12">
@@ -88,8 +88,10 @@
     
   </div>
 </section>
-
-<section id="table" class="container-fluid">
+-->
+<section id="home" class="container-fluid">
+	<br>
+	<h2>Participants</h2>
 	<?php include 'controlador/ControladorOEdu.php'; ?>
 </section>
 

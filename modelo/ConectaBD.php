@@ -83,5 +83,8 @@
 			mysqli_real_escape_string ($this->mysqli , $var);
 			return $var;
 		}
+		public function liberaResultado ($var) {
+			mysqli_free_result ($var );
+		}
 	}
 ?>

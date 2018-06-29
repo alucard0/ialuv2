@@ -10,8 +10,6 @@
     <meta name="description" content="Strength in Diversity">
     <meta name="author" content="La Salle México">
 
-	<!--JS-->
-	<script type="text/javascript" src="js/afterglow.min.js"></script>
 
     <!--Facebook -->
 
@@ -63,11 +61,11 @@
     </button>
     <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#home">Home</a>
-        <a class="nav-item nav-link" href="program.php">Program</a>
+        <a class="nav-item nav-link" href="index.php">Home</a>
+        <a class="nav-item nav-link" href="#">Program</a>
 		<a class="nav-item nav-link" href="conference.php">Speakers</a>
 		<a class="nav-item nav-link" href="media.php">Media</a> 
-        <a class="nav-item nav-link" href="directorio.php">Directory</a>
+        <a class="nav-item nav-link" href="directorio.php">Directory</a>		
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
@@ -77,6 +75,7 @@
 </header>
 
 <!-- Slider -->
+<!--
 <section id="home" class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12">
@@ -87,15 +86,144 @@
     <div class="col-sm-4"><figure><img src="images/home/IALULanding_EncuentroIALU.png" alt="Encuentro IALU XII" class="img-fluid"></figure></div>
     
   </div>
-</section>
+</section>-->
 
-<section id="video" class="container-fluid">
-	<div class="row justify-content-center">	
-		<div class="col-6">
-			<h1>IALU 20 Years</h1>
-			<video class="afterglow" id="Years" width="1280" height="720" data-youtube-id="XPFKj_DWtjs" data-autoresize="fit" data-skin="dark"></video>
-		</div>
-	</div>
+<section id="program" class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-6 d-block d-sm-none">
+        <p class="text-right title">Program</p>
+        <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
+      </div>
+      <div class="col-12 col-sm-6 boxMonday">
+        <p class="orangeBG col-sm-4 col-md-6">Monday, June 18</p>
+        <hr class="orange">
+          <div class="row content no-gutters">
+            <div class="col-5 col-sm-3 col-md-5">16:00 20:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Check in  and Encuentro registration at hotels</div>
+            <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
+            <div class="col-7 col-sm-9 col-md-7">Welcome Cocktail Hotel Galeria Plaza Reforma</div>
+          </div>
+      </div>
+      <div class="col-12 col-sm-6 d-none d-sm-block">
+        <p class="text-right title">Program</p>
+        <p class="text-right subtitle"><span class="mayores">>></span>18-22</p>
+      </div>
+      
+    </div>
+    <div class="row no-gutters">
+      <div class="col-12 col-sm-4">
+        <p class="day">Day 1</p>
+        <p class="date">Tuesday, June 19, <br>La Salle Mexico City</p>
+        <hr class="orange">
+        <div class="row content no-gutters">
+          <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Encuentro registration on campus</div>
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
+          
+          <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Opening ceremony</div>
+          <div class="col-5 col-sm-3 col-md-5">09:30 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Brother Superior's presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 11:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Free Time</div>
+
+          <div class="col-5 col-sm-3 col-md-5">11:00 12:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Hans de Wit presentation</div>
+          <div class="col-5 col-sm-3 col-md-5">12:00 13:00</div>
+          <div class="col-7 col-sm-9 col-md-7">IALU: Celebrating 20 years</div>
+          <div class="col-5 col-sm-3 col-md-5">13:00 14:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
+          <div class="col-5 col-sm-3 col-md-5">14:30 15:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Official photo</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 15:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Panel: Transformation Agents, opportunity for the future</div>
+          <div class="col-5 col-sm-3 col-md-5">15:45 16:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Poster Fair</div>
+          <div class="col-5 col-sm-3 col-md-5">16:30 18:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Coffee between experts</div>
+          <div class="col-5 col-sm-3 col-md-5">19:00 21:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Wellness Center Opening</div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="day">Day 2</p>
+        <p class="date">Wednesday, June 20, <br>La Salle Nezahualcóyotl</p>
+        <hr class="orange">
+        <div class="row content no-gutters">
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Campus Tour La Salle Nezahualcóyotl</div>
+          <div class="col-5 col-sm-3 col-md-5">10:00 11:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Conference: Technology for collaboration of Eleazar Ortiz (Google Mexico CEO of Google for Education)</div>
+          <div class="col-5 col-sm-3 col-md-5">11:00 11:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Free Time</div>
+          <div class="col-5 col-sm-3 col-md-5">11:15 12:00</div>
+          <div class="col-7 col-sm-9 col-md-7">#LaSalle300</div>
+          <div class="col-5 col-sm-3 col-md-5">12:00 13:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Bilateral Networking IALU </div>
+          <div class="col-5 col-sm-3 col-md-5">13:30 14:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 16:00</div>
+          <div class="col-7 col-sm-9 col-md-7">On our way to Basilica of Guadalupe</div>
+          <div class="col-5 col-sm-3 col-md-5">16:00 17:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Mass held in the Basilica of Guadalupe</div>
+          <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Tour Basilica of Guadalupe</div>
+          <div class="col-5 col-sm-3 col-md-5">18:00 19:00</div>
+          <div class="col-7 col-sm-9 col-md-7">On our way to Casa del Lago Chapultepec</div>
+          <div class="col-5 col-sm-3 col-md-5">19:00 21:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Dinner at Casa del Lago Chapultepec</div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p class="day">Day 3</p>
+        <p class="date">Thursday, June 21, <br>La Salle Mexico City</p>
+        <hr class="orange">
+        <div class="row content no-gutters">
+          <div class="col-5 col-sm-3 col-md-5">08:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Departure from Hotels</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 09:45</div>
+          <div class="col-7 col-sm-9 col-md-7">President's Address</div>
+          <div class="col-5 col-sm-3 col-md-5">09:45 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Executive Director Address</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 10:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Free Time</div>
+          <div class="col-5 col-sm-3 col-md-5">10:45 12:45</div>
+          <div class="col-7 col-sm-9 col-md-7">General Assembly</div>
+          <div class="col-5 col-sm-3 col-md-5">10:45 11:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
+          <div class="col-5 col-sm-3 col-md-5">11:15 11:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
+          <div class="col-5 col-sm-3 col-md-5">11:45 12:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
+          <div class="col-5 col-sm-3 col-md-5">12:15 12:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Parallel sessions for non-rectors</div>
+          <div class="col-5 col-sm-3 col-md-5">13:00 13:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Closure</div>
+          <div class="col-5 col-sm-3 col-md-5">13:30 15:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
+        </div>
+      </div>
+    </div>
+    <div class="row endContent ">
+        <div class="col-sm-5">
+          <p class="orangeBG col-sm-4 col-md-7">Friday, June 22</p>
+          <hr class="orange">
+          <div class="row content no-gutters">
+            <div class="col-5 col-sm-3 col-md-5">09:00 12:00</div>
+            <div class="col-7 col-sm-9 col-md-7">IALU Board Meeting</div>
+          </div>
+        </div>
+        <div class="col-sm-7">
+          <p class="text-right orangeText">We highly recommend participants to <span>arrive to Mexico City on June 18.</span></p>
+          <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the Hotel Galeria Plaza Reforma.</p>
+          <p class="text-right orangeText">Transportation will be provided from Hotel Camino Real and La Salle</p>
+          <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
+          <p class="text-right orangeText">We offer an alternative program for companions. <strong>Extra fee required.</strong><br>Further information <a href="mailto:ialu@ulsa.mx">ialu@ulsa.mx</a></p>
+        </div>
+    </div>
 </section>
 
 
@@ -307,9 +435,109 @@
   </div>
 </section>
 -->
+<!--
+<section id="alternatingProgram" class="container-fluid">
+  <p class="text-right title">Downloads<br><span class="mayores">>></span> Presentations</p>
 
+  <div class="row visitUniBox">
+    <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+      <p class="subtitle">Downloads</p>
+    </div>
+    <div class="col-12 col-sm-8 col-md-6 col-lg-8">
+      <p>From June 15-24 universities from the Lasallian Universities Network in the Mexico will be organizing trips around the country for you to interact and develop stronger ties with Mexican institutions.</p>
+      <p>Those activities have an additional charge for transportation and accommodation.</p>
 
-
+    </div>
+  </div>
+  <div class="row justify-content-center">
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Bajio.pdf" target="_blank">
+          <figure class="text-center">
+            <figcaption>Bajío</figcaption>
+            <img src="images/home/flecha.png" alt="" class="img-fluid">
+          </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Cancun.pdf" target="_blank">
+          <figure class="text-center">
+            <figcaption>Cancún</figcaption>
+            <img src="images/home/flecha.png" alt="" class="img-fluid">
+          </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Cuernavaca.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Cuernavaca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Laguna.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Laguna</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Noroeste.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Noroeste</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Oaxaca.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Oaxaca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Pachuca.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Pachuca</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Puebla.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Puebla</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+        <div class="col-4 col-md-auto">
+          <a href="descargables/IALU_VISIT_Saltillo.pdf" target="_blank">
+            <figure class="text-center">
+              <figcaption>Saltillo</figcaption>
+              <img src="images/home/flecha.png" alt="" class="img-fluid">
+            </figure>
+          </a>
+        </div>
+      </div>
+  <div class="row">
+  	<div class="col">
+    	<hr class="green">
+    </div>
+  </div>
+  <div class="row duringBox">
+    <div class="col-12 col-sm-5 col-md-6 col-lg-5">
+      <p class="subtitle">During<br>the Encuentro</p>
+    </div>
+    <div class="col-12 col-sm-7 col-md-6 col-lg-7">
+      <p>The rector's guests are welcome to attend to the mass that will be held in the Basilica of Guadalupe, and for dinner at the Casa del Lago Chapultepec.</p>
+    </div>
+  </div>
+</section>
+-->
 <!--
 <section id="registrationForm" class="container-fluid">
   <p class="text-left title">Registration<br><span class="guion">-</span> Form <span class="mayores">>>>></span></p>
