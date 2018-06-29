@@ -63,8 +63,9 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="#home">Home</a>
         <a class="nav-item nav-link" href="#program">Program</a>
-		<a class="nav-item nav-link" href="#media">Media</a> 
-        <a class="nav-item nav-link" href="#director">Director</a>
+		<a class="nav-item nav-link" href="conference.php">Conference</a>
+		<a class="nav-item nav-link" href="media.php">Media</a> 
+        <a class="nav-item nav-link" href="directorio.php">Directory</a>
 		<a class="nav-item nav-link" href="#download">Download</a> 		
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->

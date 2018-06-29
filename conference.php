@@ -62,11 +62,12 @@
     </button>
     <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#home">Home</a>
-        <a class="nav-item nav-link" href="#program">Program</a>
-		<a class="nav-item nav-link" href="#media">Media</a> 
-        <a class="nav-item nav-link" href="#director">Director</a>
-		<a class="nav-item nav-link" href="#download">Download</a> 		
+        <a class="nav-item nav-link" href="index.php">Home</a>
+        <a class="nav-item nav-link" href="index.php">Program</a>
+		<a class="nav-item nav-link" href="#">Conference</a>
+		<a class="nav-item nav-link" href="media.php">Media</a> 
+        <a class="nav-item nav-link" href="directorio.php">Directory</a>
+		<a class="nav-item nav-link" href="#download">Download</a> 
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
@@ -128,7 +129,7 @@
 				<div class="card-body">
 					<h5 class="card-title">Robert Schieler</h5>
 					<p class="card-text">THE IMPACT OF LASALLIAN UNIVERSITIES: Three Touchstones to Identity</p>
-					<a href="#" class="btn btn-primary">Download</a>
+					<a href="descargables/ppt/Robert_Schieler.pdf" target="_blank" class="btn btn-primary">Download</a>
 				</div>
 			</div>
 				
@@ -137,7 +138,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Hans de Wit</h5>
 				<p class="card-text">The why, what and how of Internationalization in higher education, implications of Catholic universities</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/Hans_de_Wit.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 				
@@ -146,7 +147,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Gustavo Ramírez Barba</h5>
 				<p class="card-text">#300LaSalle</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<!--<a href="#" class="btn btn-primary">Download</a>-->
 			  </div>
 			</div>
 	</div>
@@ -157,7 +158,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Victor Moctezuma, Violeta Sandoval, María José Céspedes</h5>
 				<p class="card-text">Transformation Agents, opportunity for the future</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/ASHOKA.zip" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -165,7 +166,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Josep Piqué</h5>
 				<p class="card-text">From La Salle Innovation Park to BIT La Salle</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Josep_Pique.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -173,7 +174,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Delvin Díaz Membreño</h5>
 				<p class="card-text">The Role of ULSA in Environmental Sustainability and the Promotion of Renewable Energies</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Delvin_Diaz.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 	</div>	
@@ -184,7 +185,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Marco Saez</h5>
 				<p class="card-text">The name of your conference: Paying Homage to DLSU-D's "Hatid-Aral" Program</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<!--<a href="#" class="btn btn-primary">Download</a>-->
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -192,7 +193,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Eduardo Gómez</h5>
 				<p class="card-text">Increasing visibility and enhancing impact research of Lasallian International Network</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Eduardo_Gomez.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -200,7 +201,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Hno. Jack Curran</h5>
 				<p class="card-text">Strength in Diversity: Affirming Lasallian Catholic Hallmarks among the Faculty</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Hno_Jack_Curran.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 	</div>	
@@ -211,7 +212,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Martha Bohorquez</h5>
 				<p class="card-text">Program of accompaniment to the orphanage jose mercado aguado in santa cruz de la sierra</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Martha_Bohorquez.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -219,7 +220,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Fernando Cezar Orlandi</h5>
 				<p class="card-text">Institutional support to chemical dependents for cognitive and social development</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Fernando_Cezar _Orlandi.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -227,7 +228,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Marie Lummerzheim</h5>
 				<p class="card-text">Academic Mobility Programmes</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Marie_Lummerzheim.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 	</div>	
@@ -237,8 +238,8 @@
 			  <img class="center" src="images/gallery/GiovaniAnzola.jpg" alt="Giovani Anzola Pardo" width="100px" height="100px">
 			  <div class="card-body">
 				<h5 class="card-title">Giovani Anzola Pardo</h5>
-				<p class="card-text">he golden circle of praxis of internationalization </p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<p class="card-text">The golden circle of praxis of internationalization </p>
+				<a href="descargables/ppt/conferences/Giovani_Anzola_Pardo.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -246,7 +247,7 @@
 			  <div class="card-body">
 				<h5 class="card-title">Diana Loera </h5>
 				<p class="card-text">La SALLE SUMMER PROGRAM Bringing together Lasallian students from all over the world.</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Diana_Loera.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem;">
@@ -254,9 +255,30 @@
 			  <div class="card-body">
 				<h5 class="card-title">Eleazar Ortiz</h5>
 				<p class="card-text">Technology for collaboration</p>
-				<a href="#" class="btn btn-primary">Download</a>
+				<a href="descargables/ppt/conferences/Eleazar_Ortiz.pdf" target="_blank" class="btn btn-primary">Download</a>
 			  </div>
 			</div>
+	</div>	
+	<br>
+	<div class="row card-deck">
+			<div class="card" style="width: 18rem;">
+			  <img class="center" src="images/gallery/OlgaMeza.jpg" alt="Olga Patricia Meza Morón" width="100px" height="100px">
+			  <div class="card-body">
+				<h5 class="card-title">Olga Patricia Meza Morón</h5>
+				<p class="card-text">COIL</p>
+				<a href="descargables/ppt/conferences/Olga_Patricia_Meza_Moron.pdf" target="_blank" class="btn btn-primary">Download</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="center" src="images/gallery/CarlosDeLeon.jpg" alt="Carlos De León Vela" width="100px" height="100px">
+			  <div class="card-body">
+				<h5 class="card-title">Carlos De León Vela</h5>
+				<p class="card-text">Center for Community Development Omega: a route that take us beyond frontiers</p>
+				<!--<a href="descargables/ppt/conferences/Olga_Patricia_Meza_Moron.pdf" target="_blank" class="btn btn-primary">Download</a>-->
+			  </div>
+			</div>
+			<div class="card hidden" style="width: 18rem;"></div>
+
 	</div>	
 		
 	</div>
