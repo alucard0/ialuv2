@@ -10,9 +10,6 @@
     <meta name="description" content="Strength in Diversity">
     <meta name="author" content="La Salle México">
 
-	<!--JS-->
-	<script type="text/javascript" src="js/afterglow.min.js"></script>
-
     <!--Facebook -->
     <meta property="og:url" content="http://www.lasalle.mx/ialu"/>
     <meta property="og:type" content="website"/>
@@ -66,7 +63,7 @@
         <a class="nav-item nav-link" href="program.php">Program</a>
 		<a class="nav-item nav-link" href="#">Speakers</a>
 		<a class="nav-item nav-link" href="media.php">Media</a> 
-        <a class="nav-item nav-link" href="directorio.php">Directory</a>
+        <a class="nav-item nav-link" href="directory.php">Directory</a>
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
@@ -91,37 +88,7 @@
 
 <br><br><br>
 <section id="expos" class="container-fluid">
-<!--
-<div class="container">
-  <div class="row">
-    <div class="col">
-		<br>
-		<img src="images/gallery/RobertSchieler.jpg" alt="Robert Schieler">
-		<p>THE IMPACT OF LASALLIAN UNIVERSITIES: Three Touchstones to Identity</p>
-    </div>
-    <div class="col">
-		<br>
-		<img src="images/gallery/HansDeWit.jpg" alt="Hans de Wit">
-		<p>The why, what and how of Internationalization in higher education, implications of Catholic universities</p>
-    </div>
-    <div class="col">
-		<br>
-		<img src="images/gallery/GustavoRamirez.jpg" alt="Gustavo Ramírez Barba">
-		<p>#300LaSalle</p>
-    </div>
-	<div class="col">
-		<br>
-		<img src="images/gallery/ashoka.png" alt="ASHOKA">
-		<p>Transformation Agents, opportunity for the future</p>
-    </div>
-	<div class="col">
-		<br>
-		<img src="images/gallery/JosepPique.jpg" alt="Josep Piqué">
-		<p>From La Salle Innovation Park to BIT La Salle</p>
-    </div>
-  </div>
-</div>
--->
+
 <div class="container">
 	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
@@ -132,10 +99,37 @@
 			</div>
 			<div class="card-footer">
 				<center>
-					<a href="descargables/ppt/Robert_Schieler.pdf" target="_blank" class="btn btn-primary">Download</a>
+					<a href="descargables/ppt/Robert_Schieler.zip" target="_blank" class="btn btn-primary">Download</a>
 				</center>
 			</div>
-		</div>			
+		</div>
+		<div class="card" style="width: 18rem;">
+			<img class="center" src="images/gallery/EnriqueGonzalez.jpg" alt="Enrique A. González Álvarez" width="100px" height="100px" style="margin: 20px;">
+			<div class="card-body">
+				<h5 class="card-title">Enrique A. González Álvarez</h5>
+				<p class="card-text">Opening</p>
+			</div>
+			<div class="card-footer">
+				<center>
+					<a href="descargables/ppt/conferences/Enrique_Gonzalez.pdf" target="_blank" class="btn btn-primary">Download</a>
+				</center>
+			</div>
+		</div>	
+		<div class="card" style="width: 18rem;">
+			<img class="center" src="images/gallery/AndresGovela.jpg" alt="Andrés Govela Gutiérrez" width="100px" height="100px" style="margin: 20px;">
+			<div class="card-body">
+				<h5 class="card-title">Andrés Govela Gutiérrez</h5>
+				<p class="card-text">Opening</p>
+			</div>
+			<div class="card-footer">
+				<center>
+					<a href="descargables/ppt/conferences/Andres_Govela.pdf" target="_blank" class="btn btn-primary">Download</a>
+				</center>
+			</div>
+		</div>		
+	</div>
+	<br>
+	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/HansDeWit.jpg" alt="Hans de Wit" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -160,9 +154,6 @@
 				</center>
 			</div>
 		</div>
-	</div>
-	<br>
-	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/ashoka.png" alt="ASHOKA" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -175,6 +166,10 @@
 				</center>
 			</div>
 		</div>
+	</div>	
+	<br>
+	<div class="row card-deck">
+		
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/JosepPique.jpg" alt="Josep Piqué" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -199,9 +194,6 @@
 				</center>
 			</div>
 		</div>
-	</div>	
-	<br>
-	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/MarcoSaez.png" alt="Marco Saez" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -214,6 +206,9 @@
 				</center>
 			</div>
 		</div>
+	</div>	
+	<br>
+	<div class="row card-deck">	
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/EduardoGomez.jpg" alt="Eduardo Gómez " width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -238,9 +233,6 @@
 				</center>
 			</div>
 		</div>
-	</div>	
-	<br>
-	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/MarthaBohorquez.png" alt="Martha Bohorquez" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -253,6 +245,9 @@
 				</center>
 			</div>
 		</div>
+	</div>	
+	<br>
+	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/FernandoOrlandi.jpg" alt="Fernando Cezar Orlandi" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -277,9 +272,6 @@
 				</center>
 			</div>
 		</div>
-	</div>	
-	<br>
-	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/GiovaniAnzola.jpg" alt="Giovani Anzola Pardo" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -292,6 +284,9 @@
 				</center>
 			</div>
 		</div>
+	</div>	
+	<br>
+	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/DianaLoera.jpg" alt="Diana Loera" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -316,9 +311,6 @@
 				</center>
 			</div>
 		</div>
-	</div>	
-	<br>
-	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/OlgaMeza.jpg" alt="Olga Patricia Meza Morón" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -331,6 +323,9 @@
 				</center>
 			</div>
 		</div>
+	</div>
+	<br>
+	<div class="row card-deck">
 		<div class="card" style="width: 18rem;">
 			<img class="center" src="images/gallery/CarlosDeLeon.jpg" alt="Carlos De León Vela" width="100px" height="100px" style="margin: 20px;">
 			<div class="card-body">
@@ -344,7 +339,9 @@
 			</div>
 		</div>
 		<div class="card hidden" style="width: 18rem;"></div>
-	</div>			
+		<div class="card hidden" style="width: 18rem;"></div>
+	</div>
+			
 </div>
 </div>
 </section>

@@ -63,9 +63,9 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.php">Home</a>
         <a class="nav-item nav-link" href="#">Program</a>
-		<a class="nav-item nav-link" href="conference.php">Speakers</a>
+		<a class="nav-item nav-link" href="speakers.php">Speakers</a>
 		<a class="nav-item nav-link" href="media.php">Media</a> 
-        <a class="nav-item nav-link" href="directorio.php">Directory</a>		
+        <a class="nav-item nav-link" href="directory.php">Directory</a>		
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->

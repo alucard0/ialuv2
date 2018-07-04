@@ -9,10 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Strength in Diversity">
     <meta name="author" content="La Salle México">
-
+	
 	<!--JS-->
 	<script type="text/javascript" src="js/afterglow.min.js"></script>
-	<!--<script src="//cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>-->
 
     <!--Facebook -->
     <meta property="og:url" content="http://www.lasalle.mx/ialu"/>
@@ -43,7 +42,7 @@
     <!-- Theme CSS -->
     <link href="css/custom.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.min.css">
-
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -65,9 +64,9 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.php">Home</a>
         <a class="nav-item nav-link" href="program.php">Program</a>
-		<a class="nav-item nav-link" href="conference.php">Speakers</a>
+		<a class="nav-item nav-link" href="speakers.php">Speakers</a>
 		<a class="nav-item nav-link" href="#">Media</a> 
-        <a class="nav-item nav-link" href="directorio.php">Directory</a>			
+        <a class="nav-item nav-link" href="directory.php">Directory</a>
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->
         <!--<a class="nav-item nav-link" href="#applications">Submissions</a>-->
         <!--<a class="nav-item nav-link" href="#registrationForm">Registration Form</a>-->
@@ -90,6 +89,7 @@
   </div>
 </section>
 -->
+
 <br><br>
 <section id="home" class="container-fluid">
 	<div class="row">
@@ -111,9 +111,6 @@
 		<div class="thumbnail">
 		  <a href="https://www.facebook.com/media/set/?set=a.10156382761944593.1073742037.54587964592&type=1&l=b032bd0134" target="_blanc">
 			<img src="images/gallery/Dia3.png" alt="Day3" style="width:100%">
-			<!--<div class="caption">
-			  <p>Lorem ipsum...</p>
-			</div>-->
 		  </a>
 		</div>
 	  </div>
@@ -124,7 +121,6 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-		<!--<iframe width="360" height="202" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>-->
 		<br>
 		<video class="afterglow" id="Video1" width="360" height="202" data-youtube-id="ErjgrlMKiBA" data-autoresize="fit" data-skin="dark"></video>
 		<h3>Confronting Global Challenges Through Higher Education</h3>
@@ -196,5 +192,6 @@
   </div>
 </div>
 </section>
+
 
 <?php include 'footer.php';?>

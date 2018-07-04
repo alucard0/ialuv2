@@ -64,7 +64,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.php">Home</a>
         <a class="nav-item nav-link" href="program.php">Program</a>
-		<a class="nav-item nav-link" href="conference.php">Speakers</a>
+		<a class="nav-item nav-link" href="speakers.php">Speakers</a>
 		<a class="nav-item nav-link" href="media.php">Media</a> 
         <a class="nav-item nav-link" href="#">Directory</a>		
 		<!--<a class="nav-item nav-link" href="#accomodation">Accommodations</a>-->

@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<!-- Siguenos -->
-			<div class="col-sm-12 col-md-4 footer-col bloque-social">
+			<div class="col-sm-12 col-md-4 bloque-social">
 				<!-- <div class="container-fluid"> -->
 					<div class="row redesSociales">
 						<div class="col-5 col-md-12 footer-col">
@@ -36,47 +36,47 @@
 								<img id="siguenos_" src="images/footer/333333-0.png" alt="Síguenos" class="img-fluid">
 							</figure>
 						</div>
-						<div class="col-7 col-md-12 redesSociales">
+						<div class="col col-md-12 redesSociales">
 							<div class="container-fluid">
 								<div class="row redesSociales">
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://www.facebook.com/LaSalleMX" target="_blank"><img id="_facebook" src="images/footer/333333-0.png" alt="Síguenos en Facebook" class="img-responsive"></a>
 										</figure>
 									</div>
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://twitter.com/lasalle_mx" target="_blank"><img id="_twitter" src="images/footer/333333-0.png" alt="Síguenos en Twitter" class="img-responsive"></a>
 										</figure>
 									</div>
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://www.instagram.com/lasalle_mx/" target="_blank"><img id="_instagram" src="images/footer/333333-0.png" alt="Síguenos en Instagram" class="img-responsive"></a>
 										</figure>
 									</div>
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://www.linkedin.com/school/24227?pathWildcard=24227" target="_blank"><img id="_linkedin" src="images/footer/333333-0.png" alt="Síguenos en Linkedin" class="img-responsive"></a>
 										</figure>
 									</div>
 								</div>
 								<div class="row redesSociales">
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://es.foursquare.com/v/universidad-la-salle/4b8ffab0f964a520c16d33e3?tipsPage=2" target="_blank"><img src="images/footer/333333-0.png" id="_swarm" alt="Comparte tu experiencia en Foursquare" class="img-responsive"></a>
 										</figure>
 									</div>
-									<div class=" col-3">
+									<div class=" col">
 										<figure>
 											<a href="https://es.foursquare.com/v/universidad-la-salle/4b8ffab0f964a520c16d33e3?tipsPage=2" target="_blank"><img src="images/footer/333333-0.png" id="_foursquare" alt="Comparte tu experiencia en Foursquare" class="img-responsive"></a>
 										</figure>
 									</div>
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://www.snapchat.com/add/lasalleMX" target="_blank"><img src="images/footer/333333-0.png" id="_snapchat" alt="" class="img-responsive"></a>
 										</figure>
 									</div>
-									<div class="col-3">
+									<div class="col">
 										<figure>
 											<a href="https://www.youtube.com/user/LaSalleMX" target="_blank"><img src="images/footer/333333-0.png" id="_youtube" alt="Síguenos en Youtube" class="img-responsive"></a>
 										</figure>
